@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habilidades Directivas</title>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="../../01_Mate/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous" />
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic"
+        rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous" />
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic"
+        rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <h2>Estrés y Bienestar</h2>
+        <p class="pPest">
+            Haz clic en las pestañas laterales o en los botones debajo de cada
+            lección
+        </p>
+        <div class="pest">
+            <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Manejo del estrés</button>
+            <button class="pestenlace" onclick="openPest(event, '003')">Factores estresantes</button>
+            <button class="pestenlace" onclick="openPest(event, '006')">Eliminar factores estresantes</button>
+            <button class="pestenlace" onclick="openPest(event, '008')">Resiliencia y Bienestar</button>
+            <button class="pestenlace" onclick="openPest(event, '000')">Supervisión</button>
+            <button class="pestenlace" onclick="openPest(event, '000')">Fuentes</button>
+
+        </div>
+
+
+
+        <div id="001" class="contenidopest">
+            <h3>Manejo Del Estrés Y El Bienestar I</h3>
+            <p class="pPest">
+                El <b>estrés</b> es la respuesta del individuo ante un estímulo muy fuerte, o la causa estresante. Por
+                lo habitual, se presenta después de un ciclo llamado síndrome de adaptación general (GAS por sus siglas
+                en inglés), Según esta visión, cuando un individuo encuentra una causa estresante se inicia el GAS y, en
+                la etapa 1, se activa una alarma. La persona podría sentir pánico, preguntarse cómo encarar las cosas o
+                sentirse desamparada.
+            </p>
+            <p class="pPest">
+            <blockquote style="font-size: medium">
+                Si la causa estresante es demasiado intensa, el individuo tal vez sienta que no es capaz de lograrlo y
+                tal vez nunca trate en realidad de responder a las exigencias. Sin embargo, en la mayor parte de los
+                casos, después de un breve periodo de alarma, hace acopio de fuerzas y empieza a resistirse a los
+                efectos negativos de la causa estresante. En la etapa 2 del GAS, la persona se resiste a los efectos de
+                la causa del estrés. En muchos casos, la fase de la resistencia pone fin al GAS. De otro lado, la
+                exposición prolongada a un elemento estresante sin resolver podría montar el escenario; el individuo se
+                da por vencido totalmente y es incapaz de resistir el estrés (Griffin, 2016, p. 63).
+            </blockquote>
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">
+                        Manejo del estrés II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="002" class="contenidopest">
+            <h3>Manejo Del Estrés Y El Bienestar II</h3>
+            <p class="pPest">
+                El estrés no siempre es malo. Cuando no lo hay, podríamos sentirnos aletargados o estancados. Por otro
+                lado, un nivel óptimo podría generar motivación y emoción. Sin embargo, uno excesivo puede tener
+                consecuencias negativas. También es importante saber que tanto cosas “buenas” como “malas” pueden
+                generarlo. Una presión exagerada, demasiadas exigencias de tiempo y las malas noticias pueden ser su
+                causa.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '001')">
+                    <button type="button" class="btnCont-Verde">
+                        Manejo del estrés I
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="003" class="contenidopest">
+            <h3>Factores Estresantes I</h3>
+            <p class="pPest">
+                Una línea de pensamiento importante respecto del estrés se concentra en la personalidad tipo A y la tipo
+                B.
+            </p>
+            <p class="pPest">
+                Los individuos <b>tipo A</b> son sumamente competitivos, muy entregados a sus labores y tienen una
+                sensación muy clara de urgencia. Es probable que sean agresivos, impacientes y que se orienten mucho al
+                trabajo. Tienen mucho vigor y desean hacer lo más posible en el menor tiempo.
+            </p>
+            <p class="pPest">
+                Las personas <b>tipo B</b> son menos competitivas, menos dedicadas al trabajo y tienen menos sensación
+                de urgencia. Es menos probable que experimenten conflicto con otras, y hay más posibilidad de que vean
+                la vida de forma tranquila y equilibrada. Tienen capacidad de laborar a un ritmo constante, sin
+                urgencia. No necesariamente son más o menos exitosas que aquellas, pero es menos probable que sufran
+                estrés.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">
+                        Factores Estresantes II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="004" class="contenidopest">
+            <h3>Factores Estresantes II</h3>
+
+            <p class="pPest">
+                Las causas del estrés derivadas del trabajo se ubican dentro de una de cuatro categorías: las exigencias
+                de la tarea, las físicas, las de la función y las interpersonales. Algunas ocupaciones tienden a ser de
+                modo inherente más estresantes que otras, y las situaciones que pueden provocarlo son: tener que tomar
+                decisiones rápido, con información que dista de estar completa, o que tienen consecuencias relativamente
+                graves. Los trabajos de cirujano, piloto de avión y corredor de bolsa son relativamente más estresantes
+                que los de médico general, encargado de equipaje o recepcionista de oficina. Si bien, el médico general
+                toma decisiones importantes, también es probable que tenga tiempo para hacer un diagnóstico bien pensado
+                y estudie a fondo una serie de tratamientos diferentes. Sin embargo, en una operación, el cirujano debe
+                tomar decisiones rápidamente a sabiendas de que si se equivoca pondrá en peligro la vida del paciente.
+            </p>
+            <p class="pPest">
+                Más graves son los empleos que representan una amenaza para la salud, por ejemplo la minería de carbón,
+                el procesamiento de aves o el manejo de desechos tóxicos. Asimismo, están los trabajos que implican
+                riesgos asociados a tasas más altas de incidentes violentos como los robos a mano armada, por ejemplo
+                los policías de barrio, los conductores de taxi y los dependientes de tiendas de abarrotes.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '003')">
+                    <button type="button" class="btnCont-Verde">
+                        Factores Estresantes I
+                    </button>
+                </div>
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">
+                        Factores Estresantes III
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="005" class="contenidopest">
+            <h3>Factores Estresantes III</h3>
+            <p class="pPest">
+                Por otro lado, un empleado nuevo el cual experimenta la ambigüedad de funciones porque la compañía no
+                sigue buenas prácticas para la orientación y la capacitación lo sufrirá también.
+            </p>
+            <p class="pPest">
+                Asimismo, el exceso de juntas es una fuente posible de estrés. Si bien, los recortes de personal y los
+                despidos habidos durante la recesión de 2008-2009 se concentraron en la angustia que experimentaron
+                quienes se quedaron sin empleo (y de modo justificado), muchos de los directores y/o gerentes que
+                impusieron los despidos lo tuvieron por igual.
+            </p>
+            <p class="pPest">
+                Así también, las exigencias interpersonales son causas de estrés asociadas a relaciones que enfrentan a
+                las personas en las organizaciones. Por ejemplo, las presiones del grupo en relación con la restricción
+                de lo que se produce y la conformación a la norma podrían también provocarlo.
+            </p>
+            <p class="pPest">
+                Una empleada que siente gran necesidad de participar en la toma de decisiones podría sentir estrés si el
+                jefe no le permite participar. Quienes tienen personalidades que chocan podrían sufrirlo si deben
+                trabajar muy cerca de otros. Por ejemplo alguien que tiene un locus de control interno se sentiría mal
+                laborando con alguien que prefiere lamentarse y sentarse a esperar a que pasen las cosas.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">
+                        Factores Estresantes II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="006" class="contenidopest">
+            <h3>Eliminar factores estresantes I</h3>
+            <p class="pPest">
+                Dadas las posibles consecuencias que puede tener el estrés es lógico suponer que las personas y las
+                organizaciones estén interesadas en encontrar la manera de limitar sus efectos más nocivos. Infinidad de
+                planteamientos e ideas han sido propuestos a efecto de manejarlo.
+            </p>
+            <p class="pPest">
+                <b>El ejercicio</b> es un camino para que las personas manejen el estrés. Quienes lo practican con
+                regularidad se sienten menos estresadas, tienen más confianza en sí mismas y son más optimistas. Su
+                buena condición física hace también que sean menos susceptibles a muchas enfermedades comunes.
+            </p>
+            <p class="pPest">
+                Quienes no hacen con regularidad ejercicio se sienten por lo general más estresadas y tienen mucha
+                probabilidad de que se sientan deprimidas. También es más probable que sufran infartos y, dada su
+                condición física, se enfermen.
+            </p>
+            <p class="pPest">
+                <b>La relajación</b> es otro método usado para manejar el estrés. Quienes se relajan se pueden adaptar a
+                este y, por ende, lo pueden manejar mejor. Existen muchas formas para conseguir tranquilidad, por
+                ejemplo tomar con frecuencia vacaciones y desarrollar los fines de semana actividades que no tienen qué
+                ver con el trabajo. Un estudio reciente descubrió que la actitud de las personas hacia diversas
+                características del centro laboral mejoraba en medida sustancial después de un fin de semana en el que
+                se habían desconectado totalmente de las actividades de su empleo.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '007')">
+                    <button type="button" class="btnCont-Verde">
+                        Eliminar factores estresantes II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="007" class="contenidopest">
+            <h3>Eliminar factores estresantes II</h3>
+            <p class="pPest">
+                También es posible relajarse en el trabajo. Por ejemplo, algunos expertos recomiendan que los individuos
+                se tomen descansos regulares durante su jornada laboral normal.
+            </p>
+            <p class="pPest">
+                Como dijimos antes, las personas también administran su tiempo para controlar el estrés. La idea de ello
+                es que resulta posible disminuir o eliminar muchas de las presiones diarias si administran mejor ese
+                factor.
+            </p>
+            <p class="pPest">
+                Pueden manejarlo recurriendo a grupos de apoyo. Este puede ser simplemente un grupo de parientes o de
+                amigos. Por asistir a un partido de baloncesto o ir al cine con un par de compañeros después del trabajo
+                sirve para aliviar la tensión acumulada en el día. La familia y las amistades pueden ayudar a alguien a
+                lidiar con el estrés de forma permanente o en momentos de crisis. Las personas pueden también acudir a
+                grupos de apoyo más formales. Por ejemplo, los centros comunitarios o las iglesias podrían tener grupos
+                especializados para personas que acaban de pasar por un divorcio, la muerte de un ser querido o alguna
+                otra situación difícil.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '006')">
+                    <button type="button" class="btnCont-Verde">
+                        Eliminar factores estresantes I
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="008" class="contenidopest">
+            <h3>Resiliencia y Bienestar I</h3>
+            <p class="pPest">
+                Los programas de bienestar son actividades permanentes que incluyen diversos elementos. Por lo común
+                incluyen acciones relacionadas con el ejercicio así como enseñanza en aulas que abordan cuestiones como
+                dejar de fumar, bajar de peso y manejar el estrés en general. Empresas negocian con gimnasios locales
+                para que ofrezcan cuotas con descuento a sus empleados. Del lado educativo del programa, la compañía
+                puede patrocinar su propia capacitación y seminarios.
+            </p>
+            <p class="pPest">
+                Los programas de acondicionamiento físico de la empresa facilitan que los empleados hagan ejercicio, lo
+                cual es una idea muy positiva, pero esos programas son muy caros.
+            </p>
+            <p class="pPest">
+            <blockquote style="font-size: medium">
+                Cada vez crece más el número de las compañías que están creando programas de este tipo para su plantilla
+                laboral. Además, algunas ofrecen periodos sabáticos; o sea descansos prolongados del trabajo los cuales
+                presuntamente permiten que las personas se revitalicen y carguen de energía (Griffin, 2016, p. 16).
+            </blockquote>
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">
+                        Resiliencia y Bienestar II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="009" class="contenidopest">
+            <h3>Resiliencia y Bienestar II</h3>
+            <p class="pPest">
+                Los autores que han estudiado el comportamiento bajo este enfoque estiman que establecer una tipología
+                de necesidades oculta los procesos de reducir la tensión entre los diferentes determinantes de la
+                conducta y consideran que lo importante es el conocimiento y comprensión de los procesos reductores de
+                tensión. Desde esta perspectiva, se han formulado diversas teorías de la motivación (estímulo-respuesta,
+                noción de despertar, el bienestar y el nivel óptimo de despertar, la necesidad de estímulo y placer),
+                cuyo análisis detallado está fuera de los límites de este libro, basta decir con respecto a las
+                orientaciones de la motivación que a partir de las contribuciones de la psicología experimental al
+                estudio de la motivación humana la noción de necesidad se amplía, en contraposición a la teoría
+                económica, que la considera como un estado de privación.
+            </p>            
+            <div class="enlaces">
+                <div onclick="openPest(event, '008')">
+                    <button type="button" class="btnCont-Verde">
+                        Resiliencia y Bienestar I
+                    </button>
+                </div>
+                <div onclick="openPest(event, '010')">
+                    <button type="button" class="btnCont-Verde">
+                        Resiliencia y Bienestar III
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="010" class="contenidopest">
+            <h3>Resiliencia y Bienestar III</h3>            
+            <p class="pPest">
+                Los factores determinantes del bienestar individual pueden agruparse y relacionarse de la forma
+                siguiente:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    La búsqueda del bienestar resulta del comportamiento reductor de las tensiones y de la conducta
+                    orientada a combatir el aburrimiento.
+                </li>
+                <li>
+                    La búsqueda del placer resulta del goce inherente a la reducción de las tensiones y del placer
+                    causado por los estímulos.
+                </li>
+                <li>
+                    La búsqueda del estímulo es un medio de combatir el aburrimiento y un fin en sí mismo.
+                </li>
+            </ul>
+            <p class="pPest">
+            <blockquote style="font-size: medium">
+                La búsqueda del bienestar tendría como fin satisfacer una carencia y asegurar un bien negativo; mientras
+                que la búsqueda del placer y del estímulo tendrían como objetivo asegurar un bien positivo (Varo, 1994,
+                p.371).
+            </blockquote>
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">
+                        Resiliencia y Bienestar II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

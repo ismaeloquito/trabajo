@@ -1,0 +1,28 @@
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                Suma de Fracciones I
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body text-justify">
+            <h3>
+                Suma de fracciones con un mismo denominador
+            </h3>
+            En este caso, basta sumar los numeradores y pasar el denominador como resultado.
+            <br>
+            <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFraccionesPropias/01_Fracciones.png"
+                alt="Imagen de distintas fracciones">
+            <br>
+            <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFraccionesPropias/04_sumaDosFracciones.png"
+                alt="Suma de dos fracciones propias" class="reduc">
+            <br>
+            <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFraccionesPropias/05_sumaTresFracciones.png"
+                alt="Suma de tres fracciones propias" class="reduc">
+
+        </div>
+    </div>
+</div>

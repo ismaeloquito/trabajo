@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habilidades Directivas</title>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="../../01_Mate/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous" />
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic"
+        rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous" />
+    <link
+        href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic"
+        rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <h2>Control y Supervisión</h2>
+        <p class="pPest">
+            Haz clic en las pestañas laterales o en los botones debajo de cada
+            lección
+        </p>
+        <div class="pest">
+            <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Control y Supervisión</button>
+            <button class="pestenlace" onclick="openPest(event, '003')">Sistema de Control Eficiente</button>
+            <button class="pestenlace" onclick="openPest(event, '004')">Normas de Control</button>
+            <button class="pestenlace" onclick="openPest(event, '007')">Herramientas de Control</button>
+            <button class="pestenlace" onclick="openPest(event, '008')">Supervisión</button>
+            <button class="pestenlace" onclick="openPest(event, '010')">Fuentes</button>            
+        </div>
+
+
+
+        <div id="001" class="contenidopest">
+            <h3>Control y Supervisión I</h3>
+            <p class="pPest">
+                El control permite verificar las actividades a fin de asegurarse de que se están llevando a cabo como se
+                planeó y, de no ser así, corregir cualquier desviación significativa. En una situación ideal no sería
+                necesario el control, pues todas las actividades se realizarían como se planearon; pero en la realidad
+                existen situaciones cambiantes o impredecibles que impiden el desarrollo del curso planeado.
+            </p>
+            <p class="pPest">
+                El proceso de control consiste en cuatro pasos independientes, que son:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Implantación de normas o estándares para control.
+                </li>
+                <li>
+                    Medición del desempeño real.
+                </li>
+                <li>
+                    Comparación del desempeño real con un estándar.
+                </li>
+                <li>
+                    Acción para corregir las desviaciones o los estándares inadecuados.
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">
+                        Control y Supervisión II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="002" class="contenidopest">
+            <h3>Control y Supervisión II</h3>
+            <p class="pPest">
+                Cuando se desea diseñar un sistema de control se tiene que definir qué es lo que se va a medir, cómo y
+                cuándo se hará.
+            </p>
+            <p class="pPest">
+                Existen tres tipos de controles que son:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    <b>Control preventivo</b>, que previene los problemas por anticipado y se llama así porque se lleva
+                    a cabo antes de la actividad real. Su desventaja es que necesita de mucho tiempo e información
+                    oportuna y precisa.
+                </li>
+                <li>
+                    <b>Concurrente</b>, que se lleva a cabo mientras una actividad está en proceso.
+                </li>
+                <li>
+                    <b>De retroalimentación</b>, que es el control que se impone después de que se ha llevado a cabo una
+                    acción; el inconveniente es que, cuando se recibe la información del control, el daño ya está hecho.
+                </li>
+            </ul>
+            <p class="pPest">
+                Las principales áreas generales donde se aplica un control son aquéllas donde se califica cantidad,
+                calidad, tiempo y costo.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '001')">
+                    <button type="button" class="btnCont-Verde">
+                        Control y Supervisión I
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="003" class="contenidopest">
+            <h3>Sistema de Control Eficiente I</h3>
+            <p class="pPest">
+                Un sistema de control eficiente debe ser:
+            </p>
+            <ol type="a" style="font-size: medium">
+                <li>
+                    Preciso
+                </li>
+                <li>
+                    De aplicación oportuna
+                </li>
+                <li>
+                    Económico
+                </li>
+                <li>
+                    Flexible
+                </li>
+                <li>
+                    Comprensible
+                </li>
+                <li>
+                    De criterio razonable, es decir, los criterios de control deben ser coherentes y alcanzables
+                </li>
+                <li>
+                    De ubicación estratégica, pues cubre factores críticos de la organización
+                </li>
+                <li>
+                    De criterio múltiple, ya que el desempeño se evalúa utilizando más de un indicador
+                </li>
+                <li>
+                    De acción correctiva, pues un control sólo es válido cuando ayuda a corregir alguna desviación.
+                </li>
+                <li>
+                    Además, el control debe poner énfasis en la excepción y aplicarse sólo cuando la variación sobrepasa
+                    la medida estándar
+                </li>
+            </ol>
+        </div>
+
+
+
+        <div id="004" class="contenidopest">
+            <h3>Normas de Control I</h3>
+            <p class="pPest">
+                Los controles se aplican a dos tipos de normas: las cuantitativas, que son los objetivos que se pueden
+                representar en cantidades numéricas y unidades de medición; y las normas cualitativas, que son más
+                difíciles de evaluar pero que son de suma importancia para la organización.
+            </p>
+            <p class="pPest">
+                Las normas para los controles pueden ser establecidas de tres formas:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Con base en el análisis de experiencias pasadas utilizando datos estadísticos extraídos de los
+                    propios archivos y registros de la empresa, o bien, pueden ser un reflejo de la experiencia de otras
+                    organizaciones.
+                </li>
+                <li>
+                    Por apreciación y juicio de algún directivo.
+                </li>
+                <li>
+                    Con base en un análisis objetivo y cuantitativo de una situación específica de trabajo, es decir, se
+                    trata de normas específicamente desarrolladas para la medición de la producción o el trabajo
+                    individual.
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">
+                        Normas de Control II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="005" class="contenidopest">
+            <h3>Normas de Control II</h3>
+            <p class="pPest">
+                Los datos para la evaluación pueden surgir ya sea de la observación directa de algún encargado, de datos
+                estadísticos que arroja el sistema, o bien, de informes orales o escritos que permiten comparar el
+                funcionamiento con la norma estándar o base y determinar la desviación por arriba o por abajo del margen
+                de desempeño.
+            </p>
+            <p class="pPest">
+                El objetivo último del control es determinar si las operaciones se ajustan a lo esperado y hacer
+                esfuerzos para que los resultados deseados se alcancen. En otras palabras, el control permite a las
+                personas que tienen autoridad sobre el funcionamiento actual ejecutar una acción correctiva.
+            </p>
+            <p class="pPest">
+                A mayor nivel en la jerarquía de la organización, mayor es la necesidad de establecer los criterios de
+                control múltiples, diseñados para las metas de las unidades. Y a mayor grado de descentralización, habrá
+                un mayor número de administradores que necesitarán retroalimentación sobre el desempeño de los
+                subordinados que toman decisiones, ya que, en última instancia, son responsables de las acciones de
+                aquéllos a quienes se les delegó autoridad.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">
+                        Normas de Control I
+                    </button>
+                </div>
+                <div onclick="openPest(event, '006')">
+                    <button type="button" class="btnCont-Verde">
+                        Normas de Control III
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="006" class="contenidopest">
+            <h3>Normas de Control III</h3>
+            <p class="pPest">
+                Un problema frecuente en esta etapa del proceso administrativo es el de la disfuncionalidad, que surge
+                cuando los controles se vuelven inflexibles o los estándares de control no son razonables, lo que hace
+                que las personas pierdan de vista las metas globales de la organización.
+            </p>
+            <p class="pPest">
+                Cuando está en juego la compensación, los individuos tienden a manipular los datos para presentarse con
+                una imagen favorable mediante la distorsión de la información, suprimiendo la evidencia de fallas y
+                destacando los éxitos. En ocasiones, las fallas en el diseño de flexibilidad para los sistemas de
+                control provocan problemas más serios que aquellos que pretendían prevenir.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">
+                        Normas de Control II
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="007" class="contenidopest">
+            <h3>Herramientas de Control</h3>
+            <p class="pPest">
+                En el área de control existen numerosas herramientas, y cada una de ellas, por si fuera poco, tiene
+                diversas variaciones. Además, se les puede encontrar con diferentes nombres o en las distintas
+                aplicaciones para las que fueron diseñadas. Aquí sólo mencionaremos algunas sin explicar su ejecución.
+            </p>
+            <p class="pPest">
+                El área de control o la función de control opera con soporte de datos, que son cifras y hechos puros
+                sobre circunstancias específicas. Una vez que los datos son organizados y analizados de alguna manera y
+                con un propósito particular, se convierten en información.
+            </p>
+            <p class="pPest">
+                Toda información debe cumplir con cuatro principios:
+            </p>
+            <ol type="a" style="font-size: medium">
+                <li>
+                    Calidad: Cuanto más exacta es la información, tanto mayores son su calidad y la confianza que se
+                    puede depositar en ella para tomar decisiones.
+                </li>
+                <li>
+                    Oportunidad: Para tener un control efectivo, se deben aplicar medidas correctivas antes de que la
+                    desviación sea demasiado grande. La información debe estar al alcance de la persona indicada, en el
+                    momento oportuno, para poder emprender las medidas adecuadas.
+                </li>
+                <li>
+                    Cantidad: La información debe ser suficiente, ya que con frecuencia se recibe mucha información
+                    irrelevante o inútil.
+                </li>
+                <li>
+                    <blockquote style="font-size: medium">
+                        Relevancia: Debe ser de importancia para el personal, en sus funciones y labores (Huerta, 2006,
+                        p. 61).
+                    </blockquote>
+
+                </li>
+            </ol>
+        </div>
+
+
+
+        <div id="008" class="contenidopest">
+            <h3>Supervisión I</h3>
+            <p class="pPest">
+                En el proceso administrativo, la supervisión se refiere al monitoreo de las actividades inmediatas de
+                los empleados. Aunque se considera que la supervisión se ejerce en cualquier nivel donde haya
+                subordinados, el término se utiliza casi con frecuencia para designar esa función en el plano
+                administrativo de primer nivel que está en contacto inmediato con los empleados no administrativos o con
+                los clientes y usuarios de la organización. El problema radica en la posición de mediadores que ocupan
+                los supervisores, pues deben comunicarse tanto con los mandos medios como con el nivel operativo, y
+                deben salir delante de los conflictos y arreglárselas con la limitada autoridad que poseen. El
+                supervisor forma parte del cuerpo administrativo pero, por lo general, éste no lo reconoce como tal; por
+                otra parte, los operativos no lo consideran uno de los suyos, lo que hace que este puesto sea uno de los
+                más difíciles de asumir.
+            </p>
+            <p class="pPest">
+                Un supervisor es la guía y el instructor de sus subordinados, un ejecutor de ideas ya sean propias o de
+                los superiores. Es un individuo que se encuentra entre lealtades y exigencias encontradas.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">
+                        Supervisión II
+                    </button>
+                </div>
+            </div>                        
+        </div>
+
+
+
+        <div id="009" class="contenidopest">
+            <h3>Supervisión II</h3>
+            <p class="pPest">
+                Las características particulares de un supervisor podrían resumirse en cinco:
+            </p>
+            <ol type="a" style="font-size: medium">
+                <li>
+                    Sólida confianza en la experiencia técnica: Conoce el trabajo que supervisa.
+                </li>
+                <li>
+                    Se comunica tanto con los administradores como con los operativos: A diferencia de los demás
+                    administradores que supervisan a otros administradores con los cuales comparten cierto nivel
+                    académico, experiencias y necesidades, los supervisores de primer nivel deben interactuar con dos
+                    grupos distintos, por lo que son una especie de traductores en ambos lados.
+                </li>
+                <li>
+                    Deben solucionar los conflictos de roles: Como elemento intermedio y de enlace entre dos niveles
+                    jerárquicos, si bien su rol es el de supervisar el desempeño del nivel de primera línea, también lo
+                    es evitar conflictos entre ambos niveles.
+                </li>
+                <li>
+                    Debe salir adelante con la autoridad limitada: Sólo tiene autoridad necesaria para el cumplimiento
+                    de su labor, pero en casos extraordinarios no puede hacer nada.
+                </li>
+                <li>
+                    <blockquote style="font-size: medium">
+                        Es representante de la administración: El problema final es que, para los operarios, los
+                        supervisores son la organización. Así que cuando piensan en la administración, en políticas,
+                        procedimientos y mandatos, su punto de referencia es el supervisor (Huerta, 2006, p. 49).
+                    </blockquote>
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '008')">
+                    <button type="button" class="btnCont-Verde">
+                        Supervisión I
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="010" class="contenidopest">
+            <h3>Fuentes</h3>
+            <ul style="font-size: medium">
+                <li>
+                    Contreras, F. (2013). Del liderazgo transaccional al liderazgo transformacional: implicaciones para el cambio organizacional. Recuperado de: <a href="https://www.redalyc.org/pdf/1942/194227509013.pdf" target="_blank">https://www.redalyc.org/pdf/1942/194227509013.pdf</a>                    
+                    
+                </li>
+                <li>
+                    Griffin, R. (2016). Habilidades directivas Evaluación Y Desarrollo. Cengage Learning. México.
+                </li>
+                <li>
+                    Fernández, M. (2017). Liderazgo transformacional y transaccional en emprendedores Venezolanos. Recuperado: <a href="https://www.redalyc.org/pdf/290/29051457005.pdf" target="_blank">https://www.redalyc.org/pdf/290/29051457005.pdf</a>
+                </li>
+                <li>
+                    Huerta, J. 2006. Desarrollo de habilidades directivas. México. Pearson.
+                </li>
+                <li>
+                    Madrigal, B. (2009). Habilidades directivas. Mc Graw Hill. México
+                </li>
+                <li>
+                    Peralta, S. (2016). Liderazgo transaccional y transformacional de voluntarios jóvenes y adultos de Mar del Plata. Psicoperspectivas. Recuperado: <a href="https://www.redalyc.org/pdf/1710/171048523014.pdf" target="_blank">https://www.redalyc.org/pdf/1710/171048523014.pdf</a>
+                </li>
+            </ul>
+        </div>
+
+        <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>

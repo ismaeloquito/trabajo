@@ -1,0 +1,77 @@
+.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+
+
+
+
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+span.frac > sup, span.frac > sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+}
+span.frac > sup {
+    border-bottom: 0.15em solid;
+}
+span.frac > span {
+    display: none;
+}
+
+
+
+
+
+
+.fraction{
+    display:inline-block;
+    vertical-align:middle;
+    margin:0 .2em .4ex;
+    text-align:left;
+}
+.fraction > span{
+    display:block;
+    padding-top:.15em;
+}
+.fraction span.fdn{
+    border-top:thin solid #000;
+}
+.fraction span.bar{
+    display:none;
+    
+}
+
+/*
+.bar{
+    transform: rotate(-90deg);
+}
+*/
+
+.eq-OMG{
+    display:inline-block;
+    margin-right:1em;
+    margin-left:1em
+}
+
+
+
+
+/*Fuente: https://www.iteramos.com/pregunta/98493/como-escribir-el-valor-de-una-fraccion-usando-html

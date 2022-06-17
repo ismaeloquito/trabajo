@@ -1,0 +1,311 @@
+a {
+    text-decoration: none;
+    font-weight: 800;
+    color: #035926;
+}
+
+p>a:hover {
+    color: #000;
+}
+
+.result {
+    color: rgb(255, 0, 0);
+}
+
+.contenedor {
+    width: auto;
+    height: 100vh;
+}
+
+.pest {
+    float: left;
+    width: 25%;
+    height: 90%;
+}
+
+
+/* Style the buttons inside the pest */
+
+.pest button {
+    display: flex;
+    background-color: #a1d18d;
+    color: black;
+    font-weight: 600;
+    padding: 22px 16px;
+    width: 100%;
+    height: 60px !important;
+    border: 2px solid #000 !important;
+    border-radius: 12px;
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.pest button:hover {
+    background-color: #b5d1a8;
+    padding-right: 25px;
+}
+
+
+/* Create an active/current "pest button" class */
+
+.pest button.active {
+    background-color: #8ab973;
+    transform: translateY(4px);
+}
+
+
+/* Style the pest content */
+
+.pPest{
+    font-size: medium;
+    text-indent: 25px;
+    }
+
+.contenidopest {
+    float: left;
+    padding: 0 12px;
+    width: 70%;
+    border-left: none;
+    height: 80%;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+}
+
+.contenidopest h3 {
+    /*color:#fff !important;*/
+    font-weight: 800 !important;
+}
+
+.btnCont-Verde {
+    background-color: #dff0d8;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btnCont-Verde:hover {
+    background-color: #035926;
+    color: #fff;
+    border: 2px solid #c0c0c0;
+}
+
+.paseo {
+    width: 100px;
+    height: 100px;  
+    position: relative;
+    animation-name: paseo;
+    animation-duration: 1024s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes paseo {
+    0%   {left:370px; top:0px;}
+    16%  {left:640px; top:0px;}
+    32%  {left:25px; top:0px;}
+    48%  {left:640px; top:0px;}
+    64%  {left:25px; top:0px;}
+    80%  {left:640px; top:0px;}
+    100%  {left:370px; top:0px;}  
+  }
+
+ .bttn>a{
+    text-decoration: none;
+}
+.col-ism{    
+    display: flex;
+    justify-content: center;
+}
+.row-ism{    
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bttn{     
+    background-color: #035926; 
+    color: rgb(255, 255, 255) !important;   
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid #000;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.bttn:hover{
+    background-color: #dff0d8;
+    color: #035926;
+    border: 3px solid rgb(114, 114, 114); 
+    border-radius: 50px;
+    -webkit-transition: all 0.1;
+    transition: all 0.1s;
+    text-decoration: none;   
+}
+
+.contenedorColumnas {
+    display: flex;
+}
+
+.colIzq {
+    width: 30%;
+}
+
+.colDer {
+    width: 70%;
+}
+
+.colIzq01 {
+    width: 50%;
+    text-align: center;
+}
+
+.colDer01 {
+    width: 50%;
+    text-align: center;
+}
+
+.contTresCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.centraImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*.centraImg{  
+  display: flex !important;
+  justify-content: center; 
+  height: 70%;  
+}*/
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.enlaces>* {
+    margin: 0px 10px 5px 10px;
+}
+
+.contenedorColumnas {
+    display: flex;
+}
+
+.colIzq {
+    width: 30%;
+}
+
+.colDer {
+    width: 70%;
+}
+
+.colIzq01 {
+    width: 50%;
+    text-align: center;
+}
+
+.colDer01 {
+    width: 50%;
+    text-align: center;
+    /*display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.contTresCol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+span.frac {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.frac>sup,
+span.frac>sub {
+    display: block;
+    font: inherit;
+    padding: 0 0.3em;
+}
+
+span.frac>sup {
+    border-bottom: 0.15em solid;
+}
+
+span.frac>span {
+    display: none;
+}
+
+span.sign {
+    vertical-align: middle;
+}
+
+.nums {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #000;
+    font-size: x-large;
+}
+
+.num {
+    font-weight: bold;
+    color: #000;
+    font-size: x-large;
+}
+
+
+/*
+.pest button {
+  display: flex !important;
+  background-color: #a1d18d;
+  color: black;
+  font-weight: 600;
+  padding: 22px 16px;
+  width: 100%;
+  height: 60px !important;
+  border: 2px solid #000 !important;  
+  border-radius: 12px !important;
+  justify-content: center;
+  outline: none;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+*/

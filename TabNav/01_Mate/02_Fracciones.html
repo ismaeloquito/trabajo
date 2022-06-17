@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas</title>
+    <link href="../assets\css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h2>Números Racionales o Números Fraccionarios</h2>
+        <p style="font-size: medium;">Haz clic en las pestañas laterales o en los botones debajo de cada lección</p>
+        <div class="pest">
+            <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Fracciones</button>
+            <button class="pestenlace" onclick="openPest(event, '006')">Suma de Fracciones</button>
+            <button class="pestenlace" onclick="openPest(event, '011')">Resta de Fracciones</button>
+            <button class="pestenlace" onclick="openPest(event, '014')">Multiplicación de Fracciones</button>
+            <button class="pestenlace" onclick="openPest(event, '018')">División de Fracciones</button>
+            <button class="pestenlace" onclick="openPest(event, '022')">Somirp Serotcaf</button>
+            <button class="pestenlace" onclick="openPest(event, '023')">SenoiccarF ed Nóicacilpitlum</button>
+            <button class="pestenlace" onclick="openPest(event, '027')">Solpmeje Sorto</button>
+            <button class="pestenlace" onclick="openPest(event, '022')"></button>
+            <button class="pestenlace" onclick="openPest(event, '023')"></button>
+            <button class="pestenlace" onclick="openPest(event, '024')"></button>
+            <button class="pestenlace" onclick="openPest(event, '025')"></button>
+            <button class="pestenlace" onclick="openPest(event, '026')"></button>
+        </div>
+
+        <div id="001" class="contenidopest">
+            <h3>Fracciones I</h3>
+            <!-- https://e1.portalacademico.cch.unam.mx/alumno/matematicas1/unidad1/significadoNumerosReales/numerosRacionales -->
+            <p style="font-size: medium;">
+                Llamaremos números racionales al conjunto de todas las posibles expresiones del tipo <img class="img-responsive center-block img-fluid " src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/01_ab.png"
+                    alt="expresión del tipo a sobre b">, donde a y b son números enteros y b es diferente de cero.
+                <br>
+                <br> A los números racionales también se les llama números fraccionarios.
+                <br>
+                <br> Los números racionales se representan con la letra &nbsp; <img class="img-responsive center-block img-fluid " src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/09_racionales.png"
+                    alt="">&nbsp;.
+                <br>
+                <br> Si obtienes el cociente de dos números enteros, el resultado puede ser un número entero, un número con decimales infinitos periódicos o un número con decimales infinitos no periódicos. Para que esto sea más claro, observa los siguientes
+                ejemplos:
+                <br>
+                <div class="contenedorColumnas">
+                    <div class="colIzq01">
+                        <h5 style="text-align: center;">Ejemplo de números racionales infinitos periódicos</h5>
+                        <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/10_periodicos.png" alt="Periódicos">
+                    </div>
+                    <div class="colDer01">
+                        <h5 style="text-align: center;">Ejemplo de números racionales infinitos no periódicos</h5>
+                        <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/11_noPeriodicos.png" alt="No periódicos">
+                    </div>
+                </div>
+                <div class="enlaces" onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">Fracciones II</button>
+                </div>
+        </div>
+
+
+
+        <div id="002" class="contenidopest">
+            <h3>Fracciones II</h3>
+            <h5>Representación de números fraccionarios en la recta numérica</h5>
+            <a href="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/12_rectaNumerica.png" target="_blank">
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/12_rectaNumerica.png" alt="Fracciones en la recta numérica" width="800">
+            </a>
+            <h5 style="text-align: center; color: #f00;">
+                Da click en la imagen para verla en tamaño real
+            </h5>
+            <div class="enlaces">
+                <div onclick="openPest(event, '001')">
+                    <button type="button" class="btnCont-Verde">Fracciones I</button>
+                </div>
+                <div onclick="openPest(event, '003')">
+                    <button type="button" class="btnCont-Verde">Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="003" class="contenidopest">
+            <h4>Fracciones III</h4>
+            <h4 style="text-align: center;">
+                Partes de la fracción
+            </h4>
+            <div class="contenedorColumnas">
+                <div class="colIzq">
+                    <p style="text-align: center;">
+                        <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/01_ayb.png" alt="Partes de la Fracción, Numerador y Denominador" width="200">
+                    </p>
+                </div>
+                <div class="colDer" style="font-size: large;">
+                    <ol>
+                        <li>b debe ser <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/02_DistintoDe.png" alt="Símbolo Distinto de" width="15"> 0
+                            para que la división no quede indefinida. </li>
+                        <li>Los números enteros son parte de los <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/03_Racionales.png" alt="Símbolo de Números Racionales"
+                                width="20">, con b=1.</li>
+                        <li>Cuando a=1, la fracción no puede reducirse como otra fracción, siendo la representación de una parte igual a un todo. <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/04_unMedio.png"
+                                alt="imagen de un medio" width="15">, un medio; <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/05_unTercio.png" alt="imagen de un tercio"
+                                width="15">, un tercio; <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/06_unCuarto.png" alt="imagen de un cuarto" width="15">, un cuarto.</li>
+                    </ol>
+                </div>
+            </div>
+            <h4 style="text-align: center;">
+                Observaciones
+            </h4>
+            <p style="font-size: large;">
+                El conjunto de los números racionales, se definen como el cociente <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/01_ab.png" alt="expresión del tipo a sobre b">, donde a y
+                b son números enteros y b<img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/02_DistintoDe.png" alt="Símbolo Distinto de" width="15">0
+                <br>
+                <br> Desde el punto de vista de las expresiones matemáticas, en algún momento fue necesario representar la división; es así como surgen los números racionales.
+                <br>
+                <br> Los números racionales son el cociente de dos números enteros con denominador diferente de cero.
+                <br>
+                <br> Los números racionales pueden ser enteros o no enteros, los que no son enteros se les llama también números fraccionarios o fracciones.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">Fracciones II</button>
+                </div>
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">Fracciones IV</button>
+                </div>
+            </div>
+            <!-- https://e1.portalacademico.cch.unam.mx/alumno/matematicas1/unidad1/SimbolizacionesNumerosRacionales/fracciones#:~:text=Las%20fracciones%20son%20la%20primera,en%20partes%20iguales%20(denominador).&text=Si%20el%20numerador%20es%20mayor,conoce%20como%20una%20fracción%20impropia. ≠-->
+        </div>
+
+
+
+        <div id="004" class="contenidopest">
+            <h3>Fracciones IV</h3>
+            <h5>Tipos de Fracciones</h5>
+            <p style="font-size: large;">
+                Existen dos tipos de fracciones, las propias y las impropias.
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colIzq01">
+                    <p style="text-align: center;">
+                        En las primeras el numerador es menor al denominador, es decir, cuando el resultado de esta división se encuentra entre cero y uno.
+                    </p>
+                    <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/07_fraccionPropia.png" alt="Fracción Propia" height="40">
+                </div>
+                <div class="colDer01">
+                    <img class="img-responsive center-block img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/08_fraccionImpropia.png" alt="Fracción Impropia" height="40">
+                    <p style="text-align: center;">
+                        Si el numerador es mayor o igual que el denominador, se le conoce como una fracción impropia. En estos casos el resultado de la división es mayor o igual a 1.
+                    </p>
+                </div>
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '003')">
+                    <button type="button" class="btnCont-Verde">Fracciones III</button>
+                </div>
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">Fracciones V</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="005" class="contenidopest">
+            <h3>Fracciones V</h3>
+            <h5>Fracciones Equivalentes</h5>
+            <br>
+            <p style="font-size: medium;">
+                Las fracciones equivalentes son aquellas que representan una misma cantidad.
+            </p>
+            <div class="fraccionesEquiv">
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/02_fraccEquivalentes/08_fraccionesEquivalentes.png" alt="Dos Tercios">
+            </div>
+            <p style="font-size: medium;">
+                Dos fracciones son equivalentes si los productos del numerador de una por el denominador de la otra son iguales. Por ejemplo, en las fracciones equivalentes <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/02_fraccEquivalentes/04_dosTercios.png"
+                    alt="Dos Tercios"> y <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/02_fraccEquivalentes/05_cuatroSextos.png" alt="Cuatro Sextos"> se cumple esta regla ya que, tras multiplicar (2)(6) y
+                (4)(3), el resultado es el mismo.
+            </p>
+            <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/02_fraccEquivalentes/07_multCruzada.png" alt="Multiplicación Cruzada">
+
+            <div class="enlaces">
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">Fracciones IV</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="006" class="contenidopest">
+            <h3>Suma de Fracciones</h3>
+            <h5>Suma de fracciones con un mismo denominador</h5>
+            <p style="font-size: medium;">
+                En este caso, se suman los numeradores, 2+4, y pasa el denominador al resultado.
+            </p>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFracciones/04_sumaDosFracciones.png" alt="Suma de dos fracciones propias" class="reduc">
+            </div>
+            <br>
+            <br>
+            <div class="contenedorColumnas">
+                <div class="colIzq01">
+                    <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFracciones/01_Fracciones.png" alt="Imagen de distintas fracciones">
+                </div>
+                <div class="colDer01">
+                    <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFracciones/05_sumaTresFracciones.png" alt="Suma de tres fracciones propias" class="reduc">
+                </div>
+            </div>
+            <div class="enlaces" onclick="openPest(event, '007')">
+                <button type="button" class="btnCont-Verde">Suma Fracciones II</button>
+            </div>
+        </div>
+
+
+
+        <div id="007" class="contenidopest">
+            <h3>Suma de Fracciones II</h3>
+            <h5>Suma de Fracciones que dan como resultado una fracción impropia</h5>
+
+            <p style="font-size: medium;">
+                También se suman los numeradores y el denominador pasa al resultado sin alteración.
+            </p>
+            <img class="img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFracciones/06_sumaPropiasMixta.png" alt="">
+            <p style="font-size: medium;">
+                En este caso el resultado es una fracción impropia. Haciendo la equivalencia, termina siendo una fracción mixta, ya que tenemos un entero y su respectiva fracción.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '006')">
+                    <button type="button" class="btnCont-Verde">Suma de Fracciones I</button>
+                </div>
+                <div onclick="openPest(event, '008')">
+                    <button type="button" class="btnCont-Verde">Suma de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="008" class="contenidopest">
+            <h3>Suma de Fracciones III</h3>
+            <h5>Suma de Fracción propia más fracción impropia</h5>
+            <p style="font-size: medium;">
+                También se suman los numeradores y el denominador pasa al resultado sin alteración.
+            </p>
+            <img class="img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/03_SumaFracciones/02_sumaPropiaMasImpropia.png" alt="">
+            <p style="font-size: medium;">
+                En este caso el resultado también es una fracción impropia. Al hacer la equivalencia resulta una fracción mixta, ya que tenemos dos enteros con su respectiva fracción.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '007')">
+                    <button type="button" class="btnCont-Verde">Fracciones II</button>
+                </div>
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">Fracciones IV</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="009" class="contenidopest">
+            <h3>Suma de Fracciones IV</h3>
+            <h5>Suma de Fracciones con Distinto Denominador</h5>
+            <p style="font-size: medium;">
+                En este caso las fracciones son partes de una unidad pero de diferente tamaño. Para poder sumarlas tenemos que convertirlas en partes del mismo tamaño, es decir, fracciones equivalentes que tengan un denominador común (mismo denominador).
+                <br> Para conseguirlo, se multiplican numerador y denominador de la primera expresión por el denominador de la segunda. Posteriormente, se multiplican numerador y denominador de la segunda expresión por el denominador de la primera, como
+                se aprecia en la siguiente imgane:
+            </p>
+            <div class=" contenedorColumnas">
+                <div class="colIzq01">
+                    <p style="font-size: medium; text-align: center;">
+                        La suma de dos fracciones se puede encontrar con la siguiente fórmula:
+                        <br>
+                        <br>
+                        <span class="frac"><sup>a</sup><span>&frasl;</span><sub>b</sub></span>
+                        &nbsp;<span style="vertical-align:-5px; font-size:x-large; font-weight: 600;" class="sign">&#43;</span>&nbsp;
+                        <span class="frac"><sup>c</sup><span>&frasl;</span><sub>d</sub></span>
+                        &nbsp;<span style="vertical-align:-5px; font-size:x-large; font-weight: 600;" class="sign">&#61;</span>&nbsp;
+                        <span class="frac"><sup>ad&nbsp;<span style="font-weight: 1000;">&#43;</span>&nbsp;bc</sup>
+                        <span>&frasl;</span>
+                        <sub>bd</sub></span>
+                    </p>
+                    <p style="font-size: medium; text-align: center;">
+                        Aplica cuando los denominadores son distintos.
+                    </p>
+                </div>
+                <div class="colDer01">
+                    <img class="img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/04_SumaFraccionesDistintoDenominador/02_SumaFraccsDistintoDenomina.png" alt="">
+                    <div class="enlaces">
+                    </div>
+                </div>
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '008')">
+                    <button type="button" class="btnCont-Verde">Suma de Fracciones III</button>
+                </div>
+                <div onclick="openPest(event, '010')">
+                    <button type="button" class="btnCont-Verde">Suma de Fracciones V</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="010" class="contenidopest">
+            <h3>Suma de Fracciones V</h3>
+            <h5>Suma de tres fracciones</h5>
+            <p style="font-size: medium;">
+                La suma de tres fracciones,
+                <span class="frac"> <sup>4</sup><span>&frasl;</span><sub>3</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>3</sup><span>&frasl;</span><sub>2</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>1</sup><span>&frasl;</span><sub>4</sub></span>
+                se puede resolver de las siguientes maneras:
+                <br> Se suman dos de las fracciones mediante el procedimiento de <a id="myLink" href="#" onclick="openPest(event, '009');" href="#">suma de fracciones con distinto denominador</a> y la fracción resultante se suma con la tercera fracción.
+            </p>
+            <p style="font-size: medium; text-align: center;">
+                <span class="frac"> <sup>4</sup><span>&frasl;</span><sub>3</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>3</sup><span>&frasl;</span><sub>2</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>4(2)</sup><span>&frasl;</span><sub>3(2)</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>3(3)</sup><span>&frasl;</span><sub>2(3)</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>8</sup><span>&frasl;</span><sub>6</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>9</sup><span>&frasl;</span><sub>6</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>8&nbsp;<span
+                            style="font-weight: 1000;">&#43;</span>&nbsp;9</sup><span>&frasl;</span><sub>6</sub></span>
+                <!-- ^^^ En este caso el signo no se centra verticalemente ^^^ -->
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup class="result">17</sup><span>&frasl;</span><sub class="result">6</sub></span>
+                <br>
+                <br>
+            </p>
+            <p style="font-size: medium; text-align: center;">
+                <span class="frac"> <sup class="result">17</sup><span>&frasl;</span><sub class="result">6</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>1</sup><span>&frasl;</span><sub>4</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>17(4)</sup><span>&frasl;</span><sub>6(4)</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>1(6)</sup><span>&frasl;</span><sub>4(6)</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>68</sup><span>&frasl;</span><sub>24</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>6</sup><span>&frasl;</span><sub>24</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup>68&nbsp;<span
+                            style="font-weight: 1000;">&#43;</span>&nbsp;6</sup><span>&frasl;</span><sub>24</sub></span>
+                <!-- ^^^ En este caso el signo no se centra verticalemente ^^^ -->
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup class="result">74</sup><span>&frasl;</span><sub class="result">24</sub></span>
+            </p>
+            <p style="font-size: medium; text-align: center;">
+                Se simplifica dividiendo entre dos, en este caso, el numerador y el denominador.
+                <br>
+                <br>
+                <span class="frac"> <sup>74&nbsp;<span
+                            style="font-weight: 1000;">&#247;</span>&nbsp;2</sup><span>&frasl;</span>
+                <!-- ^^^ En este caso el signo no se centra verticalemente ^^^ -->
+                <sub>24&nbsp;<span style="font-weight: 1000;">&#247;</span>&nbsp;2</sub></span>
+                <!-- ^^^ En este caso el signo no se centra verticalemente ^^^ -->
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup class="result">37</sup><span>&frasl;</span><sub class="result">12</sub></span>
+                <br>
+                <br> Por lo tanto, el resultado de&nbsp;
+                <span class="frac"> <sup>4</sup><span>&frasl;</span><sub>3</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>3</sup><span>&frasl;</span><sub>2</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#43;</span>&nbsp;
+                <span class="frac"> <sup>1</sup><span>&frasl;</span><sub>4</sub></span>
+                &nbsp;<span style="font-weight: 1000;" class="sign">&#61;</span>&nbsp;
+                <span class="frac"> <sup class="result">37</sup><span>&frasl;</span><sub class="result">12</sub></span>
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">Suma de Fracciones IV</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="011" class="contenidopest">
+            <h3>Resta de Fracciones I</h3>
+            <h5>Fraciones con el mismo Denominador</h5>
+            <p style="font-size: medium;">
+                De manera similar a la suma, sólo restamos los numeradores, 5 del minuendo y 2 del sustraendo, y mantenemos el denominador, 7, puesto que estamos restando partes de la unidad del mismo tamaño <img class="img-fluid" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/05_RestaFracciones/01_unSeptimo.png"
+                    alt="Un Séptimo">.
+            </p>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/05_RestaFracciones/02_restaFraccionesPropias.png" alt="Fracción Impropia">
+            </div>
+            <div class="enlaces" onclick="openPest(event, '012')">
+                <button type="button" class="btnCont-Verde">Resta de Fracciones II</button>
+            </div>
+        </div>
+
+
+
+        <div id="012" class="contenidopest">
+            <h3>Resta de Fracciones II</h3>
+            <h5>¿Qué hacer cuando el minuendo es menor que el sustraendo?</h5>
+            <p style="font-size: medium;">
+                Si el minuendo es menor que el sustraendo, como en las fracciones del ejemplo.
+            </p>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/05_RestaFracciones/03_restaFraccionesPropias.png" alt="Resta de fracciones con distinto denominador">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '011')">
+                    <button type="button" class="btnCont-Verde">Resta de Fracciones I</button>
+                </div>
+                <div onclick="openPest(event, '013')">
+                    <button type="button" class="btnCont-Verde">Resta de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="013" class="contenidopest">
+            <h3>Resta de Fracciones III</h3>
+            <h5>Fracciones con Distinto Denominador</h5>
+            <p style="font-size: medium;">
+                El procedimiento es el mismo que el de la suma para la conversión de fracciones a una misma unidad. Una vez hecha, se habrán de restar las fracciones.
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colIzq01">
+                    <p style="font-size: medium;  text-align: center;">
+                        La resta de dos fracciones se puede encontrar con la siguiente fórmula:
+                        <br>
+                        <span class="frac"><sup>a</sup><span>&frasl;</span><sub>b</sub></span>
+                        &nbsp;<span style="vertical-align:-5px; font-size:x-large; font-weight: 600;">&#8722;</span>&nbsp;
+                        <span class="frac"><sup>c</sup><span>&frasl;</span><sub>d</sub></span>
+                        &nbsp;<span style="vertical-align:-5px; font-size:x-large; font-weight: 600;">&#61;</span>&nbsp;
+                        <span class="frac"><sup>ad&nbsp;<span style="font-weight: 1000;">&#8722;</span>&nbsp;bc</sup>
+                        <span>&frasl;</span>
+                        <sub>bd</sub></span>
+                    </p>
+                    <p style="font-size: medium; text-align: center;">
+                        Aplica cuando los denominadores son distintos.
+                    </p>
+                </div>
+                <div class="colDer01">
+                    <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/05_RestaFracciones/06_restaFraccionesImropias.png" alt="Resta de fracciones con distinto denominador">
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '012')">
+                    <button type="button" class="btnCont-Verde">Resta de Fracciones II</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="014" class="contenidopest">
+            <h3>Multiplicación de Fracciones I</h3>
+            <div>
+                <p style="font-size: medium;  text-align: center;">
+                    Para multiplicar dos o más fracciones se multiplican los numeradores y el producto se divide entre el producto de la multiplicación de los denominadores. Posteriormente se simplifica el resultado y se hallan los enteros, si los hay.
+                </p>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/01_MultipliFracciones.png" alt="">
+                <br>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/02_MultipliFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '015')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones II</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="015" class="contenidopest">
+            <h3>Multiplicación de Fracciones II</h3>
+            <div>
+                <p style="font-size: medium;  text-align: center;">
+                    Para multiplicar dos o más fracciones se multiplican los numeradores y el producto se divide entre el producto de la multiplicación de los denominadores. Posteriormente se simplifica el resultado y se hallan los enteros, si los hay.
+                </p>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/03_MultipliFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '014')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones I</button>
+                </div>
+                <div onclick="openPest(event, '016')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="016" class="contenidopest">
+            <h3>Multiplicación de Fracciones III</h3>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/04_MultipliFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '015')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones II</button>
+                </div>
+                <div onclick="openPest(event, '017')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones IV</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="017" class="contenidopest">
+            <h3>Multiplicación de Fracciones IV</h3>
+            <div>
+                <p style="font-size: medium;  text-align: center;">
+                    A los enteros se pone por denominador la unidad; los mixtos se reducen a fracciones y se multiplican todos como quebrados.
+                    <br> Se eliminan factores semejantes.
+                </p>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/05_MultipliFracciones.png" alt="">
+                <br>
+                <br>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/06_MultipliFracciones/06_MultipliFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '016')">
+                    <button type="button" class="btnCont-Verde">Multiplicación de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="018" class="contenidopest">
+            <h3>División de Fracciones I</h3>
+            <div>
+                <p style="font-size: medium;  text-align: center;">
+                    Para dividir dos fracciones, se multiplica el numerador de la primera fracción por el denominador de la segunda fracción, el producto es el numerador de la fracción resultante.
+                    <br>
+                    <br> Se multiplica el denominador de la primera fracción por el numerador de la segunda fracción, el producto es el denominador de la fracción resultante.
+                </p>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/07_DivideFracciones/01_DivideFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '019')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones II</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="019" class="contenidopest">
+            <h3>División de Fracciones II</h3>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/07_DivideFracciones/02_DivideFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '018')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones I</button>
+                </div>
+                <div onclick="openPest(event, '020')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="020" class="contenidopest">
+            <h3>División de Fracciones III</h3>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/07_DivideFracciones/03_DivideFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '019')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones II</button>
+                </div>
+                <div onclick="openPest(event, '021')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones IV</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="021" class="contenidopest">
+            <h3>División de Fracciones IV</h3>
+            <div>
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/07_DivideFracciones/04_DivideFracciones.png" alt="">
+                <img class="img-responsive center-block img-fluid centraImg" src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/07_DivideFracciones/05_DivideFracciones.png" alt="">
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '020')">
+                    <button type="button" class="btnCont-Verde">División de Fracciones III</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
+</body>
+
+</html>
+
+<!--
+
+    https://iesapvirtual.com.mx/course/view.php?id=3
+
+
+    <div id="002" class="contenidopest">
+            <h3>Fracciones II</h3>
+            
+            <div class="contenedorColumnas">
+                <div class="colIzq">
+                    <p style="text-align: center;">
+                        <img class="img-responsive center-block img-fluid"
+                            src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/01_ayb.png"
+                            alt="Partes de la Fracción, Numerador y Denominador" width="200">
+                    </p>
+                </div>
+                <div class="colDer">
+                    <ol>
+                        <li>b debe ser <img class="img-responsive center-block img-fluid"
+                                src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/02_DistintoDe.png"
+                                alt="Símbolo Distinto de" width="15"> 0 para que la
+                            división no quede indefinida. </li>
+                        <li>Los números enteros son parte de los <img class="img-responsive center-block img-fluid"
+                                src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/03_Racionales.png"
+                                alt="Símbolo de Números Racionales" width="20">, con b=1.</li>
+                        <li>Cuando a=1, la fracción no puede reducirse como otra fracción, siendo la representación
+                            de una
+                            parte igual a un todo. <img
+                                src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/04_unMedio.png"
+                                alt="imagen de un medio" width="15">, un
+                            medio; <img class="img-responsive center-block img-fluid"
+                                src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/05_unTercio.png"
+                                alt="imagen de un tercio" width="15">, un tercio; <img
+                                src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/06_unCuarto.png"
+                                alt="imagen de un cuarto" width="15">, un cuarto.</li>
+                    </ol>
+                </div>
+            </div>
+            <p  style="font-size: medium;">
+                Existen dos tipos de fracciones, las propias y las impropias.
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colIzq01">
+                    <p style="text-align: center;">
+                        En las primeras el numerador es menor al denominador.
+                    </p>
+                    <img class="img-responsive center-block img-fluid"
+                        src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/07_fraccionPropia.png"
+                        alt="Fracción Propia" height="80">
+                </div>
+                <div class="colDer01">
+                    <p style="text-align: center;">
+                        En las segundas el numerador es mayor al denominador.
+                    </p>
+                    <img class="img-responsive center-block img-fluid"
+                        src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-101/img/02_Fracciones/01_fracciones/08_fraccionImpropia.png"
+                        alt="Fracción Impropia" height="80">
+                </div>
+            </div>
+        </div>
+-->
