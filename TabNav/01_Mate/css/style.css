@@ -15,24 +15,28 @@ p>a:hover {
 .contenedor {
     width: auto;
     height: 100vh;
+    padding    
 }
 
+/* Style the pest */
 .pest {
+    padding: 15px 0;
     float: left;
     width: 25%;
     height: 90%;
+    background-color: #024016;
 }
 
 
 /* Style the buttons inside the pest */
 
 .pest button {
-    display: flex;
+    display: flex;    
     background-color: #a1d18d;
     color: black;
     font-weight: 600;
     padding: 22px 16px;
-    width: 100%;
+    width: 95%;
     height: 60px !important;
     border: 2px solid #000 !important;
     border-radius: 12px;
@@ -42,6 +46,7 @@ p>a:hover {
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px;
+    font-weight: 600;
 }
 
 
@@ -73,7 +78,7 @@ p>a:hover {
     padding: 0 12px;
     width: 70%;
     border-left: none;
-    height: 80%;
+    height: 80%;    
 }
 
 p {
