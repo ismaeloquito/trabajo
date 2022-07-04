@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades Directivas</title>
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../01_Mate/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic'
+        rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h2>Organización y Estructura</h2>
+    <p class="pPest">
+        Haz clic en las pestañas laterales o en los botones debajo de cada lección
+    </p>
+    <div class="pest">
+        <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Organización y Estructura I</button>
+        <button class="pestenlace" onclick="openPest(event, '004')">Estructura física</button>
+        <button class="pestenlace" onclick="openPest(event, '006')">Ambiente en el hospital</button>
+        <button class="pestenlace" onclick="openPest(event, '010')">Mantenimiento</button>
+        <button class="pestenlace" onclick="openPest(event, '005')">Organización y Estructura V</button>
+    </div>
+
+    <div id="003" class="contenidopest">
+        <h3>Organización y Estructura III</h3>
+        <blockquote class="pPest">
+            Entre las <b>ventajas</b> y <b>desventajas</b> que presenta esta estructura jerárquica de trabajo, queríamos
+            destacar la siguientes (Lexginton, 2021):
+        </blockquote>
+        <div class="contenedorColumnas" style="display: flex; justify-content: center;">
+            <div class="colDer01" style="display: flex; justify-content: center; align-items: center; width: 400px;">
+                <a href="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-102_AdmonGestionSalud/img/06U/MS102U6_1-P6C.png"
+                    target="_blank">
+                    <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-102_AdmonGestionSalud/img/06U/MS102U6_1-P6C.png"
+                        class="img-fluid" alt="">
+                </a>
+
+            </div>
+            <div class="colIzq01" style="display: flex; justify-content: center; align-items: center;">
+                <a href="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-102_AdmonGestionSalud/img/06U/MS102U6_2-P6C.png"
+                    target="_blank">
+                    <img src="https://iesap.com.mx/BancoRecursos/Maestrias/Salud/01erTrim/MCAS-102_AdmonGestionSalud/img/06U/MS102U6_2-P6C.png"
+                        class="img-fluid" alt="">
+                </a>
+            </div>            
+        </div>
+        <div style="display:flex; justify-content:center">
+            <h6 style="color: #800000">Da clic en las imágenes para verlas en grande</h6>
+        </div>
+        <div class="enlaces">
+            <div onclick="openPest(event, '002')">
+                <button type="button" class="btnCont-Verde">Organización y Estructura II</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://desarrolloweb.com/articulos/558.php">Listas Ordenadas y Desordenadas (Opciones)</a>    
+</body>
+</html>
