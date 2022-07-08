@@ -24,287 +24,978 @@
 </head>
 
 <body>
-    <div class="contenedor">
-        <h2>Evaluación De Habilidades Personales</h2>
+
+    <h2>Evaluación De Habilidades Personales</h2>
+    <p class="pPest">
+        Haz clic en las pestañas laterales o en los botones debajo de cada lección
+    </p>
+    <div class="pest">
+        <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Habilidades Personales</button>
+        <button class="pestenlace" onclick="openPest(event, '003')">La personalidad</button>
+        <button class="pestenlace" onclick="openPest(event, '005')">Evaluación de la Inteligencia</button>
+        <button class="pestenlace" onclick="openPest(event, '006')">Manejo Del Estrés</button>
+        <button class="pestenlace" onclick="openPest(event, '009')">Eliminación de Factores estresantes</button>
+        <button class="pestenlace" onclick="openPest(event, '011')">Desarrollo de la Resiliencia</button>
+        <button class="pestenlace" onclick="openPest(event, '013')">Análisis Creativo</button>
+        <button class="pestenlace" onclick="openPest(event, '014')">Solución Analítica y Creativa</button>
+        <button class="pestenlace" onclick="openPest(event, '018')">Participación Organizativa</button>
+        <button class="pestenlace" onclick="openPest(event, '021')">Análisis de Solución</button>
+    </div>
+
+    <div id="001" class="contenidopest">
+        <h3>Evaluación De Habilidades Personales</h3>
         <p class="pPest">
-            Haz clic en las pestañas laterales o en los botones debajo de cada lección
+            Las que se derivan o giran en torno al conocimiento de uno mismo, la inteligencia emocional, los
+            valores, la ética, las prioridades, la motivación y el autocontrol.
         </p>
-        <div class="pest">
-            <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Habilidades Personales</button>
-            <button class="pestenlace" onclick="openPest(event, '002')">Autoconocimiento</button>
-            <button class="pestenlace" onclick="openPest(event, '005')">Personalidad</button>
-            <button class="pestenlace" onclick="openPest(event, '009')">Inteligencia Emocional</button>
-            <button class="pestenlace" onclick="openPest(event, '000')"></button>
-            <button class="pestenlace" onclick="openPest(event, '000')"></button>
-        </div>
-
-        <div id="001" class="contenidopest">
-            <h3>Evaluación De Habilidades Personales</h3>
-            <p class="pPest">
-                Las que se derivan o giran en torno al conocimiento de uno mismo, la inteligencia emocional, los
-                valores, la ética, las prioridades, la motivación y el autocontrol.
-            </p>
-            <p class="pPest">
-                Estas se derivan o giran en torno al conocimiento de uno mismo, es decir la conciencia respecto de
-            </p>
-            <ol style="font-size: medium">
-                <li>
-                    La propia personalidad así como la inteligencia emocional
-                </li>
-                <li>
-                    Los valores, la ética y las prioridades
-                </li>
-                <li>
-                    <blockquote style="font-size: medium;">
-                        La motivación, el autocontrol y la capacidad para generalizar/ distinguir contextos diversos
-                        (Griffin, 2016, p. 417).
-                    </blockquote>
-                </li>
-            </ol>
-        </div>
-
-
-
-        <div id="002" class="contenidopest">
-            <h3>Evaluación del Autoconocimiento I</h3>
-            <p class="pPest">
-                Una habilidad personal fundamental es la de tener conciencia de uno mismo. El conocimiento de uno mismo
-                se refiere a la medida en que nos damos cuenta de cómo nos ven otros. Este saber se puede referir al
-                aspecto físico, las conductas, las palabras y las expresiones, las decisiones y otros factores que
-                generan la impresión que otros se forman de nosotros.
-            </p>
-            <p class="pPest">
-                Aumenta también ese conocimiento cuando reconoce el modo en que los demás responden ante ella y la
-                medida de confianza que aparentemente tienen en su persona a lo largo del tiempo y en diferentes
-                contextos. Un buen autoconocimiento le permitirá funcionar de forma más eficaz en el futuro.
-            </p>
-            <div class="enlaces">
-                <div onclick="openPest(event, '003')">
-                    <button type="button" class="btnCont-Verde">
-                        Autoconocimiento II
-                    </button>
-                </div>
+        <p class="pPest">
+            Estas se derivan o giran en torno al conocimiento de uno mismo, es decir la conciencia respecto de
+        </p>
+        <ol style="font-size: medium">
+            <li>
+                La propia personalidad así como la inteligencia emocional
+            </li>
+            <li>
+                Los valores, la ética y las prioridades
+            </li>
+            <li>
+                <blockquote style="font-size: medium;">
+                    La motivación, el autocontrol y la capacidad para generalizar/ distinguir contextos diversos
+                    (Griffin, 2016, p. 417).
+                </blockquote>
+            </li>
+        </ol>
+        <h3>Evaluación del Autoconocimiento</h3>
+        <p class="pPest">
+            Una habilidad personal fundamental es la de tener conciencia de uno mismo. El conocimiento de uno mismo
+            se refiere a la medida en que nos damos cuenta de cómo nos ven otros. Este saber se puede referir al
+            aspecto físico, las conductas, las palabras y las expresiones, las decisiones y otros factores que
+            generan la impresión que otros se forman de nosotros.
+        </p>
+        <p class="pPest">
+            Aumenta también ese conocimiento cuando reconoce el modo en que los demás responden ante ella y la
+            medida de confianza que aparentemente tienen en su persona a lo largo del tiempo y en diferentes
+            contextos. Un buen autoconocimiento le permitirá funcionar de forma más eficaz en el futuro.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '002')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
             </div>
-        </div>
-
-
-
-        <div id="003" class="contenidopest">
-            <h3>Evaluación del Autoconocimiento II</h3>
-            <p class="pPest">
-                Sin embargo, otras personas se conocen poco a sí mismas y no saben muy bien cómo las ven los demás. Por
-                ejemplo, suponga que otra directora se ve también como una buena oradora en público, pero que otros (por
-                desgracia) la ven como una mala oradora. Ella tal vez se afane por tener la ocasión de hablar en
-                público, sin entender por qué no es seleccionada cuando se ofrece a hacerlo o por qué otros no
-                manifiestan entusiasmo por escucharla. Con el tiempo, se sentirá frustrada y tal vez incluso piense que
-                no cae bien a otros o que la están discriminando. Los individuos no se conocen bien a sí mismos porque
-                no prestan atención a la forma en que los demás responden ante ellos, sobrevaloran sus habilidades
-                personales o tratan de encontrar una explicación lógica para situaciones, sin reconocer que se deben a
-                una deficiencia suya (por ejemplo, justificando que su mal desempeño se debe a que han dormido poco o
-                están sometidas a demasiado estrés).
-            </p>
-            <div class="enlaces">
-                <div onclick="openPest(event, '002')">
-                    <button type="button" class="btnCont-Verde">
-                        Control y Supervisión I
-                    </button>
-                </div>
-                <div onclick="openPest(event, '004')">
-                    <button type="button" class="btnCont-Verde">
-                        Autoconocimiento III
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="004" class="contenidopest">
-            <h3>Evaluación del Autoconocimiento III</h3>
-            <p class="pPest">
-                Es importante reconocer que nadie es perfecto y que nadie se ve a sí mismo de forma exactamente igual a
-                como lo ven otros. Además, personas diferentes verán de maneras diversas al mismo individuo. Sin
-                embargo, si prestamos atención a las señales que nos envían otros, si diagnosticamos con sinceridad
-                nuestros éxitos y fracasos, y si adquirimos un conocimiento genuino de nuestras verdaderas fortalezas y
-                debilidades personales, nos conoceremos mejor a nosotros mismos. Entender con claridad cómo es nuestra
-                personalidad ayuda también a que nos conozcamos en mayor medida.
-            </p>
-            <p class="pPest">
-                Un buen autoconocimiento nos permite funcionar de forma positiva y constructiva.
-            </p>
-            <div class="enlaces">
-                <div onclick="openPest(event, '003')">
-                    <button type="button" class="btnCont-Verde">
-                        Autoconocimiento II
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="005" class="contenidopest">
-            <h3>Conozca su Personalidad I</h3>
-            <p class="pPest">
-                La <b>personalidad</b> se refiere al conjunto relativamente estable de atributos psicológicos que
-                diferencian a un individuo de otro.
-            </p>
-            <p class="pPest">
-                Los psicólogos llevan muchos años discutiendo (el llamado debate “naturaleza o educación”) la medida en
-                que los rasgos de la personalidad son heredados de nuestros progenitores (el argumento a favor de la
-                “naturaleza”) o si el entorno los forma (el argumento a favor de la “educación”).
-            </p>
-            <p class="pPest">
-                En realidad, la función que desempeñan tanto los factores biológicos como los del entorno es muy
-                importante para determinar la personalidad. Los directores deberían tratar de conocer los atributos
-                básicos de esta y cómo afectan la conducta de los individuos en situaciones que se presentan en la
-                organización, por no hablar de cómo las perciben ni de sus actitudes hacia ellas.
-            </p>
-            <p class="pPest">
-                Sin embargo, en años recientes, han señalado cinco atributos fundamentales que tienen especial
-                importancia para las organizaciones.
-            </p>
-            <div class="enlaces">
-                <div onclick="openPest(event, '006')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad II
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="006" class="contenidopest">
-            <h3>Conozca su Personalidad II</h3>
-            <p class="pPest">
-                La <b>simpatía</b> se refiere a la capacidad de un individuo para llevarse con otros, y hace a esta
-                clase de personas ser amables, cooperadoras, complacientes, comprensivas y amenas cuando tratan con
-                otras. Ayuda a trabajar con más eficacia con otros y tal vez a ver con más claridad la función que su
-                modo de ser desempeña en relaciones interpersonales que podrían ser más o menos positivas.
-            </p>
-            <p class="pPest">
-                La <b>meticulosidad</b> se refiere al número de metas en las que se enfoca una persona. Quienes se
-                concentran a la vez en un número relativamente pequeño serán probablemente ordenadas, sistemáticas,
-                cuidadosas, concienzudas, responsables y disciplinadas. Las investigaciones han arrojado que, en
-                distintos trabajos, el desempeño de las personas más meticulosas suele ser mejor que el de las menos.
-            </p>
-            <p class="pPest">
-                La <b>neurosis</b>. Las personas neuróticas suelen experimentar con más frecuencia que las menos
-                neuróticas emociones desagradables como ira, ansiedad, depresión y sentimientos de vulnerabilidad. Las
-                menos neuróticas son ecuánimes, tranquilas, resilientes y seguras. Las primeras son más irritables,
-                inseguras, reactivas, y su estado de ánimo sufre cambios extremos. Cabe suponer que las segundas
-                manejarán mejor el estrés, la presión y la tensión en el trabajo.
-            </p>
-            <div class="enlaces">
-                <div onclick="openPest(event, '005')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad I
-                    </button>
-                </div>
-                <div onclick="openPest(event, '007')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad III
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="007" class="contenidopest">
-            <h3>Conozca su Personalidad III</h3>
-            <p class="pPest">
-                Su estabilidad también podría provocar que sean vistas como más confiables que sus compañeros menos
-                estables.
-            </p>
-            <p class="pPest">
-                La <b>extraversión</b> refleja la medida en que una persona se siente cómoda en sus relaciones. Las
-                extravertidas son sociables, parlanchinas, confiadas y están dispuestas a establecer relaciones nuevas.
-                Las introvertidas son mucho menos sociables, parlanchinas y confiadas, y más reacias a iniciar otras
-                relaciones. Saber cuál es nuestro grado de extraversión es un factor importante para ponderar por qué
-                nos gustan o disgustan ciertas clases de trabajo, y nos puede servir de guía cuando consideramos
-                opciones para hacer una carrera.
-            </p>
-
-            <div class="enlaces">
-                <div onclick="openPest(event, '006')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad II
-                    </button>
-                </div>
-                <div onclick="openPest(event, '008')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad IV
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="008" class="contenidopest">
-            <h3>Conozca su Personalidad IV</h3>
-            <p class="pPest">
-                La <b>apertura</b> refleja el grado de rigidez de las creencias y de la gama de intereses de un
-                individuo. Las
-                personas muy abiertas están dispuestas a escuchar ideas nuevas y a cambiar las propias, así como
-                creencias y actitudes ante nueva información. También suelen tener muchos intereses y ser curiosas,
-                imaginativas y creativas. Las personas poco abiertas no suelen recibir ideas nuevas ni estar demasiado
-                dispuestas a cambiar de opinión. Incluso, a menudo tienen menos intereses, y son más estrechos en su
-                mentalidad, suelen ser poco curiosas y creativas.
-            </p>
-            <blockquote style="font-size: medium;">
-                Cabe esperar que el desempeño de los que tienen mayor apertura sea mejor debido a su flexibilidad, y
-                también es más probable que otras de la organización las acepten. Asimismo, la apertura abarca la medida
-                en que una persona está dispuesta a aceptar el cambio. Las que son muy abiertas lo aceptarían en buen
-                grado, mientras que las menos abiertas se podrían resistir a él. Es muy útil conocer la medida de lo
-                abiertos que somos, en especial si somos propensos a no serlo mucho. Por ejemplo, saberlo nos permitiría
-                no tomar decisiones de manera repentina ni rechazar ideas con excesiva rapidez simplemente porque no
-                encajan con nuestras visiones y actitudes actuales (Griffin, 2016, p. 37).
-            </blockquote>
-            <div class="enlaces">
-                <div onclick="openPest(event, '007')">
-                    <button type="button" class="btnCont-Verde">
-                        Conozca su Personalidad III
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div id="009" class="contenidopest">
-            <h3>Evaluación de la Inteligencia emocional</h3>
-            <p class="pPest">
-                La medida en que las personas se conocen y motivan a sí mismas, controlan sus emociones, expresan empatía por otros y son sociables.
-            </p>
-            <p class="pPest">
-                Estas emociones se describen así:
-            </p>
-            <blockquote style="font-size: medium;">
-                <p class="pPest">
-                    Conocimiento de uno mismo. Es la base de los otros componentes. Se refiere a la capacidad de la persona para saber lo que siente. En general, quien se conoce mejor a sí mismo puede dirigir con eficacia su vida y su conducta.
-                </p>
-                <p class="pPest">
-                    Manejo de las emociones. Se refiere a la capacidad individual para equilibrar la ansiedad, el miedo y la ira de modo que no interfieran excesivamente con el debido desempeño de las actividades.
-                </p>
-                <p class="pPest">
-                    Automotivación. Esta dimensión se refiere a la capacidad de la persona para no perder el optimismo y para seguir luchando ante los inconvenientes, los obstáculos y el fracaso.
-                </p>
-                <p class="pPest">
-                    Empatía. Se refiere a la capacidad de los individuos para comprender lo que están sintiendo otros a pesar de que no lo digan explícitamente.
-                </p>
-                <p class="pPest">
-                    Habilidad social. Se refiere a la capacidad de la persona para llevarse bien con otros y para establecer relaciones positivas. Las investigaciones preliminares sugieren que quienes tienen una Inteligencia Emocional elevada podrían tener mejor desempeño que otros, en especial en empleos que requieren un grado considerable de interacción interpersonal y que implican ejercer influencia o dirigir el trabajo de otros. Es más, al parecer, la Inteligencia Emocional no tiene un fundamento biológico, pero sí es posible desarrollarla (Griffin, 2016, p. 39).
-                </p>
-            </blockquote>
         </div>
     </div>
-        
-        
 
-        <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
+
+
+    <div id="002" class="contenidopest">
+        <h3>Evaluación del Autoconocimiento</h3>
+        <p class="pPest">
+            Sin embargo, otras personas se conocen poco a sí mismas y no saben muy bien cómo las ven los demás. Por
+            ejemplo, suponga que otra directora se ve también como una buena oradora en público, pero que otros (por
+            desgracia) la ven como una mala oradora. Ella tal vez se afane por tener la ocasión de hablar en
+            público, sin entender por qué no es seleccionada cuando se ofrece a hacerlo o por qué otros no
+            manifiestan entusiasmo por escucharla. Con el tiempo, se sentirá frustrada y tal vez incluso piense que
+            no cae bien a otros o que la están discriminando. Los individuos no se conocen bien a sí mismos porque
+            no prestan atención a la forma en que los demás responden ante ellos, sobrevaloran sus habilidades
+            personales o tratan de encontrar una explicación lógica para situaciones, sin reconocer que se deben a
+            una deficiencia suya (por ejemplo, justificando que su mal desempeño se debe a que han dormido poco o
+            están sometidas a demasiado estrés).
+        </p>
+        <p class="pPest">
+            Es importante reconocer que nadie es perfecto y que nadie se ve a sí mismo de forma exactamente igual a
+            como lo ven otros. Además, personas diferentes verán de maneras diversas al mismo individuo. Sin
+            embargo, si prestamos atención a las señales que nos envían otros, si diagnosticamos con sinceridad
+            nuestros éxitos y fracasos, y si adquirimos un conocimiento genuino de nuestras verdaderas fortalezas y
+            debilidades personales, nos conoceremos mejor a nosotros mismos. Entender con claridad cómo es nuestra
+            personalidad ayuda también a que nos conozcamos en mayor medida.
+        </p>
+        <p class="pPest">
+            Un buen autoconocimiento nos permite funcionar de forma positiva y constructiva.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '001')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="003" class="contenidopest">
+        <h3>Conozca su Personalidad</h3>
+        <p class="pPest">
+            La <b>personalidad</b> se refiere al conjunto relativamente estable de atributos psicológicos que
+            diferencian a un individuo de otro.
+        </p>
+        <p class="pPest">
+            Los psicólogos llevan muchos años discutiendo (el llamado debate “naturaleza o educación”) la medida en
+            que los rasgos de la personalidad son heredados de nuestros progenitores (el argumento a favor de la
+            “naturaleza”) o si el entorno los forma (el argumento a favor de la “educación”).
+        </p>
+        <p class="pPest">
+            En realidad, la función que desempeñan tanto los factores biológicos como los del entorno es muy
+            importante para determinar la personalidad. Los directores deberían tratar de conocer los atributos
+            básicos de esta y cómo afectan la conducta de los individuos en situaciones que se presentan en la
+            organización, por no hablar de cómo las perciben ni de sus actitudes hacia ellas.
+        </p>
+        <p class="pPest">
+            Sin embargo, en años recientes, han señalado cinco atributos fundamentales que tienen especial
+            importancia para las organizaciones.
+        </p>
+        <p class="pPest">
+            La <b>simpatía</b> se refiere a la capacidad de un individuo para llevarse con otros, y hace a esta clase de
+            personas ser amables, cooperadoras, complacientes, comprensivas y amenas cuando tratan con otras. Ayuda a
+            trabajar con más eficacia con otros y tal vez a ver con más claridad la función que su modo de ser desempeña
+            en relaciones interpersonales que podrían ser más o menos positivas.
+        </p>
+        <p class="pPest">
+            La <b>meticulosidad</b> se refiere al número de metas en las que se enfoca una persona. Quienes se
+            concentran a la vez en un número relativamente pequeño serán probablemente ordenadas, sistemáticas,
+            cuidadosas, concienzudas, responsables y disciplinadas. Las investigaciones han arrojado que, en distintos
+            trabajos, el desempeño de las personas más meticulosas suele ser mejor que el de las menos.
+        </p>
+        <p class="pPest">
+            La <b>neurosis</b>. Las personas neuróticas suelen experimentar con más frecuencia que las menos neuróticas
+            emociones desagradables como ira, ansiedad, depresión y sentimientos de vulnerabilidad. Las menos neuróticas
+            son ecuánimes, tranquilas, resilientes y seguras. Las primeras son más irritables, inseguras, reactivas, y
+            su estado de ánimo sufre cambios extremos. Cabe suponer que las segundas manejarán mejor el estrés, la
+            presión y la tensión en el trabajo.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '004')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="004" class="contenidopest">
+        <h3>Conozca su Personalidad</h3>
+        <p class="pPest">
+            Su estabilidad también podría provocar que sean vistas como más confiables que sus compañeros menos
+            estables.
+        </p>
+        <p class="pPest">
+            La <b>extraversión</b> refleja la medida en que una persona se siente cómoda en sus relaciones. Las
+            extravertidas son sociables, parlanchinas, confiadas y están dispuestas a establecer relaciones nuevas. Las
+            introvertidas son mucho menos sociables, parlanchinas y confiadas, y más reacias a iniciar otras relaciones.
+            Saber cuál es nuestro grado de extraversión es un factor importante para ponderar por qué nos gustan o
+            disgustan ciertas clases de trabajo, y nos puede servir de guía cuando consideramos opciones para hacer una
+            carrera.
+        </p>
+        <p class="pPest">
+            La <b>apertura</b> refleja el grado de rigidez de las creencias y de la gama de intereses de un individuo.
+            Las personas muy abiertas están dispuestas a escuchar ideas nuevas y a cambiar las propias, así como
+            creencias y actitudes ante nueva información. También suelen tener muchos intereses y ser curiosas,
+            imaginativas y creativas. Las personas poco abiertas no suelen recibir ideas nuevas ni estar demasiado
+            dispuestas a cambiar de opinión. Incluso, a menudo tienen menos intereses, y son más estrechos en su
+            mentalidad, suelen ser poco curiosas y creativas.
+        </p>
+        <blockquote class="pPest">
+            Cabe esperar que el desempeño de los que tienen mayor apertura sea mejor debido a su flexibilidad, y también
+            es más probable que otras de la organización las acepten. Asimismo, la apertura abarca la medida en que una
+            persona está dispuesta a aceptar el cambio. Las que son muy abiertas lo aceptarían en buen grado, mientras
+            que las menos abiertas se podrían resistir a él. Es muy útil conocer la medida de lo abiertos que somos, en
+            especial si somos propensos a no serlo mucho. Por ejemplo, saberlo nos permitiría no tomar decisiones de
+            manera repentina ni rechazar ideas con excesiva rapidez simplemente porque no encajan con nuestras visiones
+            y actitudes actuales (Griffin, 2016, p. 37).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '003')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="005" class="contenidopest">
+        <h3>Evaluación de la Inteligencia emocional</h3>
+        <p class="pPest">
+            La medida en que las personas se conocen y motivan a sí mismas, controlan sus emociones, expresan empatía
+            por otros y son sociables.
+        </p>
+        <p class="pPest">
+            Estas emociones se describen así:
+        </p>
+        <p class="pPest">
+            <i>Conocimiento de uno mismo</i>. Es la base de los otros componentes. Se refiere a la capacidad de la
+            persona
+            para saber lo que siente. En general, quien se conoce mejor a sí mismo puede dirigir con eficacia su
+            vida y su conducta.
+        </p>
+        <p class="pPest">
+            <i>Manejo de las emociones</i>. Se refiere a la capacidad individual para equilibrar la ansiedad, el
+            miedo y la
+            ira de modo que no interfieran excesivamente con el debido desempeño de las actividades.
+        </p>
+        <p class="pPest">
+            <i>Automotivación</i>. Esta dimensión se refiere a la capacidad de la persona para no perder el
+            optimismo y
+            para seguir luchando ante los inconvenientes, los obstáculos y el fracaso.
+        </p>
+        <p class="pPest">
+            <i>Empatía</i>. Se refiere a la capacidad de los individuos para comprender lo que están sintiendo otros
+            a
+            pesar de que no lo digan explícitamente.
+        </p>
+        <blockquote style="font-size: medium;">
+            <i>Habilidad social</i>. Se refiere a la capacidad de la persona para llevarse bien con otros y para
+            establecer relaciones positivas. Las investigaciones preliminares sugieren que quienes tienen una
+            Inteligencia
+            Emocional elevada podrían tener mejor desempeño que otros, en especial en empleos que requieren un grado
+            considerable de interacción interpersonal y que implican ejercer influencia o dirigir el trabajo de
+            otros. Es más, al parecer, la Inteligencia Emocional no tiene un fundamento biológico, pero sí es
+            posible desarrollarla (Griffin, 2016, p. 39).
+        </blockquote>
+    </div>
+
+
+
+    <div id="006" class="contenidopest">
+        <h3>Manejo Del Estrés Y El Bienestar</h3>
+        <p class="pPest">
+            El <b>estrés</b> es la respuesta del individuo ante un estímulo muy fuerte, o la causa estresante. Por lo
+            habitual, se presenta después de un ciclo llamado síndrome de adaptación general (GAS por sus siglas en
+            inglés), Según esta visión, cuando un individuo encuentra una causa estresante se inicia el GAS y, en la
+            etapa 1, se activa una alarma. La persona podría sentir pánico, preguntarse cómo encarar las cosas o
+            sentirse desamparada.
+        </p>
+        <blockquote class="pPest">
+            Si la causa estresante es demasiado intensa, el individuo tal vez sienta que no es capaz de lograrlo y tal
+            vez nunca trate en realidad de responder a las exigencias. Sin embargo, en la mayor parte de los casos,
+            después de un breve periodo de alarma, hace acopio de fuerzas y empieza a resistirse a los efectos negativos
+            de la causa estresante. En la etapa 2 del GAS, la persona se resiste a los efectos de la causa del estrés.
+            En muchos casos, la fase de la resistencia pone fin al GAS. De otro lado, la exposición prolongada a un
+            elemento estresante sin resolver podría montar el escenario; el individuo se da por vencido totalmente y es
+            incapaz de resistir el estrés (Griffin, 2016, p. 63).
+        </blockquote>
+        <p class="pPest">
+            El estrés no siempre es malo. Cuando no lo hay, podríamos sentirnos aletargados o estancados. Por otro lado,
+            un nivel óptimo podría generar motivación y emoción. Sin embargo, uno excesivo puede tener consecuencias
+            negativas. También es importante saber que tanto cosas “buenas” como “malas” pueden generarlo. Una presión
+            exagerada, demasiadas exigencias de tiempo y las malas noticias pueden ser su causa.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '007')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="007" class="contenidopest">
+        <h3>Factores estresantes</h3>
+        <p class="pPest">
+            Una línea de pensamiento importante respecto del estrés se concentra en la personalidad tipo A y la tipo B.
+        </p>
+        <p class="pPest">
+            Los individuos <b>tipo A</b> son sumamente competitivos, muy entregados a sus labores y tienen una sensación
+            muy clara de urgencia. Es probable que sean agresivos, impacientes y que se orienten mucho al trabajo.
+            Tienen mucho vigor y desean hacer lo más posible en el menor tiempo.
+        </p>
+        <p class="pPest">
+            Las personas <b>tipo B</b> son menos competitivas, menos dedicadas al trabajo y tienen menos sensación de
+            urgencia. Es menos probable que experimenten conflicto con otras, y hay más posibilidad de que vean la vida
+            de forma tranquila y equilibrada. Tienen capacidad de laborar a un ritmo constante, sin urgencia. No
+            necesariamente son más o menos exitosas que aquellas, pero es menos probable que sufran estrés.
+        </p>
+        <p class="pPest">
+            Las causas del estrés derivadas del trabajo se ubican dentro de una de cuatro categorías: las exigencias de
+            la tarea, las físicas, las de la función y las interpersonales. Algunas ocupaciones tienden a ser de modo
+            inherente más
+        </p>
+        <p class="pPest">
+            Las causas del estrés derivadas del trabajo se ubican dentro de una de cuatro categorías: las exigencias
+            de la tarea, las físicas, las de la función y las interpersonales. Algunas ocupaciones tienden a ser de
+            modo inherente más estresantes que otras, y las situaciones que pueden provocarlo son: tener que tomar
+            decisiones rápido, con información que dista de estar completa, o que tienen consecuencias relativamente
+            graves. Los trabajos de cirujano, piloto de avión y corredor de bolsa son relativamente más estresantes
+            que los de médico general, encargado de equipaje o recepcionista de oficina. Si bien, el médico general
+            toma decisiones importantes, también es probable que tenga tiempo para hacer un diagnóstico bien pensado
+            y estudie a fondo una serie de tratamientos diferentes. Sin embargo, en una operación, el cirujano debe
+            tomar decisiones rápidamente a sabiendas de que si se equivoca pondrá en peligro la vida del paciente.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '006')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '008')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="008" class="contenidopest">
+        <h3>Factores estresantes</h3>
+        <p class="pPest">
+            Más graves son los empleos que representan una amenaza para la salud, por ejemplo la minería de carbón,
+            el procesamiento de aves o el manejo de desechos tóxicos. Asimismo, están los trabajos que implican
+            riesgos asociados a tasas más altas de incidentes violentos como los robos a mano armada, por ejemplo
+            los policías de barrio, los conductores de taxi y los dependientes de tiendas de abarrotes.
+        </p>
+        <p class="pPest">
+            Por otro lado, un empleado nuevo el cual experimenta la ambigüedad de funciones porque la compañía no
+            sigue buenas prácticas para la orientación y la capacitación lo sufrirá también.
+        </p>
+        <p class="pPest">
+            Asimismo, el exceso de juntas es una fuente posible de estrés. Si bien, los recortes de personal y los
+            despidos habidos durante la recesión de 2008-2009 se concentraron en la angustia que experimentaron
+            quienes se quedaron sin empleo (y de modo justificado), muchos de los directores y/o gerentes que
+            impusieron los despidos lo tuvieron por igual.
+        </p>
+        <p class="pPest">
+            Así también, las exigencias interpersonales son causas de estrés asociadas a relaciones que enfrentan a
+            las personas en las organizaciones. Por ejemplo, las presiones del grupo en relación con la restricción
+            de lo que se produce y la conformación a la norma podrían también provocarlo.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '007')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="009" class="contenidopest">
+        <h3>Eliminación de Factores estresantes</h3>
+        <p class="pPest">
+            Una empleada que siente gran necesidad de participar en la toma de decisiones podría sentir estrés si el
+            jefe no le permite participar. Quienes tienen personalidades que chocan podrían sufrirlo si deben
+            trabajar muy cerca de otros. Por ejemplo alguien que tiene un locus de control interno se sentiría mal
+            laborando con alguien que prefiere lamentarse y sentarse a esperar a que pasen las cosas.
+        </p>
+        <p class="pPest">
+            Dadas las posibles consecuencias que puede tener el estrés es lógico suponer que las personas y las
+            organizaciones estén interesadas en encontrar la manera de limitar sus efectos más nocivos. Infinidad de
+            planteamientos e ideas han sido propuestos a efecto de manejarlo.
+        </p>
+        <p class="pPest">
+            <b>El ejercicio</b> es un camino para que las personas manejen el estrés. Quienes lo practican con
+            regularidad se sienten menos estresadas, tienen más confianza en sí mismas y son más optimistas. Su
+            buena condición física hace también que sean menos susceptibles a muchas enfermedades comunes.
+        </p>
+        <p class="pPest">
+            Quienes no hacen con regularidad ejercicio se sienten por lo general más estresadas y tienen mucha
+            probabilidad de que se sientan deprimidas. También es más probable que sufran infartos y, dada su
+            condición física, se enfermen.
+        </p>
+        <p class="pPest">
+            <b>La relajación</b> es otro método usado para manejar el estrés. Quienes se relajan se pueden adaptar a
+            este y, por ende, lo pueden manejar mejor. Existen muchas formas para conseguir tranquilidad, por
+            ejemplo tomar con frecuencia vacaciones y desarrollar los fines de semana actividades que no tienen qué
+            ver con el trabajo. Un estudio reciente descubrió que la actitud de las personas hacia diversas
+            características del centro laboral mejoraba en medida sustancial después de un fin de semana en el que
+            se habían desconectado totalmente de las actividades de su empleo.
+        </p>
+        <p class="pPest">
+            También es posible relajarse en el trabajo. Por ejemplo, algunos expertos recomiendan que los individuos
+            se tomen descansos regulares durante su jornada laboral normal.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '010')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="010" class="contenidopest">
+        <h3>Eliminación de Factores estresantes</h3>
+        <p class="pPest">
+            Como dijimos antes, las personas también administran su tiempo para controlar el estrés. La idea de ello
+            es que resulta posible disminuir o eliminar muchas de las presiones diarias si administran mejor ese
+            factor.
+        </p>
+        <p class="pPest">
+            Pueden manejarlo recurriendo a grupos de apoyo. Este puede ser simplemente un grupo de parientes o de
+            amigos. Por asistir a un partido de baloncesto o ir al cine con un par de compañeros después del trabajo
+            sirve para aliviar la tensión acumulada en el día. La familia y las amistades pueden ayudar a alguien a
+            lidiar con el estrés de forma permanente o en momentos de crisis. Las personas pueden también acudir a
+            grupos de apoyo más formales. Por ejemplo, los centros comunitarios o las iglesias podrían tener grupos
+            especializados para personas que acaban de pasar por un divorcio, la muerte de un ser querido o alguna
+            otra situación difícil.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '009')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="011" class="contenidopest">
+        <h3>Desarrollo de la Resiliencia</h3>
+        <p class="pPest">
+            Los programas de bienestar son actividades permanentes que incluyen diversos elementos. Por lo común
+            incluyen acciones relacionadas con el ejercicio así como enseñanza en aulas que abordan cuestiones como
+            dejar de fumar, bajar de peso y manejar el estrés en general. Empresas negocian con gimnasios locales
+            para que ofrezcan cuotas con descuento a sus empleados. Del lado educativo del programa, la compañía
+            puede patrocinar su propia capacitación y seminarios.
+        </p>
+        <p class="pPest">
+            Los programas de acondicionamiento físico de la empresa facilitan que los empleados hagan ejercicio, lo
+            cual es una idea muy positiva, pero esos programas son muy caros.
+        </p>
+        <blockquote style="font-size: medium">
+            Cada vez crece más el número de las compañías que están creando programas de este tipo para su plantilla
+            laboral. Además, algunas ofrecen periodos sabáticos; o sea descansos prolongados del trabajo los cuales
+            presuntamente permiten que las personas se revitalicen y carguen de energía (Griffin, 2016, p. 16).
+        </blockquote>
+        <p class="pPest">
+            Los autores que han estudiado el comportamiento bajo este enfoque estiman que establecer una tipología
+            de necesidades oculta los procesos de reducir la tensión entre los diferentes determinantes de la
+            conducta y consideran que lo importante es el conocimiento y comprensión de los procesos reductores de
+            tensión. Desde esta perspectiva, se han formulado diversas teorías de la motivación (estímulo-respuesta,
+            noción de despertar, el bienestar y el nivel óptimo de despertar, la necesidad de estímulo y placer),
+            cuyo análisis detallado está fuera de los límites de este libro, basta decir con respecto a las
+            orientaciones de la motivación que a partir de las contribuciones de la psicología experimental al
+            estudio de la motivación humana la noción de necesidad se amplía, en contraposición a la teoría
+            económica, que la considera como un estado de privación.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '012')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="012" class="contenidopest">
+        <h3>Desarrollo de la Resiliencia</h3>
+        <p class="pPest">
+            Los factores determinantes del bienestar individual pueden agruparse y relacionarse de la forma
+            siguiente:
+        </p>
+        <ul style="font-size: medium">
+            <li>
+                La búsqueda del bienestar resulta del comportamiento reductor de las tensiones y de la conducta
+                orientada a combatir el aburrimiento.
+            </li>
+            <li>
+                La búsqueda del placer resulta del goce inherente a la reducción de las tensiones y del placer
+                causado por los estímulos.
+            </li>
+            <li>
+                La búsqueda del estímulo es un medio de combatir el aburrimiento y un fin en sí mismo.
+            </li>
+        </ul>
+        <blockquote style="font-size: medium">
+            La búsqueda del bienestar tendría como fin satisfacer una carencia y asegurar un bien negativo; mientras
+            que la búsqueda del placer y del estímulo tendrían como objetivo asegurar un bien positivo (Varo, 1994,
+            p.371).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '011')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="013" class="contenidopest">
+        <h3>Análisis Creativo De Los Problemas</h3>
+        <p class="pPest">
+            La teoría conductista, la raíz de los problemas está en la naturaleza del comportamiento humano. Nicolás
+            Maquiavelo precisaba que su verdadero origen radica en el deseo de poder que albergan las personas. Para
+            Thomas Shelling, el conflicto es parte de la teoría de los juegos, debido al deseo de negociar con albur; o
+            sea, a la irracionalidad del pensamiento estratégico en busca de privilegios. Pérez Botiga, por su parte,
+            considera conflicto toda dificultad existente entre los directivos y los trabajadores o entre los distintos
+            trabajadores.
+        </p>
+        <p class="pPest">
+            De acuerdo con la teoría del comportamiento, se reconoce que las organizaciones tienen situaciones
+            conflictivas, y que la responsabilidad de los jefes es aceptarlas y aprender a manejarlas lo mejor posible.
+        </p>
+        <blockquote class="pPest">
+            La administración de los conflictos puede verse como un proceso de análisis de este, con el fin de
+            determinar sus causas y seleccionar una técnica para minimizar los efectos negativos del actual conflicto y
+            de los posibles futuros. De esta forma, se hace énfasis en los efectos positivos y negativos de los
+            conflictos y de las iniciativas positivas que favorezcan a las partes y a la organización (Malagón, p. 113).
+        </blockquote>
+        <p class="pPest">
+            Una manera de abordar los temas, como menciona Alonso-Geta (2009) es por medio de la creatividad, siendo una
+            capacidad que combina conocimientos, actitudes y habilidades que se pueden adquirir mediante estimulación
+            desde la escuela. El objetivo de la creatividad es encontrar soluciones a problemas saliéndose del camino
+            marcado, pero con base en la experiencia.
+        </p>
+        <blockquote class="pPest">
+            Solá-Segalés (2008) viene a reforzar precisamente esta idea explicando que no se puede crear algo nuevo de
+            la nada, sino que es preciso un bagaje previo.
+        </blockquote>
+        <blockquote class="pPest">
+            En eso consiste, precisamente, la innovación, que no es ni más ni menos que la capacidad de combinar o poner
+            en relación dos ideas o cosas que nunca antes habían sido interrelacionadas (Peña, p. 118).
+        </blockquote>
+    </div>
+
+
+
+    <div id="014" class="contenidopest">
+        <h3>Diagnostico para la solución analítica y creativa de problemas</h3>
+        <p class="pPest">
+            Es un proceso posterior a la toma de decisiones que exige la génesis de alternativas con la posterior
+            elección de la más adecuada conlleva, pues, un esfuerzo y unas capacidades mayores que la toma de
+            decisiones. Consiste en involucrar al trabajador en la solución de los problemas que le impiden realizar
+            bien sus tareas y en el desarrollo de los métodos más apropiados para mejorar la producción.
+        </p>
+        <p class="pPest">
+            Con objeto de que un programa de esta clase tenga éxito, es necesario tener en cuenta la aceptación por
+            parte del trabajador de que hay que solucionar el problema y la exigencia de la calidad de la solución para
+            la empresa:
+        </p>
+        <ol style="font-size: medium;">
+            <li>
+                Si la aceptación del problema por los trabajadores es baja, la implicación del grupo no es necesaria.
+            </li>
+            <li>
+                Si la aceptación del problema es alta y la calidad de la solución importante para la empresa, los
+                trabajadores deben participar en la elección de esa solución.
+            </li>
+            <li>
+                Si la calidad de la solución es poco importante y la aceptación es alta, es conveniente que el grupo
+                discuta el problema.
+            </li>
+            <li>
+                Si la calidad de la solución es muy importante y la aceptación del problema es baja, lo mejor es que el
+                directivo solucione el problema; pero en caso de necesitar más información para decidir bien debe
+                intentar implicar a los trabajadores.
+            </li>
+        </ol>
+        <blockquote class="pPest">
+            Parece ser que la participación en la solución de problemas conduce a un mejor clima y efectividad de la
+            organización (Varo, p. 418).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '015')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="015" class="contenidopest">
+        <h3>Técnicas De Identificación De Problemas:</h3>
+        <h5>Técnica del brainstorming o tormenta de ideas</h5>
+        <p class="pPest">
+            Se basa en tres principios. La creatividad y la valoración son incompatibles, cada participante expone el
+            mayor número de ideas y, por último, hay que combinar y refinar al máximo todas las opiniones. No se
+            recomienda su aplicación cuando hay que tratar problemas que suponen juicios de valor.
+        </p>
+        <p class="pPest">
+            Es una técnica para generar y evaluar ideas en dos fases netamente separadas.
+        </p>
+        <p class="pPest">
+            Se fundamenta en que la calidad de las opiniones generadas está en función de la cantidad de las mismas, y
+            su objetivo es conseguir el máximo de criterios originales; aunque no se descartan los que desarrollan,
+            modifican o mejoran los ya expuestos.
+        </p>
+        <p class="pPest">
+            Durante la primera sesión, cada componente del grupo, una vez presentado el problema o asunto, expresa
+            libremente sus opiniones al respecto; pero no critica las de los otros participantes.
+        </p>
+        <p class="pPest">
+            En una segunda sesión se procede a la crítica y selección de los problemas o soluciones. Según el resultado
+            buscado, en unos casos el método se denomina brainstorming de causas y, en otros, brainstorming de
+            soluciones.
+        </p>
+        <p class="pPest">
+            Una variante es la técnica de Osborn13, que se estructura en tres fases. En la primera se prepara y envía la
+            documentación a los participantes; la segunda es una sesión que se abre con la lectura de la documentación y
+            se procede a la generación de ideas durante un tiempo inferior a dos horas, habiéndose sugerido que el
+            tiempo óptimo de esta sesión son 30-45 minutos. En la tercera fase, las opiniones emitidas en la reunión
+            anterior se seleccionan, analizan e interpretan.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '014')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '016')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="016" class="contenidopest">
+        <h5>Técnica del diagrama de las seis palabras</h5>
+        <p class="pPest">
+            Es una técnica que asegura que se pregunte lo más importante de cada situación o problema objeto del
+            análisis. Las seis palabras utilizadas son: cuándo, cómo, dónde, qué, quién, por qué.
+        </p>
+        <p class="pPest">
+            Definido el problema con la técnica del brainstorming, se contestan la seis preguntas. Si se encuentran
+            muchas causas, siguiendo el principio de Pareto o ley 20/80, se intenta determinar el 20% causante del 80%
+            de los problemas.
+        </p>
+        <h5>Técnica del diagrama de flujo</h5>
+        <p class="pPest">
+            Se emplea cuando se quiere conocer el camino real seguido por un producto o servicio, para detectar posibles
+            desviaciones. Es una representación gráfica que muestra todas las fases de un proceso, muy útil para ver
+            cómo se relacionan entre sí las diferentes fases.
+        </p>
+        <p class="pPest">
+            El procedimiento más común es dibujar el diagrama de flujo con los pasos del proceso, trazar el diagrama con
+            los pasos que debería seguir si todo funcionara bien y compararlos con objeto de descubrir donde están las
+            diferencias y dónde surgen los problemas. Facilita encontrar las fuentes potenciales de problemas.
+        </p>
+        <p class="pPest">
+            Son de mayor utilidad en el análisis de los circuitos administrativos. En líneas generales, el diagrama de
+            flujo centra su atención en los siguientes aspectos:
+        </p>
+        <ol style="font-size: medium;">
+            <li>
+                Operaciones que se realizan.
+            </li>
+            <li>
+                Documentos que se originan o utilizan.
+            </li>
+            <li>
+                Tiempo empleado en las operaciones.
+            </li>
+            <li>
+                Recorrido de los documentos y el circuito de operaciones.
+            </li>
+            <li>
+                <blockquote class="pPest">
+                    Puestos de trabajo que intervienen (Varo, p. 256).
+                </blockquote>
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div onclick="openPest(event, '015')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '017')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="017" class="contenidopest">
+        <h3>Solución analítica y creativa de los problemas</h3>
+        <p class="pPest">
+            Se ha puesto de manifiesto en múltiples trabajos la necesidad de la participación de los trabajadores en el
+            desarrollo de cambios organizativos, debido a la resistencia de las personas a llevarlos a cabo. El objetivo
+            de introducir cambios en la organización no es sólo aumentar la eficiencia de la empresa, sino también
+            experimentar otras formas de desempeñar los trabajos más autónomos e imaginativas.
+        </p>
+        <p class="pPest">
+            La participación en el cambio es la forma más auténtica, completa y compleja de implantar la participación
+            en la empresa.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '016')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="018" class="contenidopest">
+        <h3>Efectos De La Participación Organizativa</h3>
+        <p class="pPest">
+            Las conclusiones más importantes que se extraen de las diversas investigaciones llevadas a cabo con objeto
+            de conocer el efecto que tiene la participación de los trabajadores en las empresas son las siguientes:
+        </p>
+        <ol style="font-size: medium;">
+            <li>
+                La mejora en el trato laboral conlleva un incremento de la producción. A los trabajadores les gusta ser
+                consultados y participar en las acciones que les afectan directamente.
+            </li>
+            <li>
+                La participación en la planificación y puesta en marcha de cambios organizativos facilita la solución de
+                los problemas y el desempeño del trabajo e incrementa el grado de implicación de los trabajadores.
+            </li>
+            <li>
+                La participación en la toma de decisiones en grupo mejora la productividad, la autorrealización y la
+                satisfacción de los empleados.
+            </li>
+            <li>
+                La participación en la solución de problemas mejora la efectividad de los grupos de trabajo.
+            </li>
+            <li>
+                La participación en el establecimiento de metas tiene un efecto positivo sobre el desempeño del trabajo.
+            </li>
+            <li>
+                La participación aumenta la productividad de la empresa como resultado directo de la responsabilidad
+                compartida con los trabajadores para solucionar problemas.
+            </li>
+        </ol>
+        <p class="pPest">
+            En un plano individual la participación incrementa el grado de implicación personal, eleva la productividad
+            y la autorrealización, aumenta la satisfacción laboral, favorece el desarrollo de la carrera profesional de
+            los trabajadores, mejora la calidad de la vida laboral e influye sobre el desarrollo del adulto.
+        </p>
+        <p class="pPest">
+            En el marco del grupo y de toda la organización, mejora la solución de problemas, incrementa la
+            productividad y el desempeño de las tareas, aumenta la eficacia del trabajo en equipo, genera un clima
+            social más propicio, mejora las actitudes de los empleados, disminuye el absentismo y la rotación y logra
+            una mayor eficiencia, pudiendo producir un incremento de los beneficios.
+        </p>
+        <p class="pPest">
+            En el marco del grupo y de toda la organización, mejora la solución de problemas, incrementa la
+            productividad y el desempeño de las tareas, aumenta la eficacia del trabajo en equipo, genera un clima
+            social más propicio, mejora las actitudes de los empleados, disminuye el absentismo y la rotación y logra
+            una mayor eficiencia, pudiendo producir un incremento de los beneficios.
+        </p>
+        <div class="enlaces">
+            <div onclick="openPest(event, '019')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="019" class="contenidopest">
+        <blockquote class="pPest">
+            Aumento de la productividad, calidad más alta del servicio, disminución de la abstención, mejor calidad de
+            vida laboral y contención de los costes. Sin que creamos que la participación sea la única solución a todos
+            estos problemas, no tenemos la menor duda de que puede contribuir a resolverlos, ya que, en el sector
+            servicios, el mayor activo de las empresas es el factor humano (Varo, p. 416).
+        </blockquote>
+        <h3>Metodología De Resolución De Problemas</h3>
+        <p class="pPest">
+            La secuencia del método de control orientado hacia los problemas es:
+        </p>
+        <ol style="font-size: medium;">
+            <li>
+                Identificar los problemas con alguna de las técnicas.
+            </li>
+            <li>
+                Clasificar los problemas por su origen mediante el diagrama de las 4M, según los problemas o causas se
+                deban a las máquinas, los materiales, las personas o los métodos de trabajo.
+            </li>
+            <li>
+                Tipificar los problemas en función de su importancia cuando se encuentran causas o problemas que no
+                corresponden a las 4M o, bien, cuando todas ellas pertenecen a una misma categoría. En este último caso,
+                las causas se agrupan por tipo de causa, con su frecuencia absoluta y porcentaje, se suman los
+                subtotales de cada tipo y se anotan al final los totales obtenidos.
+            </li>
+            <li>
+                Seleccionar el problema o problemas claves, según su relevancia, con una valoración objetiva, basada en
+                la frecuencia o en el coste, o mediante una valoración subjetiva, fundamentada en la apreciación de los
+                componentes del grupo. Se emplean algunas de las técnicas expuestas con anterioridad (diagrama de
+                Pareto, la curva ABC, selección ponderada, matriz de preferencias).
+            </li>
+            <li>
+                Analizar el problema escogido con el diagrama causa-efecto, el diagrama de las seis palabras o el
+                diagrama por qué-por qué.
+            </li>
+            <li>
+                Determinar la información necesaria.
+            </li>
+            <li>
+                Recoger los datos sobre el problema.
+            </li>
+            <li>
+                Interpretar los datos con histogramas, estratificación, diagrama de correlación.
+            </li>
+            <li>
+                Buscar soluciones con la técnica de brainstorming, el diagrama causaefecto, el diagrama de las seis
+                palabras o el diagrama cómo-cómo.
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div onclick="openPest(event, '018')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '020')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="020" class="contenidopest">
+        <ol start="10" style="font-size: medium;">
+            <li>
+                Presentar las soluciones jerarquizadas según su facilidad y rapidez de implantación y su economía.
+            </li>
+            <p class="pPest">
+                En un informe más detallado se recomienda presentar sólo las cuatro soluciones principales e indicar de
+                cada
+                una de ellas:
+            </p>
+            <ul style="font-size: medium;">
+                <li>
+                    Ventajas/beneficios, expresados económicamente si fuera posible.
+                </li>
+                <li>
+                    Costes/inconvenientes, enunciados económicamente si fuera posible.
+                </li>
+                <li>
+                    Porcentaje, que intenta medir la incidencia de cada una de las cuatro propuestas de solución del
+                    problema, de forma que la suma de todas ellas sea 100.
+                </li>
+                <li> Orden de prelación en función del porcentaje y de la dificultad de implantación.</li>
+                <li>
+                    Total ventajas/beneficios, valorados económicamente o con un comentario.
+                </li>
+                <li>
+                    Total costes/inconvenientes, evaluados económicamente o con un comentario.
+                </li>
+            </ul>
+            <li>
+                Evaluación
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div onclick="openPest(event, '019')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="021" class="contenidopest">
+        <h3>Técnicas de análisis de solución de problemas en la atención médica</h3>
+        <p class="pPest">
+            La solución de problemas de salud es una de las tareas principales de la atención médica. La consulta médica
+            conlleva interpretar una información aportada por el enfermo, descubrir otra a partir del examen físico y de
+            las pruebas diagnósticas, emitir un juicio apoyado en toda la información obtenida e instaurar un
+            tratamiento adecuado para solucionar el problema.
+        </p>
+        <p class="pPest">
+            Se han propuesto distintos sistemas de evaluación de este proceso.
+        </p>
+        <p class="pPest">
+            Esencialmente, consisten en analizar las decisiones clínicas sucesivas e interrelacionadas, tomadas por el
+            médico en situaciones abiertas, donde se presentan varias opciones y se adoptan decisiones relacionadas con
+            las adoptadas anteriormente.
+        </p>
+        <blockquote class="pPest">
+            Los árboles de decisión, los protocolos o algoritmos, los mapas de criterios, los índices de decisión y la
+            secuencia lógica en modelos normalizados son algunas de las técnicas de problem solving presentes en la
+            literatura especializada, basadas todas ellas en el análisis de las decisiones clínicas. Otras técnicas
+            propuestas son las evaluaciones basadas en los resultados, las revisiones implícitas, etc. (Varo. p. 264).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '022')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="022" class="contenidopest">
+        <h3>Limitaciones e impedimentos de la solución de problemas</h3>
+        <p class="pPest">
+            Un aspecto que impide la solución de problemas, tiene que ver con las personas; al momento de interactuar.
+            Está claro que cuando nos reunimos, de lo que se trata es de ver cómo está la empresa y solucionar posibles
+            problemas, pero siempre hay algún tipo de personas que consigue que las reuniones no sean eficaces.
+        </p>
+        <p class="pPest">
+            <i>Forbes</i> ha elaborado una lista de la tipología de individuos que no permiten que las reuniones sean
+            fructíferas:
+        </p>
+        <p class="pPest">
+            El <b>silencioso</b>: se sienta a la mesa, pero también puede ser invisible, porque no dice nada durante
+            toda la reunión. De hecho, es tan silencioso que otras personas en la sala, muchas veces, no se dan cuenta
+            de su presencia. A menudo, se queda tranquilo porque tiene miedo a decir algo estúpido o malo, y considera
+            que es mejor no decir nada en absoluto.
+        </p>
+        <p class="pPest">
+            El <b>acaparador</b>: no se calla en las reuniones y rara vez permite que alguien más aporte una sola
+            palabra. Quiere tanto que sus ideas sean escuchadas que convierte en ajeno lo que otras personas deseen. Si
+            bien es recomendable tener voz y voto, una reunión es una actividad de grupo y ninguna persona debe
+            monopolizar la palabra, incluso si es el líder de la reunión. Tan importante como los suyos es escuchar los
+            comentarios de los demás a su alrededor.
+        </p>
+        <p class="pPest">
+            El <b>fan de las reuniones</b>: genera y prepara reuniones sin parar, aunque no tenga nada que decir ni
+            aportar en ellas, sólo por el hecho de estar reunidos. Es una pérdida de tiempo para todos sus compañeros.
+        </p>
+        <blockquote class="pPest">
+            El <b><i>multitasking</i></b>: definitivamente, no puede centrar su atención en una sola cosa a la vez. Si
+            entra en una reunión, no podrá desconectar de su móvil o de hablar con sus compañeros, incluso de leer algo
+            mientras los demás hablan, etc. En primer lugar, es de mala educación, y, en segundo lugar, no podrá aportar
+            nada interesante si no sigue el hilo de la discusión (García, p. 186).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '021')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '023')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="023" class="contenidopest">
+        <h3>Superación de los bloqueos para la solución de problemas</h3>
+        <blockquote class="pPest">
+            Aunque se proponga un producto o un servicio, a los ojos del cliente, lo que éste busca y compra es en
+            realidad una solución para su problema. Así, importa proponer una solución, y antes de proponerla evaluar si
+            es aceptable. De preferencia, es bueno que se sepa con antelación cómo y por quién va ser evaluada la
+            propuesta de la solución del problema. ¿Cuál es la orientación de los decisores? ¿Cuáles son sus
+            antecedentes, conocimientos y experiencia? ¿Cómo van a mirar la solución presentada en la propuesta? Por
+            ejemplo, es importante saber si el principal decisor está más orientado a las cuestiones financieras o a las
+            cuestiones técnicas. Saber esa orientación permite describir los beneficios de la solución de una manera que
+            va a recibir la evaluación más favorable por parte del cliente potencial. Se debe evaluar la solución que se
+            va a proponer, de acuerdo con los criterios señalados en la solicitud. Por ejemplo, si se está evaluando su
+            propuesta sobre el precio y el tiempo para finalizar el trabajo, es poco probable que su empresa gane el
+            contrato si presenta una solución más cara y de plazo más largo, pero sí lo es, y mucho, que gane el
+            contrato si presenta la solución más cara con el plazo más corto, puesto que al cliente el factor plazo
+            temporal le importa mucho más que el precio (García, p. 155).
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '022')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div onclick="openPest(event, '024')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="024" class="contenidopest">
+        <h3>Fuentes</h3>
+        <blockquote class="pPest">
+            García, J. (2017). Habilidades Directivas. 2ª edición. Ediciones Pirámide. Madrid.
+        </blockquote>
+        <blockquote class="pPest">
+            Griffin, R. (2016). Habilidades directivas Evaluación Y Desarrollo. Cengage Learning. México.
+        </blockquote>
+        <blockquote class="pPest">
+            Peña, B. (2016). Dirección de comunicación y habilidades directivas. Madrid. Dykinson.
+        </blockquote>
+        <blockquote class="pPest">
+            Varo. J. (1994). Gestión Estratégica De La Calidad En Los Servicios Sanitarios Un Modelo De Gestión
+            Hospitalaria. Diaz De Santos, S.A., Madrid.
+        </blockquote>
+        <div class="enlaces">
+            <div onclick="openPest(event, '023')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
