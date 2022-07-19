@@ -274,6 +274,12 @@ span.sign {
     font-size: x-large;
 }
 
+p.sangFran {
+    text-indent: -40px;
+    position: relative;
+    padding-left: 40px;
+    font-size: small;
+  }
 
 /*
 .pest button {
