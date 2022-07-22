@@ -1,0 +1,2629 @@
+<!DOCTYPE html>
+<div lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Habilidades Directivas</title>
+        <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../../../01_Mate/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+        <link
+            href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic'
+            rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
+        <link
+            href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic'
+            rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <div>
+
+        <h2>Principios Básicos</h2>
+        <p class="pPest">
+            Da clic en los botones laterales para ver los temas y en los botones debajo para continuar la lectura. 
+        </p>
+        <div class="pest">
+            <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Tema 1.1</button>
+            <button class="pestenlace" onclick="openPest(event, '009')">Tema 1.2</button>
+            <button class="pestenlace" onclick="openPest(event, '017')">Tema 1.3</button>
+            <button class="pestenlace" onclick="openPest(event, '024')">Tema 1.4</button>
+            <button class="pestenlace" onclick="openPest(event, '030')">Referencias</button>
+        </div>
+
+        <div id="001" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <div class="contenedorColumnas">
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 40%;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_01.png" alt=""
+                        class="img-fluid zoomImg" width="210">
+                </div>
+                <div class="colIzq" style="width: 60%;">
+                    <p class="pPest">
+                        ¿Qué es la nutrición? De acuerdo con Mataix (2002) “La nutrición es la ciencia que estudia la
+                        forma
+                        en que
+                        el organismo utiliza la energía de los alimentos para mantenerse y crecer, mediante el análisis
+                        de
+                        los
+                        procesos por los cuales ingiere, digiere, absorbe, transporta, utiliza y extrae los nutrientes
+                        esenciales
+                        para la vida, y su interacción con la salud y la enfermedad” (como se citó en Royo, 2017)
+                    </p>
+                </div>
+            </div>
+            <p class="pPest">
+                Mientras que “La salud pública es el arte y la ciencia de prevenir la enfermedad, prolongar la vida y
+                promover la salud a través de los esfuerzos organizados de la sociedad” (Acheson, 1988; como se citó en
+                Royo, 2017) Es esencial considerar los factores ambientales, sociales y culturales que influyen en las
+                preferencias alimentarias y los hábitos de vida de las personas, algunos elementos son los sistemas de
+                producción de alimentos y fijación del precio de los mismos, el uso de subsidios y tasas, la publicidad
+                alimentaria, el nivel socioeconómico de las familias, el diseño urbanístico (cantidad de espacios
+                verdes,
+                parques, carriles bici) o los sistemas de transporte urbano, entre otros muchos (Royo, 2017).
+            </p>
+            <p class="pPest">
+                Serra & Aranceta (2006) definen la nutrición en salud pública como “la ciencia que estudia la relación
+                entre
+                dieta y salud y sienta las bases para el diseño, ejecución y evaluación de intervenciones nutricionales
+                a
+                nivel comunitario y poblacional con el objeto de mejorar el estado de salud de las poblaciones” (como se
+                citó en Royo, 2017, p. 9).
+            </p>
+            <p class="pPest">
+                Aranceta (2001) señala que “La nutrición comunitaria es el conjunto de intervenciones nutricionales
+                vinculadas a la salud pública que se aplican en el contexto social y geográfico de una comunidad, al
+                objeto
+                de potenciar y mejorar su estado nutricional, con un enfoque participativo y cinco componentes
+                complementarios: elaboración de una política alimentaria y nutricional, creación de entornos favorables,
+                capacitación de las habilidades individuales, potenciación de la acción comunitaria y reorientación de
+                los
+                servicios de nutrición, alimentación y restauración. (como se citó en Royo, 2017, p. 9)
+            </p>
+            <div class="enlaces">
+                <div button class="pestenlace" onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="002" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                Las funciones propias de la nutrición comunitaria son las siguientes:
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 60%;">
+                    <ul style="font-size: medium">
+                        <li>
+                            Identificar y evaluar los problemas nutricionales de los grupos poblacionales, especialmente
+                            los
+                            de
+                            riesgo, mediante el diseño, ejecución e interpretación de estudios que conduzcan a este fin.
+                        </li>
+                        <li>
+                            Asesorar sobre aspectos nutricionales en las políticas de salud pública.
+                        </li>
+                        <li>
+                            Desarrollar programas de formación e información para profesionales implicados en
+                            actividades de
+                            nutrición y alimentación en la comunidad.
+                        </li>
+                    </ul>
+                </div>
+                <div class="colIzq" style="display: flex; justify-content: center; align-items: center; width: 40%;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_02.png" alt="" class="img-fluid zoomImg"
+                        width="180">
+                </div>
+            </div>
+            <ul style="font-size: medium">
+                <li>
+                    Llevar a cabo programas de educación nutricional y estar presentes en los medios de comunicación
+                    social
+                    en temas de dieta y salud.
+                </li>
+                <li>
+                    Denunciar la influencia indebida de las industrias alimentarias y de la publicidad en la agenda
+                    política
+                    y de investigación en nutrición.
+                </li>
+                <li>
+                    Asesorar y colaborar con instituciones que lleven a cabo actividades relacionadas con la
+                    alimentación y nutrición. (Royo, 2017, p. 9)
+                </li>
+            </ul>
+            <p class="pPest">
+                La importancia de la nutrición como ciencia radica en poder identificar relaciones causales entre
+                los
+                nutrientes y las Enfermedades No Transmisibles (ENT) a través de la investigación y el análisis
+                nutricional,
+                ya que esto sirve de base para establecer objetivos nutricionales a nivel poblacional; a su vez
+                mediante el
+                análisis de las fuentes alimentarias más importantes de los nutrientes en diferentes poblaciones, se
+                obtiene
+                recomendaciones alimentarias dirigidas a orientar las mismas, permitiendo diseñar intervenciones
+                nutricionales efectivas (Royo, 2017).
+            </p>
+            <p class="pPest">
+                Como ejemplo de lo antes mencionado uno los hallazgos más recientes “ha sido el descubrimiento en
+                los años
+                70 y 80 del siglo pasado de la relación entre la deficiencia de selenio y la alta incidencia de
+                enfermedad
+                de Keshan en la región central de China, una miocardiopatía viral endémica que afecta a niños y
+                mujeres
+                jóvenes y que puede prevenirse, pero no curarse, con suplementos de selenio de 50 mg/día” (Chen,
+                2012; como
+                se citó en Royo, 2017, p. 12).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '001')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '003')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="003" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                Esta relación que tiene la salud con la dieta puede abordarse desde una perspectiva nutricional
+                alimentaria
+                y global o de patrones dietéticos, por eso “las ingestas recomendadas de nutrientes (IR) constituyen
+                una
+                estrategia a nivel individual: lo deseable sería que todos y cada uno de los individuos de la
+                población
+                tuvieran una ingesta equivalente o superior a la recomendada. En contraste con las IR, los Objetivos
+                Nutricionales (ON) constituyen una estrategia a nivel poblacional y, por tanto, se establecen en
+                términos de
+                medias o de rangos adecuados de consumo y teniendo en cuenta la realidad alimentaria y nutricional
+                de la
+                población a la que van dirigidos. Mientras que las IR tienen como meta satisfacer las necesidades de
+                nutrientes esenciales y evitar situaciones carenciales, los ON se establecen con el objeto de
+                mantener la
+                salud de la población y prevenir el desarrollo de ENT” (Serra & Aranceta, 2006; como se citó en
+                Royo, 2017,
+                13).
+            </p>
+            <p class="pPest">
+                Para implementar estas recomendaciones es necesario “en primer lugar, conocer las características
+                sociodemográficas de los grupos de población o comunidades a las que van dirigidas las
+                intervenciones y sus
+                hábitos dietéticos. En segundo lugar, se deben analizar las claves que han condicionado la
+                adquisición y
+                mantenimiento de los patrones alimentarios y las barreras (físicas, sociales, culturales y
+                económicas) a las
+                que se tiene que enfrentar cada comunidad para la modificación de los mismos. Y en tercer lugar, hay
+                que
+                tener en cuenta los intereses y preferencias de la población y hacerla partícipe en el diseño y la
+                implementación de la intervención” (Royo, 2017, p. 18).
+            </p>
+            <p class="pPest">
+                “A través del análisis de múltiples proyectos de intervención realizados en el mundo se ha
+                comprobado que el
+                éxito de programas de Nutrición comunitaria depende de varios factores, entre ellos uno de los más
+                importantes es el análisis profundo de la red causal del problema hasta construir un marco teórico
+                conceptual con un enfoque integral que permita comprender la diversidad de cada localidad, la
+                importancia
+                relativa de cada causa, la influencia de factores relacionados con el comportamiento; la
+                consideración del
+                contexto socio cultural y el resto de factores es necesario para la elaboración de objetivos, metas
+                y
+                estrategias mejor orientadas y en general, un plan diseñado, ejecutado y evaluado con la
+                participación de
+                los diversos sectores gubernamentales y no gubernamentales, especialmente la propia comunidad”
+                (Beaudry,
+                2001; Aranceta, 2004; como se citó en Montilva, 2005).
+            </p>
+            <p class="pPest">
+                Con regularidad las intervenciones nutricionales se adaptan a las particularidades de cada grupo,
+                hay
+                factores ambientales que pueden condicionar la alimentación es decir, son compartidos y por eso
+                deben
+                abordarse a nivel político, es así que, los gobiernos tienen la responsabilidad de anteponer la
+                salud de su
+                población mediante políticas alimentarias inteligentes y decididas (Royo, 2017). De acuerdo con Royo
+                (2017)
+                “la nutrición en salud pública es la ciencia que estudia la relación entre dieta y salud y sienta
+                las bases
+                para el diseño, ejecución y evaluación de intervenciones nutricionales a nivel comunitario y
+                poblacional con
+                el objeto de mejorar el estado de salud de las poblaciones” (Royo, 2017, p. 19).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '002')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="004" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                Por ello en México, la Constitución Política aborda la nutrición en el Artículo 4o, donde se
+                estipula que
+                “Toda persona tiene derecho a la alimentación nutritiva, suficiente y de calidad. El Estado lo
+                garantizará”
+                (Constitución Política, 2021, Artículo 4). Asimismo se establece que “En todas las decisiones y
+                actuaciones
+                del Estado se velará y cumplirá con el principio del interés superior de la niñez, garantizando de
+                manera
+                plena sus derechos. Los niños y las niñas tienen derecho a la satisfacción de sus necesidades de
+                alimentación, salud, educación y sano esparcimiento para su desarrollo integral. Este principio
+                deberá guiar
+                el diseño, ejecución, seguimiento y evaluación de las políticas públicas dirigidas a la niñez”
+                (Constitución
+                Política, 2021, Artículo 4).
+            </p>
+            <p class="pPest">
+                En la Ley General de Salud (2022) se aborda la nutrición en los siguientes capítulos y sus
+                respectivos
+                apartados:
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 60%;">
+                    <ul style="font-size: medium">
+                        <li>
+                            TÍTULO PRIMERO. Disposiciones Generales. CAPÍTULO ÚNICO. Artículo 3o. En los términos de
+                            esta
+                            Ley, es
+                            materia de salubridad general: XII. La prevención, orientación, control y vigilancia en
+                            materia
+                            de
+                            nutrición, sobrepeso, obesidad y otros trastornos de la conducta alimentaria, enfermedades
+                            respiratorias, enfermedades cardiovasculares y aquellas atribuibles al tabaquismo;
+                        </li>
+                    </ul>
+                </div>
+                <div class="colIzq" style="display: flex; justify-content: center; align-items: center; width: 40%;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_03.png" alt="" class="img-fluid zoomImg"
+                        width="180">
+                </div>
+            </div>
+            <ul style="font-size: medium">
+                <li>
+                    TÍTULO SEGUNDO. Sistema Nacional de Salud. CAPÍTULO I. Disposiciones comunes. Artículo 6o. El
+                    Sistema
+                    Nacional de Salud tiene los siguientes objetivos: X. Proporcionar orientación a la población
+                    respecto de
+                    la importancia de la alimentación nutritiva, suficiente y de calidad y su relación con los
+                    beneficios a
+                    la salud; XI. Diseñar y ejecutar políticas públicas que propicien la alimentación nutritiva,
+                    suficiente
+                    y de calidad, que contrarreste eficientemente la desnutrición, el sobrepeso, la obesidad y otros
+                    trastornos de la conducta alimentaria, y Artículo 7o.- La coordinación del Sistema Nacional de
+                    Salud
+                    estará a cargo de la Secretaría de Salud, correspondiéndole a ésta: XIII Bis. Promover e
+                    impulsar
+                    programas y campañas de información sobre los buenos hábitos alimenticios, una buena nutrición y
+                    la
+                    activación física para contrarrestar el sobrepeso, la obesidad y los trastornos de la conducta
+                    alimentaria;
+                </li>
+            </ul>
+            <ul style="font-size: medium">
+                <li>
+                    TÍTULO TERCERO. Prestación de los Servicios de Salud. CAPÍTULO V. Atención Materno-Infantil.
+                    Artículo
+                    64.- En la organización y operación de los servicios de salud destinados a la atención
+                    materno-infantil,
+                    las autoridades sanitarias competentes establecerán: II. Acciones de orientación y vigilancia
+                    institucional, capacitación y fomento para la lactancia materna y amamantamiento, incentivando a
+                    que la
+                    leche materna sea alimento exclusivo durante seis meses y complementario hasta avanzado el
+                    segundo año
+                    de vida y, en su caso, la ayuda alimentaria directa tendiente a mejorar el estado nutricional
+                    del grupo
+                    materno infantil, además de impulsar, la instalación de lactarios en los centros de trabajo de
+                    los
+                    sectores público y privado;
+                </li>
+                <li>
+                    TÍTULO SÉPTIMO. Promoción de la Salud. CAPÍTULO I. Disposiciones comunes. Artículo 111. La
+                    promoción de
+                    la salud comprende: II. Alimentación nutritiva, actividad física y nutrición;
+                </li>
+                <li>
+                    TÍTULO SÉPTIMO. Promoción de la Salud. CAPÍTULO III. Nutrición. Artículo 114.- Para la atención
+                    y
+                    mejoramiento de la nutrición de la población, la Secretaría de Salud participará, de manera
+                    permanente,
+                    en los programas de alimentación del Gobierno Federal.
+                </li>
+            </ul>
+            <div class="enlaces">
+                <div onclick="openPest(event, '003')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="005" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                La Secretaría de Salud, las entidades del sector salud y los gobiernos de las entidades federativas,
+                en sus
+                respectivos ámbitos de competencia, formularán y desarrollarán programas de nutrición, promoviendo
+                la
+                participación en los mismos de los organismos nacionales e internacionales cuyas actividades se
+                relacionen
+                con la nutrición, alimentos, y su disponibilidad, así como de los sectores sociales y privados.
+            </p>
+            <p class="pPest">
+                Los programas de nutrición promoverán la alimentación nutritiva y deberán considerar las necesidades
+                nutricionales de la población. Por lo que, propondrán acciones para reducir la malnutrición y
+                promover el
+                consumo de alimentos adecuados a las necesidades nutricionales de la población; y evitar otros
+                elementos que
+                representen un riesgo potencial para la salud.
+            </p>
+            <p class="pPest">
+                Artículo 115.- La Secretaría de Salud tendrá a su cargo: III. Normar el establecimiento, operación y
+                evaluación de servicios de nutrición en las zonas que se determinen, en función de las mayores
+                carencias y
+                problemas de salud; IV. Normar el valor nutritivo y características de la alimentación en
+                establecimientos
+                de servicios colectivos y en alimentos y bebidas no alcohólicas. VI. Recomendar las dietas y los
+                procedimientos que conduzcan al consumo efectivo de los mínimos de nutrimentos por la población en
+                general,
+                y proveer en la esfera de su competencia a dicho consumo; VII. Establecer las necesidades
+                nutrimentales que
+                deban satisfacer los cuadros básicos de alimentos evitando los altos contenidos en azúcares, grasas
+                saturadas, grasas trans y sodio. Tratándose de las harinas industrializadas de trigo y de maíz, se
+                exigirá
+                la fortificación obligatoria de éstas, indicándose los nutrimentos y las cantidades que deberán
+                incluirse;
+                X. Difundir en los entornos familiar, escolar, laboral y comunitario la alimentación nutritiva,
+                suficiente y
+                de calidad, y XI. Expedir, en coordinación con la Secretaría de Educación Pública, los lineamientos
+                generales para el expendio y distribución de alimentos y bebidas preparadas y procesadas en las
+                escuelas del
+                Sistema Educativo Nacional, a fin de eliminar dentro de estos centros escolares el consumo y
+                expendio de
+                aquellos que no cumplan con los criterios nutrimentales que al efecto determine la Secretaría de
+                Salud y, en
+                consecuencia, no favorezcan la salud de los educandos y la pongan en riesgo. (Secretaría de Salud,
+                2022)
+            </p>
+            <p class="pPest">
+                La Secretaría de Salud, las entidades del sector salud y los gobiernos de las entidades federativas,
+                en sus
+                respectivos ámbitos de competencia, formularán y desarrollarán programas de nutrición, promoviendo
+                la
+                participación en los mismos de los organismos nacionales e internacionales cuyas actividades se
+                relacionen
+                con la nutrición, alimentos, y su disponibilidad, así como de los sectores sociales y privado.
+            </p>
+            <p class="pPest">
+                Los programas de nutrición promoverán la alimentación nutritiva y deberán considerar las necesidades
+                nutricionales de la población. Por lo que, propondrán acciones para reducir la malnutrición y
+                promover el
+                consumo de alimentos adecuados a las necesidades nutricionales de la población; y evitar otros
+                elementos que
+                representen un riesgo potencial para la salud. (Ley General de Salud, 2022)
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '004')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '006')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="006" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                De igual forma la Secretaría de Salud el 28 de mayo de 2012 estableció la <i>Norma Oficial Mexicana
+                    NOM-043-SSA2-2012</i>, Servicios Básicos de Salud. Promoción y Educación para la Salud en
+                Materia
+                Alimentaria. Criterios para Brindar Orientación con el propósito fundamental de “establecer los
+                criterios
+                generales que unifiquen y den congruencia a la Orientación Alimentaria dirigida a brindar a la
+                población,
+                opciones prácticas con respaldo científico, para la integración de una alimentación correcta que
+                pueda
+                adecuarse a sus necesidades y posibilidades. Así como elementos para brindar información homogénea y
+                consistente, para coadyuvar a promover el mejoramiento del estado de nutrición de la población y a
+                prevenir
+                problemas de salud relacionados con la alimentación. La orientación alimentaria es prioritaria y
+                debe
+                proporcionarse a toda la población, es conveniente que atienda a los intereses del público en
+                general, de
+                los grupos vulnerables en especial y que tome en cuenta a la industria y a otros grupos interesados”
+                (Secretaría de Salud, 2012, p. 3)
+            </p>
+            <p class="pPest">
+                Los contenidos de orientación alimentaria se deben basar en la identificación de grupos de riesgo,
+                desde
+                el punto de vista nutricional, la evaluación del estado de nutrición, la prevalencia y magnitud de
+                las
+                enfermedades relacionadas con la nutrición de la población y por último la evaluación de la
+                disponibilidad y capacidad de compra de alimentos, por parte de los diferentes sectores de la
+                población.
+                (Secretaría de Salud, 2012, p. 3)
+            </p>
+            <p class="pPest">
+                Los niños y niñas desde su gestación hasta la pubertad, las mujeres embarazadas o en periodo de
+                lactancia, los adultos mayores y las personas con actividad física intensa, se identifican como
+                grupos
+                que requieren mayor atención por el riesgo de presentar alteraciones en su estado de nutrición.
+                (Secretaría de Salud, 2012, p. 3)
+            </p>
+            <p class="pPest">
+                La falta de educación en materia de nutrición en la población, la pobreza, agravada por la pérdida
+                del
+                poder adquisitivo, el encarecimiento de los alimentos y el contexto sociocultural, en muchas
+                ocasiones
+                restringe el acceso a una dieta correcta. En este mismo contexto es importante mencionar que los
+                programas de orientación alimentaria generarán una demanda de alimentos que debe sustentarse en la
+                producción y el abasto oportuno de los productos, así como en la factibilidad del acceso a ellos,
+                protegiendo la soberanía alimentaria de la nación. Esto exige conocimiento y preferencia a los
+                alimentos
+                locales y regionales por parte del personal encargado de estas tareas. (Secretaría de Salud, 2012,
+                p.4)
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '005')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '007')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="007" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                En el primer punto <i>Objetivo y campo de aplicación</i> se plantea lo siguiente:
+            </p>
+            <p class="pPest">
+                1.1 Esta Norma Oficial Mexicana establece los criterios que deben seguirse para orientar a la
+                población
+                en materia de alimentación.
+            </p>
+            <p class="pPest">
+                1.2 La presente norma es de observancia obligatoria para las personas físicas o morales de los
+                sectores
+                público, social y privado, que forman parte del Sistema Nacional de Salud, que ejercen actividades
+                en
+                materia de orientación alimentaria. (Secretaría de Salud, 2012, p.4)
+            </p>
+            <p class="pPest">
+                Dentro de las definiciones que aporta, las que mayormente se verán en esta asignatura son las
+                siguientes:
+            </p>
+            <p class="pPest">
+                3.5 Alimentación complementaria: al proceso que se inicia con la introducción gradual y paulatina de
+                alimentos diferentes a la leche humana, para satisfacer las necesidades nutrimentales del niño o
+                niña,
+                se recomienda después de los 6 meses de edad.
+            </p>
+            <p class="pPest">
+                3.6 Alimentación: al conjunto de procesos biológicos, psicológicos y sociológicos relacionados con
+                la
+                ingestión de alimentos mediante el cual el organismo obtiene del medio los nutrimentos que necesita,
+                así
+                como las satisfacciones intelectuales, emocionales, estéticas y socioculturales que son
+                indispensables
+                para la vida humana plena.
+            </p>
+            <p class="pPest">
+                3.7 Alimentación correcta: a los hábitos alimentarios que de acuerdo con los conocimientos aceptados
+                en
+                la materia, cumplen con las necesidades específicas en las diferentes etapas de la vida, promueve en
+                los
+                niños y las niñas el crecimiento y el desarrollo adecuados y en los adultos permite conservar o
+                alcanzar
+                el peso esperado para la talla y previene el desarrollo de enfermedades.
+            </p>
+            <p class="pPest">
+                3.8 Alimento: cualquier substancia o producto, sólido o semisólido, natural o transformado, que
+                proporcione al organismo elementos para su nutrición;
+            </p>
+            <p class="pPest">
+                3.21 Dieta: al conjunto de alimentos y platillos que se consumen cada día, y constituye la unidad de
+                la
+                alimentación.
+            </p>
+            <p class="pPest">
+                3.22 Dieta correcta: a la que cumple con las siguientes características: completa, equilibrada,
+                inocua,
+                suficiente, variada y adecuada.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '006')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '008')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="008" class="contenidopest">
+            <h3>La nutrición desde la perspectiva comunitaria de salud pública</h3>
+            <p class="pPest">
+                3.25 El Plato del Bien Comer: a la herramienta gráfica que representa y resume los criterios
+                generales
+                que unifican y dan congruencia a la Orientación Alimentaria dirigida a brindar a la población
+                opciones
+                prácticas, con respaldo científico, para la integración de una alimentación correcta que pueda
+                adecuarse
+                a sus necesidades y posibilidades.
+            </p>
+            <p class="pPest">
+                3.26 Estado de nutrición o estado nutricio: al resultado del equilibrio entre la ingestión de
+                alimentos
+                (vehículo de nutrimentos) y las necesidades nutrimentales de los individuos; es así mismo
+                consecuencia
+                de diferentes conjuntos de interacciones de tipo biológico, psicológico y social.
+            </p>
+            <p class="pPest">
+                3.31 Hábitos alimentarios: al conjunto de conductas adquiridas por un individuo, por la repetición
+                de
+                actos en cuanto a la selección, la preparación y el consumo de alimentos. Los hábitos alimentarios
+                se
+                relacionan principalmente con las características sociales, económicas y culturales de una población
+                o
+                región determinada. Los hábitos generalizados de una comunidad suelen llamarse costumbres.
+            </p>
+            <p class="pPest">
+                3.38 Nutrición: al conjunto de procesos involucrados en la obtención, asimilación y metabolismo de
+                los
+                nutrimentos por el organismo. En el ser humano tiene carácter biopsico-social.
+            </p>
+            <p class="pPest">
+                3.39 Nutrimento: a cualquier sustancia incluyendo a las proteínas, aminoácidos, grasas o lípidos,
+                carbohidratos o hidratos de carbono, agua, vitaminas y nutrimentos inorgánicos (minerales) consumida
+                normalmente como componente de un alimento o bebida no alcohólica que proporciona energía; o es
+                necesaria para el crecimiento, el desarrollo y el mantenimiento de la vida; o cuya carencia haga que
+                produzcan cambios químicos o fisiológicos característicos.
+            </p>
+            <p class="pPest">
+                3.41 Orientación alimentaria: al conjunto de acciones que proporcionan información básica,
+                científicamente validada y sistematizada, tendiente a desarrollar habilidades, actitudes y prácticas
+                relacionadas con los alimentos y la alimentación para favorecer la adopción de una dieta correcta en
+                el
+                ámbito individual, familiar o colectivo, tomando en cuenta las condiciones económicas, geográficas,
+                culturales y sociales. (Secretaría de Salud, 2012, p. 5-9)
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '007')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '001')">
+                    <button type="button" class="btnCont-Verde">Reiniciar lectura</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="009" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <div class="contenedorColumnas">
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_04.png" alt=""
+                        class="img-fluid zoomImg" width="300">
+                </div>
+                <div class="colIzq" style="width: 50%;">
+                    <p class="pPest">
+                        De Burgos, Monge y Royo (2017) definen a los nutrientes como “compuestos que forman parte de los
+                        alimentos y
+                        son necesarios para el funcionamiento de nuestro organismo, que los obtiene por medio del
+                        proceso de
+                        la
+                        digestión” (p. 24).
+                    </p>
+                    <p class="pPest">
+                        Para Bourges-Rodriguez (2015) el concepto de nutrimento es el más apropiado de utilizar por la
+                        comunidad
+                        científica y se refiere a la "unidad funcional mínima que la célula utiliza para el metabolismo
+                        intermedio y
+                        que proviene de Ia alimentación” (p.40). Asimismo señala los siguientes aspectos generales de
+                        los
+                        nutrimentos:
+                    </p>
+                </div>
+            </div>
+            <ol style="font-size: medium">
+                <li>
+                    Todos los nutrimentos son importantes y no es procedente jerarquizarlos. Basta con que un
+                    nutrimento
+                    falte para que un individuo enferme y después muera.
+                </li>
+                <li>
+                    La cantidad que el organismo necesita de cada nutrimento es muy distinta. Por ejemplo, un adulto
+                    necesita cada día unos 500 L de oxígeno, cerca de 3 L de agua, alrededor de 50 g de proteínas y
+                    solo de
+                    1,0 a 1,5 mg de hierro y 3 o 4 mg vitamina B12.
+                </li>
+                <li>
+                    La velocidad con la que un nutrimento se utiliza en el organismo es también diferente de un caso
+                    a otro,
+                    y ello determina la urgencia con la que debe obtenerse. El oxígeno es el más urgente: el ser
+                    humano
+                    muere en unos cuantos minutos si no recibe oxígeno. Le sigue el agua: en condiciones normales,
+                    un adulto
+                    fenece después de 3 a 5 días sin agua. En el otro extremo se encuentran las vitaminas A y B12:
+                    sin
+                    ingerir vitamina A se puede sobrevivir entre 1 y 2 años y sin vitamina B12 es posible subsistir
+                    aún más
+                    tiempo.
+                </li>
+                <li>
+                    El organismo requiere una cantidad óptima de cada uno de los nutrimentos indispensables; si
+                    recibe menos
+                    de lo que necesita, desarrollará un cuadro de deficiencia, y si recibe más, puede intoxicarse,
+                    particularmente en el caso de los nutrimentos que se acumulan en el organismo, como las
+                    vitaminas AyD.
+                </li>
+                <li>
+                    Para fines prácticos, la mayoría de los alimentos contienen todos los nutrimentos, por lo que es
+                    extremadamente raro que un individuo desarrolle una deficiencia específica; se trata,
+                    habitualmente, de
+                    síndromes pluricarenciales. Una excepción a esta regla es la deficiencia de hierro, que suele
+                    presentarse de manera aislada en mujeres en edad reproductiva y en niños pequeños.
+                </li>
+            </ol>
+            <ol style="font-size: medium">
+                <li>
+                    Los conceptos de alimento "de alto valor nutritivo”, “de bajo valor nutritivo" o "no
+                    nutritivo" son
+                    equívocos, pues por definición todo alimento contiene uno o más nutrimentos y contribuye a
+                    la
+                    nutrición, es decir, tiene un valor. (Bourges-Rodríguez, 2015, p.41)
+
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '010')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="010" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+                Según Bourges-Rodríguez (2015) “Hasta la fecha se aceptan como nutrimentos cerca de 100 sustancias,
+                de las
+                cuales el ser humano es capaz de sintetizar alrededor de la mitad, por lo que en principio no es
+                indispensable que las obtenga en la dieta. Sin embargo, en la práctica todos los nutrimentos se
+                ingieren,
+                puesto que para el organismo es más práctico ahorrarse el trabajo de síntesis. En realidad, el 95%
+                del peso
+                seco de la dieta está representado por nutrimentos dispensables y apenas el 5% por nutrimentos
+                indispensables. (p.41)
+            </p>
+            <p class="pPest">
+                Además “Se llaman nutrientes esenciales a aquellas sustancias que no pueden ser sintetizadas en
+                cantidades
+                suficientes por el organismo; pero son imprescindibles para el crecimiento y desarrollo de la
+                persona y para
+                el mantenimiento de una vida sana, por lo que precisan ser administradas en la dieta. Además de los
+                nutrientes, los alimentos contienen una serie de sustancias no nutritivas, que no son necesarias
+                para el
+                organismo, pero que en ocasiones pueden jugar un papel relevante en el estado de salud de las
+                personas” (De
+                Burgos, Monge & Royo, 2017, p. 24).
+            </p>
+            <p class="pPest">
+                De acuerdo con De Burgos, Monge y Royo (2017) los nutrientes cumplen con las siguientes tres
+                funciones
+                principales:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Función energética: aportan la energía para cubrir el metabolismo basal y mantener las funciones
+                    vitales
+                    así como para permitir la realización de actividad física. Las principales fuentes de energía
+                    son los
+                    hidratos de carbono y los lípidos. Los primeros se utilizan como fuente energética inmediata,
+                    mientras
+                    que los segundos actúan como la principal fuente energética de reserva. Las proteínas también
+                    pueden
+                    aportar energía, pero desempeñan principalmente un papel estructural.
+                </li>
+            </ol>
+            <ol style="font-size: medium">
+                <li>
+                    Función estructural o plástica: mediante el suministro de materiales para la formación y
+                    renovación de
+                    las propias estructuras y tejidos del organismo. Los nutrientes que tienen función estructural
+                    son
+                    fundamentalmente las proteínas, algunos lípidos, minerales como el calcio y el agua.
+                </li>
+                <li>
+                    Función reguladora: proporciona elementos que actúan modulando las reacciones bioquímicas
+                    que tienen
+                    lugar en los procesos metabólicos y de utilización de los diferentes nutrientes. A esta
+                    función van
+                    a contribuir fundamentalmente las vitaminas y los minerales. (p. 24)
+                </li>
+            </ol>
+            <p class="pPest">
+                Asimismo se pueden clasificar, según la cantidad que ingerimos en la dieta, en:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Macronutrientes: son aquellos que el organismo necesita en cantidades relativamente grandes y
+                    constituyen la mayor parte de los alimentos. Son las proteínas, lípidos e hidratos de carbono.
+                </li>
+                <li>
+                    Micronutrientes: de los que el organismo necesita cantidades menores para su funcionamiento.
+                    Son las
+                    vitaminas, los minerales y los oligoelementos. (De Burgos, Monge & Royo, 2017, p. 24)
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '011')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="011" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <div class="contenedorColumnas">
+                <div class="colIzq" style="width: 70%;">
+                    <p class="pPest">
+                        Otro criterio que se utiliza con frecuencia para clasificar los nutrimentos es el de
+                        dispensabilidad, que de
+                        acuerdo con Bourges-Rodríguez (2015) “refiere a la capacidad de un organismo determinado para
+                        sintetizar o
+                        no un nutrimento. Aunque esta característica es muy importante, pues en gran medida determina la
+                        autosuficiencia o la dependencia de ese organismo del aporte exterior de cierto nutrimento, no
+                        es un
+                        criterio recomendable para clasificar estas sustancias, ya que el atributo en el que se basa
+                        (dispensabilidad) es una característica del organismo que lo utiliza y no del nutrimento. Por
+                        ejemplo, la
+                        vitamina C es un nutrimento dispensable en la dieta de los rumiantes, pero indispensable en la
+                        alimentación
+                        de los primates” (p.40). Además se derivan del concepto de dispensabilidad dos conceptos
+                        relevantes
+                        para la
+                        nutriología: requerimiento o necesidad y recomendación. (Bourges-Rodríguez, 2015)
+                    </p>
+                </div>
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 30%;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_05.png" alt=""
+                        class="img-fluid zoomImgLft">
+                </div>
+            </div>
+            <p class="pPest">
+                Siguiendo con la clasificación basada en la cantidad de ingesta diaria se destacan algunas
+                características y
+                funciones de los principales nutrientes a continuación.
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Macronutrientes:
+                    <ul style="font-size: medium">
+                        <li>
+                            Lípidos
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="pPest">
+                Son moléculas orgánicas formadas principalmente por carbono e hidrógeno y en menor proporción
+                oxígeno,
+                pueden contener fósforo, nitrógeno y azufre. Es un grupo muy heterogéneo de sustancias que comparten
+                dos
+                características comunes:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Son insolubles en agua.
+                </li>
+                <li>
+                    Son solubles en disolventes orgánicos, como éter, cloroformo, benceno, etc. (De Burgos,
+                    Monge &
+                    Royo, 2017, p. 25)
+                </li>
+            </ol>
+            <p class="pPest">
+                Sus funciones son las siguientes:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Función energética. Representan una importante fuente de energía y son la principal reserva
+                    energética
+                    del organismo, constituyendo depósitos en tejidos especializados. Un gramo de grasa aporta 9,3
+                    kcal en
+                    las reacciones metabólicas de oxidación frente a las 4,1 kcal aportadas por la misma cantidad de
+                    proteínas o glúcidos.
+                </li>
+                <li>
+                    Función estructural. Forman las bicapas lipídicas de las membranas celulares. Recubren,
+                    proporcionan
+                    consistencia y protección mecánica a los órganos y funcionan como aislante térmico.
+                </li>
+                <li>
+                    Función catalizadora, hormonal y de mensajero químico. Las vitaminas liposolubles (A, D, E, y
+                    K), las
+                    hormonas esteroideas, las prostaglandinas y sus precursores son lípidos.
+                </li>
+                <li>
+                    Función transportadora. Las sales biliares facilitan la absorción en el intestino delgado
+                    por
+                    emulsión. Las apoproteínas permiten el transporte de lípidos por la sangre y linfa. (De
+                    Burgos,
+                    Monge & Royo, 2017, p. 25)
+                </li>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '010')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '012')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="012" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <ul type="disc" style="font-size: medium">
+                <li>
+                    Proteínas
+                </li>
+            </ul>
+            <p class="pPest">
+                Fueron las primeras sustancias reconocidas como vitales para todos los organismos, el origen de su
+                nombre
+                proviene de la palabra griega protos que significa de primera importancia, constituyen uno de los
+                componentes más abundantes de la mayoría de los seres vivos (De Burgos, Monge & Royo, 2017
+            </p>
+            <p class="pPest">
+                “Son macromoléculas constituidas por hidrógeno, carbono, oxígeno y nitrógeno y, en ocasiones,
+                algunos
+                elementos como hierro, cobalto o fósforo. Están formadas por una secuencia específica de sus
+                elementos
+                constitutivos propios: los aminoácidos. Existen 20 aminoácidos diferentes que se unen a través de
+                enlaces
+                peptídicos, todos ellos tienen un grupo amino (-NH2 ) y un grupo carboxilo (-COOH) unidos al mismo
+                átomo de
+                carbono (carbono alfa) y se diferencian en sus cadenas laterales o grupos R. Hay nueve aminoácidos
+                que el
+                ser humano no es capaz de sintetizar por sí mismo y deben ser aportados por la dieta, son los
+                denominados
+                aminoácidos esenciales: treonina, metionina, lisina, valina, triptófano, leucina, isoleucina,
+                fenilalanina e
+                histidina; éste último esencial durante el crecimiento, pero no para el adulto. Otros como la
+                arginina,
+                prolina, serina, tirosina, cisterna, taurina, glicina y glutamina son aminoácidos esenciales en los
+                humanos
+                bajo ciertas condiciones y se denominan aminoácidos condicionalmente esenciales” (De Burgos, Monge &
+                Royo,
+                2017, p. 33).
+            </p>
+            <p class="pPest">
+                Funciones:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Función estructural: Queratina, elastina, colágeno.
+                </li>
+                <li>
+                    unción catalítica: enzimas.
+                </li>
+                <li>
+                    Función de transporte de moléculas o iones: hemoglobina, apoproteínas, albúmina.
+                </li>
+                <li>
+                    Función defensiva: inmunoglobulinas, fibrinógeno.
+                </li>
+                <li>
+                    Función hormonal: insulina, oxitocina, vasopresina, glucagón.
+                </li>
+                <li>
+                    Función de regulación genética: histonas.
+                </li>
+                <li>
+                    Función homeostática: manteniendo el equilibrio osmótico entre fluidos.
+                </li>
+                <li>
+                    Función reguladora del equilibrio ácido-base.
+                </li>
+                <li>
+                    Función de reserva: ferritina, mioglobina.
+                </li>
+                <li>
+                    Función de contracción muscular: actina, miosina y dineína.
+                </li>
+                <li>
+                    Función energética: todas las proteínas. (De Burgos, Monge & Royo, 2017, p. 34)
+                </li>
+            </ol>
+            <p class="pPest">
+                Se encuentran tanto en alimentos de origen animal, siendo esta la fuente fundamental para el consumo
+                en los
+                países desarrollados, como vegetal (De Burgos, Monge & Royo, 2017).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '011')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '013')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="013" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+                “Las proteínas de origen animal se encuentran fundamentalmente en carnes, pescados, huevos,
+                vísceras, leche
+                y derivados. Los alimentos vegetales más ricos en proteínas son las legumbres, soja y frutos secos;
+                en menor
+                cantidad las encontramos también en verduras, hortalizas y frutas. Las proteínas de origen vegetal
+                suelen
+                ser incompletas y poseen menor digestibilidad. Las proteínas de origen animal son moléculas más
+                grandes y
+                complejas, por lo que contienen mayor cantidad y diversidad de aminoácidos. En general, su valor
+                biológico
+                es mayor que las de origen vegetal. Los productos animales (excepto huevos) y las legumbres poseen
+                una
+                cierta deficiencia en metionina y los cereales y otros vegetales en lisina. Combinando adecuadamente
+                alimentos vegetales y animales se puede obtener un conjunto equilibrado que contenga todos los
+                aminoácidos
+                esenciales. Esta complementariedad de las proteínas es muy necesaria en países donde por motivos
+                culturales,
+                religiosos o económicos existe una restricción en las proteínas de origen animal” (De Burgos, Monge
+                & Royo,
+                2017, p.34).
+            </p>
+            <ul type="disc" style="font-size: medium">
+                <li>
+                    Hidratos de carbono
+                </li>
+            </ul>
+            <p class="pPest">
+                También se les llama glúcidos, “son compuestos orgánicos formados por carbono, oxígeno e hidrógeno.
+                Su
+                misión es fundamentalmente energética y la mayor parte de la energía de la dieta es suministrada por
+                estos
+                nutrientes. Sin embargo, algunos de los derivados de los hidratos de carbono son de naturaleza
+                estructural o
+                funcional (generalmente cuando van unidos a proteínas o lípidos)” (De Burgos, Monge & Royo, 2017, p.
+                37).
+                Son la fuente principal de energía en el mundo, es más barata y por tanto más fácil de obtener, “se
+                puede
+                afirmar que la cantidad de hidratos de carbono de procedencia animal es muy pequeña, dependiendo su
+                aporte
+                principalmente de alimentos de origen vegetal” (De Burgos, Monge & Royo, 2017, p. 38).
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Micronutrientes
+                    <ul style="font-size: medium">
+                        <li>
+                            Vitaminas
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="pPest">
+                Son sustancias orgánicas complejas de naturaleza química muy diversa “esenciales para el hombre
+                debido a que
+                éste no puede sintetizarlas o, si lo hace, es en cantidad insuficiente para cubrir completamente sus
+                necesidades. Estas sustancias son fundamentales en la regulación de los procesos metabólicos, y
+                tanto el
+                déficit como el exceso de su ingesta pueden resultar perjudiciales y producir enfermedades. Las
+                vitaminas
+                son necesarias en la dieta en muy pequeñas cantidades y debe prestarse atención al procesado de los
+                alimentos que las contienen, pues en general son moléculas sensibles al calor, la oxidación y otros
+                procesos
+                químicos” (De Burgos, Monge & Royo, 2017, p. 45)
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '012')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '014')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="014" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+                A principios del siglo XX, y en un lapso corto de 30 años, se propuso la función metabólica de las
+                vitaminas, dando origen a la clasificación de las vitaminas en un solo grupo, a pesar de que para
+                elucidar
+                su estructura química y su síntesis se requirió un proceso más lento (Bourges-Rodríguez, 2015).
+                Desde ese
+                momento se han clasificado de forma diversa, pero la más aceptada en la actualidad es la que las
+                divide en
+                hidrosolubles y liposolubles, porque esta característica determina un manejo diferente de las mismas
+                por
+                parte del organismo en su absorción, distribución, almacenamiento y eliminación; y a su vez
+                condiciona su
+                modo de acción y su toxicidad (De Burgos, Monge & Royo, 2017)
+            </p>
+            <p class="pPest">
+                Vitaminas hidrosolubles:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Vitamina B1 o tiamina.
+                </li>
+                <li>
+                    Vitamina B2 o riboflavina.
+                </li>
+                <li>
+                    Vitamina B3, niacina, o factor PP.
+                </li>
+                <li>
+                    Ácido pantoténico (antigua vitamina B5).
+                </li>
+                <li>
+                    Vitamina B6 o piridoxina.
+                </li>
+                <li>
+                    Vitamina B12 o cobalamina.
+                </li>
+                <li>
+                    Ácido fólico (antigua vitamina B9).
+                </li>
+                <li>
+                    Vitamina B8 o biotina.
+                </li>
+                <li>
+                    Vitamina C o ácido ascórbico
+                </li>
+            </ol>
+            <p class="pPest">
+                Vitaminas liposolubles:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Vitamina A o retinoides.
+                </li>
+                <li>
+                    Vitamina D o calciferoles.
+                </li>
+                <li>
+                    Vitamina E o tocoferoles.
+                </li>
+                <li>
+                    Vitamina K. (De Burgos, Monge & Royo, 2017, p. 45)
+                </li>
+            </ol>
+            <p class="pPest">
+                <i>Vitaminas hidrosolubles</i>
+            </p>
+            <p class="pPest">
+                Según De Burgos, Monge y Royo (2017) “En su mayoría actúan como precursores de coenzimas o como
+                co-sustratos
+                de algunas reacciones implicadas en el metabolismo energético de los hidratos de carbono, de
+                proteínas y de
+                ácidos nucleicos, Se absorben rápidamente, no acumulándose en el organismo y, por tanto, no dando
+                lugar a
+                fenómenos de toxicidad relacionados con una ingesta excesiva, ya que las cantidades ingeridas en
+                exceso
+                tienden a ser eliminadas por la orina. Al no ser almacenadas en el organismo, existe una cierta
+                protección
+                ante una disminución de la ingesta de carácter agudo, pero no si esta situación se mantiene en el
+                tiempo.
+                Por tanto, mantener unos niveles adecuados de vitamina depende de un aporte continuado de la misma.
+                Las
+                excepciones a esta regla son la piridoxina, la vitamina B12 y el ácido fólico, que se almacenan en
+                el
+                organismo, fundamentalmente en el hígado” (p. 46).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '013')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '015')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="015" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+                Además “las fuentes alimentarias de este grupo, en general, incluyen las carnes, pescados, hígado,
+                huevos,
+                leche, frutos secos, cereales, legumbres y levadura. Están muy extendidas en la naturaleza, por lo
+                que las
+                carencias aisladas de una vitamina son raras y sólo suelen observarse en el contexto de deficiencia
+                combinada a consecuencia de una malnutrición generalizada, o en casos de patologías o estados
+                fisiológicos
+                que condicionen una malabsorción y/o sobreutilización de una determinada vitamina. La excepción es
+                la
+                vitamina B12, que no se encuentra en el reino vegetal y puede ser deficitaria en las dietas
+                vegetarianas
+                estrictas, que únicamente obtendrían esta vitamina de la levadura. Sin embargo, debido a los
+                depósitos
+                existentes de esta vitamina, puede no aparecer enfermedad hasta varios años después de suspender la
+                ingesta.
+                Otra excepción es el ácido fólico, que a pesar de encontrarse en casi todos los alimentos, sus
+                principales
+                fuentes alimentarias son las verduras y hortalizas” (De Burgos, Monge & Royo, 2017, p. 46).
+            </p>
+            <p class="pPest">
+                <i>Vitaminas liposolubles</i>
+            </p>
+            <p class="pPest">
+                De acuerdo con De Burgos, Monge y Royo (2017) “Tienen funciones metabólicas más especializadas que
+                las
+                hidrosolubles, aunque son distintas para todas ellas. Se almacenan en el organismo, en especial las
+                vitaminas A y D, por lo que pueden dar lugar a fenómenos de toxicidad si existe una ingesta muy
+                excesiva.
+                Una excepción es la vitamina K, que apenas se almacena” (p.47)
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Minerales
+                </li>
+            </ul>
+            <p class="pPest">
+                De Burgos, Monge & Royo (2017) los definen como “sustancias inorgánicas, no energéticas que suponen
+                aproximadamente el 5% del peso corporal total, del que el 50% procede del calcio y el 33% del
+                fósforo. De
+                los 26 que se reconocen como esenciales para la vida animal sólo se conocen las funciones y
+                requerimientos
+                de unos pocos” (p. 49). Se pueden dividir en los siguientes tres grupos:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Macroelementos: los que el organismo necesita en cantidades mayores de 100 mg/día. Pertenecen a
+                    este
+                    grupo el calcio, fósforo, sodio, potasio, magnesio, azufre y cloro.
+                </li>
+                <li>
+                    Microelementos, que se necesitan cantidades menores que 100 mg/día: hierro, cobre, fluor,
+                    cobalto,
+                    cromo, manganeso, yodo, molibdeno y selenio.
+                </li>
+                <li>
+                    Oligoelementos o elementos traza, de los que se precisan cantidades pequeñísimas del
+                    orden de
+                    microgramos como el zinc. (De Burgos, Monge & Royo, 2017, p. 49)
+                </li>
+            </ol>
+            <p class="pPest">
+                Cabe destacar que de acuerdo con De Burgos, Monge y Royo (2017) “todos cumplen los criterios de
+                esenciabilidad y su carencia induce trastornos con cambios bioquímicos que desaparecen al aportar el
+                nutriente. Los minerales también pueden ser contaminantes como el mercurio, aluminio, plomo,
+                arsénico,
+                litio, estroncio o berilio” (p. 49).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '014')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '016')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="016" class="contenidopest">
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+                La porción que es posible utilizar de la cantidad total ingerida, la biodisponibilidad del mineral,
+                está
+                influida por los siguientes factores:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Factores nutritivos: cuantía y forma de presentación del mineral, la interacción con otros
+                    nutrientes y
+                    el proceso culinario o industrial utilizado.
+                </li>
+                <li>
+                    Factores individuales: como la edad, el sexo, el estado fisiológico, estado nutritivo o la
+                    existencia de un estado patológico o su tratamiento. (De Burgos, Monge & Royo, 2017, p. 49)
+                </li>
+            </ol>
+            <p class="pPest">
+                Sus funciones se dividen entre las dos siguientes:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Función estructural: Forman tejidos como hueso y dientes (cálcio, fósforo, flúor, magnesio) y
+                    son parte constitutiva de algunas macromoléculas (la hemoglobina contiene hierro, la tiroxina
+                    yodo…).
+                </li>
+                <li>
+                    Función reguladora:
+                </li>
+                <ul style="font-size: medium">
+                    <li>
+                        Tansmisión neuromuscular.
+                    </li>
+                    <li>
+                        Transporte de Oxígeno a las células.
+                    </li>
+                    <li>
+                        Permeabilidad de membranas celulares.
+                    </li>
+                    <li>
+                        Balance hidroelectrolítico.
+                    </li>
+                    <li>
+                        Equilibrio ácido-base.
+                    </li>
+                    <li>
+                        Defensa frente a infecciones.
+                    </li>
+                    <li>
+                        Control de glucemia.
+                    </li>
+                    <li>
+                        Antioxidante.
+                    </li>
+                    <li>
+                        Coagulación sanguínea.
+                    </li>
+                    <li>
+                        Como cofactores enzimáticos. (De Burgos, Monge & Royo, 2017, p. 49)
+                    </li>
+                </ul>
+            </ol>
+            <div class="enlaces">
+                <div onclick="openPest(event, '015')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '009')">
+                    <button type="button" class="btnCont-Verde">Reiniciar lectura</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="017" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                De acuerdo con Vazquéz (2017) “las ingestas recomendadas (IR) son los niveles de ingesta de
+                nutrientes
+                esenciales que se consideran adecuados para satisfacer las necesidades nutricionales de
+                prácticamente la
+                totalidad de las personas sanas con actividad física moderada. Cada persona tiene sus propios
+                requerimientos
+                nutricionales, pero las recomendaciones de ingesta en el ámbito poblacional deben contemplar esta
+                variabilidad individual, para cubrir las necesidades de la mayoría de individuos sin acarrear
+                problemas de
+                toxicidad en aquellos sujetos con menores requerimientos” (Vazquéz, 2017, p.61).
+            </p>
+            <p class="pPest">
+                Adicionalmente a la variabilidad biológica individual, para el establecimiento de las
+                recomendaciones
+                dietéticas deben tenerse en cuenta factores relacionados con la absorción del nutriente:
+            </p>
+            <ol style="font-size: medium">
+                <li>
+                    Biodisponibilidad del mismo según su fuente alimentaria: la propia naturaleza del alimento
+                    modula el
+                    aprovechamiento de los nutrientes que contiene. O bien la forma química en que se encuentren los
+                    nutrientes influye en su capacidad de ser absorbidos.
+                </li>
+                <li>
+                    Interacciones entre nutrientes: frecuentes, aunque no totalmente conocidas. Por ej., la
+                    absorción del
+                    hierro no hemo es afectada por la vitamina C.
+                </li>
+                <li>
+                    Proporción no absorbible del nutriente.
+                </li>
+                <li>
+                    Existencia de precursores de nutrientes: carotenos para la vitamina A y triptófano para la
+                    niacina.
+                </li>
+                <li>
+                    Tecnología culinaria y mezclas de alimentos. (Vazquéz, 2017, p.61)
+                </li>
+            </ol>
+            <p class="pPest">
+                Para llegar a las IR es primordial establecer los requerimientos nutricionales que se basan en el
+                conocimiento científico respecto a las necesidades fisiológicas individuales para cada nutriente. A
+                pesar de
+                eso no siempre existe acuerdo entre los expertos en cuanto a los criterios para su determinación,
+                por
+                ejemplo, las necesidades nutricionales de los niños se establecen con base en las cantidades que le
+                permitan
+                mantener el crecimiento y desarrollo, a diferencia de los adultos donde el criterio es mantener el
+                peso y
+                estructura corporales y evitar la depleción (Vazquéz, 2017). “En otros casos, se basan en la
+                prevención de
+                la insuficiencia de una función específica del organismo. Son necesarios muchos estudios de
+                investigación
+                básica in vitro, in vivo, epidemiológicos, de índole observacional o experimental, y clínicos, para
+                establecer los requerimientos de cada uno de los nutrientes esenciales” (Vazquéz, 2017, p. 59).
+            </p>
+            <p class="pPest">
+                Sin embargo a pesar de los avances tecnológicos “los experimentos en humanos para el estudio de los
+                requerimientos nutricionales son caros y exigen mucho tiempo, por lo que incluso en las mejores
+                condiciones
+                solo se pueden estudiar grupos pequeños de individuos. Además, existen limitaciones éticas a la
+                investigación en humanos, que no se pueden sobrepasar. Por todo ello, el establecimiento de los
+                requerimientos y su variabilidad está sujeto a revisión y ampliación continuas. Y pese a sus
+                limitaciones,
+                constituye una información de enorme valor en el conocimiento científico de la nutrición humana y la
+                base de
+                las recomendaciones dietéticas” (Vazquéz, 2017, p. 60).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '018')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="018" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                De acuerdo con Vazquéz (2017) “desde el punto de vista de política alimentaria mundial, en una
+                sociedad
+                globalizada, es imprescindible contar con un patrón universal de recomendaciones dietéticas válidas
+                para
+                poblaciones lo más numerosas posible. Esto permite:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Evaluar la idoneidad del suministro alimentario respecto a las necesidades nutricionales de una
+                    colectividad amplia (país, región, etc.).
+                </li>
+                <li>
+                    Planificar la obtención de suministros para grupos poblacionales.
+                </li>
+                <li>
+                    Evaluar el consumo real poblacional, frente a recomendaciones.
+                </li>
+                <li>
+                    Establecer estándares para programas de ayuda alimentaria.
+                </li>
+                <li>
+                    Diseñar programas de educación nutricional.
+                </li>
+                Desarrollar nuevos productos alimentarios industriales.
+                <li>
+                    Establecer guías para el etiquetado nutricional de alimentos. (Vazquéz, 2017, p.61)
+                </li>
+            </ul>
+            <p class="pPest">
+                Como en el caso de las recomendaciones dietéticas, se establecieron Objetivos Nutricionales por
+                parte de las
+                sociedades científicas a escala nacional o plurinacional, en función de adecuar la ingesta
+                nutricional a
+                recomendaciones, enmarcadas en la política nutricional de un país; con la finalidad de prevenir y
+                reducir el
+                riesgo de las enfermedades, generalmente crónicas no transmisibles y/o degenerativas, más
+                prevalentes
+                (Vazquéz, 2017; Tech, 2021).
+            </p>
+            <p class="pPest">
+                De acuerdo con Vazquéz (2017) “estas recomendaciones hacen referencia a alimentos y proporciones
+                entre
+                ellos, fuentes de energía, nutrientes esenciales, nutrientes no esenciales, como la fibra y el
+                colesterol, o
+                relacionan los grupos de alimentos con los nutrientes que aportan. La instauración de objetivos
+                nutricionales y la difusión de guías para ayudar a alcanzarlos forman parte de los programas de
+                salud de
+                sociedades y organismos oficiales, sensibilizados hacia la exigencia de una alimentación de calidad
+                que
+                preserve o incremente el nivel de salud de la población” (p. 69).
+            </p>
+            <p class="pPest">
+                Los objetivos nutricionales de una dieta completa deben considerar la presencia de:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Proteínas (aminoácidos esenciales y no esenciales). </li>
+                <li>
+                    Las características de los hidratos de carbono (polisacáridos, oligosacáridos, disacáridos,
+                    monosacáridos y fibra).
+                </li>
+                <li>
+                    La distribución de grasas de origen animal y vegetal (ácidos grasos saturados, insaturados y
+                    colesterol).
+                </li>
+                <li>
+                    El contenido en sales (macro y microminerales).
+                </li>
+                <li>
+                    Vitaminas (hidro y liposolubles).
+                </li>
+                <li>
+                    El valor calórico.
+                </li>
+                <li>
+                    El contenido hídrico aportado por los alimentos y las bebidas. (Tech, 2021)
+                </li>
+            </ul>
+            <div class="enlaces">
+                <div onclick="openPest(event, '017')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '019')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="019" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                Se utilizan con el fin de planificar políticas y estrategias a nivel nacional y sirven de base para
+                el
+                planteamiento de guías alimentarias, pero sobre todo se acompañan de estas, se basan en el supuesto
+                de que,
+                a nivel nacional, la disponibilidad total de alimentos sea suficiente para toda la población. Además
+                que se
+                puedan distribuir de acuerdo a las necesidades individuales. Enfocados en brindar un mejor estilo de
+                vida,
+                más saludable a cada persona (Tech, 2021; Vazquéz, 2017).
+            </p>
+            <p class="pPest">
+                ¿Qué son las Guías alimentarias o dietéticas?
+            </p>
+            <p class="pPest">
+                “De acuerdo con la FAO las guías alimentarias nacionales, son un instrumento esencial para el
+                cumplimiento
+                de las estrategias de educación en nutrición, destinadas al público en general. Las guías
+                alimentarias
+                reflejan la situación nutricional de un país, al mismo tiempo que utilizan un lenguaje comprensible
+                para el
+                público en general, proporcionan consejos prácticos adecuados para las costumbres locales, las
+                pautas
+                alimentarias, las condiciones económicas y los estilos de vida; todo basado en fundamentos
+                científicos.
+                Representan un importante instrumento para lograr los objetivos de los programas de educación en
+                nutrición,
+                al combinar experiencias de aprendizaje que facilitan la adopción voluntaria de conductas
+                alimentarias
+                saludables. Entre los avances más importantes observados en los países que han implementado el uso
+                de guías
+                alimentarias se puede citar la formación de equipos interdisciplinarios de distintos sectores; la
+                identificación de problemas prioritarios de salud y nutrición del país y la definición de objetivos
+                nutricionales de carácter nacional” (Tenorio & Monroy, 2013, p. 5).
+            </p>
+            <p class="pPest">
+                Se establecen como un documento divulgativo que va dirigido tanto a la población como a los
+                profesionales de
+                la salud, a la industria alimentaria y al ámbito educativo. Para ello es necesario tener
+                identificados los
+                problemas de salud pública predominantes del país, considerando factores sociales, culturales,
+                económicos,
+                ambientales y agrícolas relacionados con la disponibilidad y utilización de los alimentos. (Tech,
+                2021;
+                Tenorio & Monroy, 2013)
+            </p>
+            <p class="pPest">
+                Sirven como instrumento esencial para la estrategia de educación en nutrición “destinada a orientar
+                a la
+                población acerca de cómo comer mejor. A través de una imagen alusiva a los alimentos, representativa
+                de cada
+                país, se puede educar para una alimentación adecuada. Por otro lado, su papel también es el de guiar
+                las
+                políticas nacionales de alimentación y nutrición, así como de la industria de los alimentos”
+                (Ramírez &
+                Monroy, 2013, p. 8).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '018')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '020')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="020" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                Las características de una Guía de Alimentación son las siguientes:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Debe estar representada de una forma sencilla y comprensible para que ayude a la orientación de
+                    una
+                    dieta correcta a toda la población.
+                </li>
+                <li>
+                    La selección y diseño del contenido de la guía alimentaria, se debe basar en la
+                    identificación de
+                    indicadores de riesgo: por ejemplo los nutricios, la prevalencia y magnitud de las
+                    enfermedades
+                    relacionadas con la nutrición y por último, la evaluación de la disponibilidad y capacidad
+                    de compra
+                    de alimentos, por parte de los diferentes sectores de la población. (Ramírez & Monroy, 2013,
+                    p. 8)
+                </li>
+            </ul>
+            <p class="pPest">
+                En 1992, se realizó en Roma una Conferencia Internacional sobre Nutrición (CIN), por la FAO y la
+                OMS, donde
+                por primera vez se incorporaron las enfermedades crónicas no transmisibles como un problema
+                importante de
+                salud pública mundial, afectando con más gravedad a sectores de bajos ingresos y menor nivel
+                educacional. En
+                marzo de 1995, durante una consulta conjunta FAO/OMS analizaron las Guías Alimentarias Basadas en
+                Alimentos
+                (GABA) con el propósito de establecer las bases científicas para su elaboración, uso y adaptación en
+                todos
+                los países (Tenorio & Monroy, 2013). “En la Declaración Mundial y Plan de Acción de la CIN, firmados
+                por 159
+                estados, se indicó que cada país debía desarrollar sus propias GABA, de acuerdo a sus principales
+                problemas
+                de salud pública, con mensajes relevantes para personas de distinta edad, cultura y estilos de vida”
+                (Tenorio & Monroy, 2013, p. 5).
+            </p>
+            <p class="pPest">
+                “El Instituto Nacional de Centro América y Panamá (INCAP) y la Organización Panamericana de Salud
+                (OPS)
+                proponen los siguientes pasos para la elaboración de las guías alimentarias basadas en alimentos”
+                (Tenorio &
+                Monroy, 2013, p. 6).
+            </p>
+            <p class="pPest" style="text-align: center;">
+                Elaboración de guías alimentarias
+            </p>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+                <a href="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_06.png" target="_blank">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_06.png" alt="" class="zoomImgGd"
+                        height="200">
+                </a>
+                <div>
+                    <p style="font-size: small; font-weight: 600; text-align: center;  color: rgb(150, 0, 0);">
+                        Da clic sobre la imagen para verla en grande
+                    </p>
+                </div>
+            </div>
+            <p class="pPest" style="text-align: center; font-size: small;">
+                <i>Fuente: INCAP/OPS (2008)</i>; como se citó en Tenorio, Y., & Monroy, R. (2013). Guías
+                alimentarias
+                nacionales: origen e importancia. p. 6.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '019')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '021')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="021" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                En 2007, 14 países de América ya contaban con sus guías alimentarias incluido México, donde la
+                Secretaría de
+                Salud “tiene la obligación de definir las distintas estrategias de trabajo y crear una mayor
+                comunicación y
+                colaboración con las demás secretarias de Educación, Agricultura, Desarrollo Social; por su parte,
+                las
+                universidades y las Organizaciones no Gubernamentales, utilizan las nuevas herramientas tecnológicas
+                de uso
+                habitual para la orientación alimentaria con apoyo de las guías de alimentación. La creación de
+                páginas web,
+                especiales, para la difusión de las GABA, con información complementaria para educar en
+                alimentación,
+                nutrición y actividad física a distintos segmentos de la población, podría representar una gran
+                estrategia
+                de apoyo. (Tenorio & Monroy, 2013, p. 7)
+            </p>
+            <p class="pPest">
+                Antes del 2006 México utilizaba como guía alimentaria la pirámide de los Estados Unidos, que fue
+                confeccionada por el Departamento de Agricultura. “Esta guía en forma de pirámide presentaba un
+                vértice
+                superior (azúcares y grasas) que representaba a los alimentos que debían consumirse en menor
+                cantidad y,
+                para la base de la pirámide los que se deben comer con mayor frecuencia y cantidad (grupo de
+                cereales). Sin
+                embargo, esta imagen no era la adecuada para los mexicanos, ya que fue confeccionada para la
+                población
+                estadounidense, que presenta una complexión más grande físicamente, que la de los mexicanos, además
+                de ser
+                alimentos y costumbres alimentarias diferentes. Por tal motivo se dejó de utilizar la pirámide de
+                alimentación y se diseñó una guía alimentaria para la población mexicana, la cual derivó de una
+                investigación, en el que se consideraron tanto los aspectos técnicos como la percepción y la
+                aceptación de
+                la población mexicana, también se incluyeron las estadísticas de salud, que reflejaron una tendencia
+                cada
+                vez mayor al desarrollo de problemas de desnutrición, sobrepeso y obesidad en todas las etapas de la
+                vida.
+                Se le llamó el plato del bien comer” (Ramírez & Monroy, 2013, p. 9).
+            </p>
+            <div class="contenedorColumnas">
+                <div class="colDer" style="display: flex; justify-content: center; flex-wrap: wrap; width: 40%;">
+                    <div>
+                        <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_07.png" alt=""
+                            class="img-fluid zoomImg" width="240">
+                    </div>
+                    <div style="text-align: center;">
+                        <p style="font-size: small;">
+                            <i>Fuente: Secretaría de Salud. (2012)</i>
+                        </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <p style="font-size: small;">
+                            <i>NOM-043-SSA2-2012</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="colIzq" style="width: 60%;">
+                    <p class="pPest">
+                        Al día de hoy el plato del bien comer es la guía alimentaria mexicana, una herramienta gráfica
+                        que
+                        sintetiza
+                        los criterios generales, dando congruencia a la orientación alimentaria, con la finalidad de
+                        brindar
+                        opciones de platillos prácticos para así integrar las características de una dieta correcta, con
+                        validez
+                        científica. Indica 3 grupos de alimentos con los siguientes colores (Ramírez & Monroy, 2013):
+                    </p>
+                    <ul style="font-size: medium">
+                        <li>
+                            Verde, verduras y frutas
+                        </li>
+                        <li>
+                            Amarillo, cereales
+                        </li>
+                        <li>
+                            Rojo, leguminosas y alimentos de origen animal
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '020')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '022')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="022" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <p class="pPest">
+                En la <a href="https://www.cndh.org.mx/DocTR/2016/JUR/A70/01/JUR-20170331-NOR37.pdf"
+                    target="_blank"><i>Norma Oficial Mexicana, NOM-043- SSA2-2012, Servicios básicos de salud.
+                        Promoción y
+                        educación para la salud en materia alimentaria</i></a> se especifican en los puntos 4.
+                Disposiciones
+                generales y 5. Disposiciones
+                específicas los criterios indispensables para brindar orientación profesional sobre información de
+                alimentación y nutrición a la población mexicana. (Ramírez & Monroy, 2013)
+            </p>
+            <p class="pPest">
+                En la <a href="https://www.imss.gob.mx/sites/all/statics/salud/guia-alimentos.pdf" target="_blank">Guía
+                    de
+                    Alimentos para la Población Mexicana</a> de la Secretaría de Salud disponible en la página del
+                IMSS se compone de los siguientes elementos:
+            </p>
+            <ul style="font-size: medium">
+                <li>
+                    Indicaciones generales, simbología y plan de alimentación
+                </li>
+            </ul>
+            <div style="display: flex; justify-content: center;">
+                <div style="display: flex; justify-content: center; flex-wrap: wrap; padding: 20px;">
+                    <a href="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_08.png" target="_blank">
+                        <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_08.png" alt=""
+                    height="365">
+                    </a>                    
+                </div>                
+            </div>
+            <p class="pPest" style="text-align: center; font-size: small;">
+                <i>Fuente</i>: Secretaría de Salud. (2010). Guía de Alimentos para la Población Mexicana. IMSS:
+                México
+            </p>
+            <div>
+                <p style="font-size: small; font-weight: 600; text-align: center; color: rgb(150, 0, 0);">
+                    Da clic sobre la imagen para verla en grande
+                </p>
+            </div>
+            <div class="enlaces">
+                <div onclick="openPest(event, '021')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '023')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="023" class="contenidopest">
+            <h3>1.3 Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias</h3>
+            <ul style="font-size: medium">
+                <li>
+                    Cereales (cereales y tubérculos sin grasas)
+                </li>
+                <li>
+                    Verduras
+                </li>
+                <li>
+                    Frutas
+                </li>
+                <li>
+                    Alimentos de origen animal
+                </li>
+                <li>
+                    Alimentos de origen animal muy bajos en grasa
+                </li>
+                <ul style="font-size: medium">
+                    <li>
+                        Alimentos de origen animal bajos en grasa
+                    </li>
+                    <li>
+                        Alimentos de origen animal contenido moderado en grasa
+                    </li>
+                    <li>
+                        Alimentos de origen animal con alto contenido de grasa
+                    </li>
+                </ul>
+                <li>
+                    Leche y sustitutos
+                </li>
+                <ul style="font-size: medium">
+                    <li>
+                        Leche descremada
+                    </li>
+                    <li>
+                        Leche entera
+                    </li>
+                </ul>
+                <li>
+                    Leguminosas
+                </li>
+                <li>
+                    Grasas
+                </li>
+                <ul style="font-size: medium">
+                    <li>
+                        Grasas: fuente de monoinsaturadas
+                    </li>
+                    <li>
+                        Grasas: fuente de poliinsaturadas
+                    </li>
+                    <li>
+                        Grasas: Fuente de saturadas y trans
+                    </li>
+                </ul>
+                <li>
+                    Azúcares
+                </li>
+                <ul style="font-size: medium">
+                    <li>
+                        Azúcares
+                    </li>
+                    <li>
+                        Azúcares con grasa
+                    </li>
+                </ul>
+                <li>
+                    Alimentos libres de energía
+                </li>
+                <li>
+                    Recomendaciones acorde al peso y la bibliografía.
+                </li>
+            </ul>
+            <p class="pPest">
+                Para profundizar en los contenidos da clic en el siguiente enlace: <a
+                    href="https://www.imss.gob.mx/sites/all/statics/salud/guia-alimentos.pdf"
+                    target="_blank">https://www.imss.gob.mx/sites/all/statics/salud/guia-alimentos.pdf</a>
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '022')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '017')">
+                    <button type="button" class="btnCont-Verde">Reiniciar lectura</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="024" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <p class="pPest">
+                “La comida es un elemento básico en las relaciones sociales de intercambio y reciprocidad que muchas
+                de las
+                veces se sellan a través de los alimentos. Dar y recibir alimentos es una forma de mantener y
+                promover las
+                relaciones sociales entre las personas, es una forma de sociabilidad, comemos nuestros recuerdos.
+                Este autor
+                propone para el estudio antropológico de la alimentación la noción de “cultura alimentaria”, ya que
+                permite
+                entender la dimensión social de la alimentación y los rasgos especícos que cada cultura le da a este
+                acto,
+                el cual, aunque cotidiano, es un parámetro que diferencia a cada grupo humano y nos habla de su
+                nivel de
+                desarrollo. Además que permite conocer todo el entramado social que se desarrolla alrededor de la
+                alimentación en el contexto de sus cambios y transformaciones” (Rodríguez, como se citó en Aranda,
+                2014, p.
+                375).
+            </p>
+            <p class="pPest">
+                Miguel Ángel Adame propone seis niveles de alimentación: la mecánica, la sensorial, la sentimental o
+                emocional, la intelectual, la económico social y finalmente la alimentación libre. A lo anterior
+                agrega que
+                el acto de comer es una actitud básica ante la vida misma, que la comida es un medio de
+                subsistencia, un
+                comportamiento, una actitud, una expectativa y un discurso o lenguaje; que la satisfacción del
+                hambre dejó
+                de ser un simple instinto y se construyó en una concepción antropocósmica, así, el consumo de
+                alimentos se
+                convierte en un acto comunicativo, por una parte con la naturaleza y por la otra entre los mismos
+                seres
+                humanos. (como se citó en Aranda, 2014, p. 375)
+            </p>
+            <p class="pPest">
+                De acuerdo con Bosqued y Royo (2017) “los hábitos alimentarios evolucionan con el tiempo, influidos
+                por
+                muchos factores y complejas interacciones entre estilos de vida, grado de accesibilidad a los
+                alimentos,
+                aspectos socioeconómicos, normas sociales y culturales, presión comercial y mercados cada vez más
+                globales”
+                (Bosqued & Royo, 2017, p.84).
+            </p>
+            <p class="pPest">
+                Asimismo “Los hábitos alimentarios de las personas, descritos a menudo como conductas alimentarias,
+                se
+                originan temprano en la infancia y evolucionan con el tiempo. ¿Por qué la gente come de la forma en
+                que lo
+                hace? Porque es una respuesta fisiológica al hambre, por supuesto, pero las elecciones de alimentos
+                y la
+                forma de comer son mucho más complejas e involucran factores culturales, sociales, económicos,
+                ambientales y
+                de otros tipos en la elección de alimentos además de la decisión, patrones y gustos personales”
+                (Wilson,
+                2017; como se citó en Holli, & Beto, 2018, p. 17).
+            </p>
+            <p class="pPest">
+                Galán apunta a que “Un patrón alimentario se caracteriza por un fuerte apego a los productos que
+                conforman
+                los hábitos de comida de una población, además de un marcado arraigo al país, es decir, lo que
+                representan
+                las tradiciones, una estructura de consumo socialmente segmentado y una expresión de lo cultural,
+                nacional y
+                regional” (Torres, 2009; como se citó en Galán, 2021).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '025')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="025" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <p class="pPest">
+                Es decir que “Los factores que determinarán la selección de los alimentos que integrarán la dieta de
+                un
+                individuo son de naturaleza compleja y no están del todo bien definidos. No obstante, podemos asumir
+                que en
+                la selección de unos determinados alimentos, y no otros, estarían implicados numerosos factores,
+                aunque
+                básicamente la tipología alimentaria está supeditada a factores socioculturales y familiares junto
+                con la
+                capacidad de elección, determinada por la disponibilidad económica, el grado de educación
+                nutricional y el
+                estado de salud del individuo. Dentro de los condicionantes socioculturales se englobarían diversos
+                factores, como creencias religiosas, costumbrismo y tradiciones, modas y las campañas de publicidad
+                y
+                marketing que pretenden promocionar una determinada cultura o modelo alimentario. Es conocido que la
+                cultura
+                culinaria adquirida en el entorno familiar persistirá generalmente a lo largo de toda la vida del
+                individuo”
+                (Serra, Ruano & Sánchez, 2016, p. 836)
+            </p>
+            <p class="pPest">
+                “Los hábitos alimentarios son mayoritariamente comportamientos inconscientes, fruto de una
+                exposición
+                repetida y sostenida en el tiempo al mismo tipo de alimentos y condiciones en las que se produce su
+                consumo.
+                Son pura repetición de una pauta aprendida, transmitida a través de sucesivas generaciones e
+                integrada en un
+                modo de vida, que conducen a una preferencia de elección, relacionada con la familiaridad del sabor.
+                Es
+                decir, que el consumo pasado, integrado en la cultura de una comunidad en su sentido más amplio,
+                puede
+                predecir el comportamiento futuro. El origen de ciertos hábitos pudo haber sido consciente en su
+                momento y
+                haber desaparecido posteriormente de la conciencia al instalarse la costumbre. No obstante, por
+                encima de
+                los hábitos, como actos reflejos condicionados culturalmente, están las actitudes directamente
+                conscientes
+                que implicarán variaciones personales en los comportamientos alimentarios, resultantes de la
+                interacción
+                entre el aprendizaje, el proceso de socialización y las condiciones socioeconómicas del individuo”
+                (Bosqued
+                & Royo, 2017, p. 85).
+            </p>
+            <p class="pPest">
+                “Hablar de alimentación no es cosa fácil, mucho menos hablar de un patrón alimentario, ya que ambos
+                son
+                fenómenos complejos, es verdad que el comer, el alimentarnos cubre una necesidad biológica, pero no
+                todos
+                los individuos lo realizan de la misma manera. El “hecho alimentario” está determinado por factores
+                sociales, culturales y económicos” (Bertran, 2015; como se citó en Galán, 2021). Regularmente está
+                muy
+                marcada “la idea de que “somos lo que comemos” en varios sentidos: biológico, histórico y
+                psico-socio-cultural. Pero también hay que reflexionar de que “comemos lo que somos”, asumiendo con
+                ello que
+                la alimentación está condicionada por la realidad biológica y psicosocial” (Aranda, 2014, p. 374).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '024')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '026')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="026" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <div class="contenedorColumnas">
+                <div class="colIzq" style="width: 70%;">
+                    <p class="pPest">
+                        La dieta y los hábitos alimentarios están fuertemente influenciados por “preferencias
+                        alimentarias”
+                        que, de
+                        acuerdo con Bosqued & Royo (2017), “El término de preferencias alimentarias se emplea en
+                        psicología
+                        para
+                        referirse al gusto por un alimento, o más específicamente por un sabor (preferencias de sabor);
+                        pero
+                        también
+                        se utiliza, en un sentido más amplio, para describir la inclinación hacia determinados patrones
+                        alimentarios
+                        (qué comer, en qué cantidades y con qué frecuencia). Las preferencias alimentarias son
+                        determinantes
+                        a la
+                        hora de decidir cómo alimentarnos, entre varias opciones disponibles, en un entorno de libre
+                        elección” (p.
+                        85).
+                    </p>
+                </div>
+                <div class="colDer" style="display: flex; justify-content: center; align-items: center; width: 30%; padding: 20px;">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_09.png" alt=""
+                        class="img-fluid zoomImgLft">
+                </div>
+            </div>
+            <p class="pPest">
+                Además “aunque algunos aspectos de las preferencias alimentarias son innatos, como el gusto por el
+                sabor
+                dulce (azúcares) de los bebés humanos, la mayoría son aprendidas con el tiempo y maleables. La
+                preferencia
+                innata por el dulce resulta fundamental para asegurar un consumo de glucosa suficiente para cubrir
+                las
+                necesidades del cerebro en época de crecimiento y desarrollo. Los alimentos naturales más ricos en
+                azúcares,
+                además de la leche, son las frutas, de forma que esta preferencia innata habría contribuido también
+                a
+                garantizar una ingesta adecuada de vitaminas y minerales en la infancia, cuando las carencias pueden
+                tener
+                consecuencias más graves y, a veces, irreversibles. Sin embargo, en el entorno alimentario actual,
+                donde la
+                inmensa mayoría de alimentos ultraprocesados contienen azúcares, y con frecuencia nada más que
+                azúcares,
+                sobre todo en productos dirigidos a niños, como dulces y bebidas azucaradas, la preferencia por el
+                dulce se
+                ha convertido en una desventaja, pues estos productos carecen de vitaminas y otros micronutrientes
+                esenciales. Por tanto, el aprendizaje debe ir dirigido a mitigar la preferencia innata por el
+                dulzor, en un
+                entorno de hiperestimulación, y potenciar el gusto por alimentos saludables menos favorecidos de
+                forma
+                innata, como las verduras” (Bosqued & Royo, 2017, p. 85)
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '025')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '027')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="027" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <p class="pPest">
+                Según Birch & Fisher (1998) “el proceso de aprendizaje se inicia antes del nacimiento, está muy
+                marcado por
+                las prácticas de alimentación temprana y se desarrolla a lo largo de toda la vida. Para promover el
+                desarrollo de preferencias alimentarias saludables, son esenciales la promoción y protección de la
+                lactancia
+                materna, la introducción apropiada de la alimentación complementaria y la progresiva exposición a
+                alimentos
+                de distintos sabores y texturas durante la etapa preescolar. Y debe tenerse en cuenta que las
+                preferencias
+                adquiridas en la primera infancia, aunque pueden ser modificadas con posterioridad, son
+                habitualmente
+                persistentes y resistentes al cambio. (como se citó en Bosqued & Royo, 2017, p. 85) Por ello “el
+                papel de
+                los padres es fundamental para proporcionar un entorno propicio para el aprendizaje temprano de
+                preferencias
+                saludables, manteniendo buenos hábitos alimentarios, que sirvan de modelo para sus hijos,
+                proporcionando una
+                oferta alimentaria equilibrada y protegiendo a los menores de influencias perniciosas, como la de la
+                publicidad” (Bosqued & Royo, 2017, p. 86)
+            </p>
+            <p class="pPest">
+                Como se pudo notar existen factores que influyen en las preferencias alimentarias, para ello Hawkes
+                et al.
+                (2015) destaca que “la interacción entre las preferencias alimentarias y el entorno (social,
+                alimentario, de
+                información, etc.) en que las mismas han sido aprendidas, expresadas y reevaluadas a nivel
+                individual tiene
+                una gran relevancia en la configuración y evolución de los patrones alimentarios de las poblaciones”
+                (como
+                se citó en Bosqued & Royo, 2017, p. 86).
+            </p>
+            <p class="pPest">
+                La modelización de las preferencias alimentarias vía normas sociales y culturales, especialmente si
+                son
+                promocionadas por celebridades o personajes famosos, también juega un papel fundamental en el
+                aprendizaje.
+                Otros factores externos que pueden influir en las preferencias alimentarias son los ligados a la
+                comercialización de los productos, como la presentación atractiva, los regalos y promociones
+                asociadas a su
+                compra o el tamaño desproporcionado de las porciones, que animan a los niños a comer con mayor
+                frecuencia y
+                más allá del nivel en el que su apetito es satisfecho, pudiendo convertir tales prácticas en hábitos
+                normalizados. A esta estandarización de las preferencias contribuye de forma destacada la publicidad
+                alimentaria. (Bosqued & Royo, 2017, p. 86)
+            </p>
+            <p class="pPest">
+                “A lo largo del tiempo se han presentado cambios constantes en la alimentación, trayendo consigo
+                consecuencias a la salud, no necesariamente favorecedoras. En las últimas décadas, la tendencia en
+                el
+                aumento del sobrepeso y la obesidad en México se debe en gran parte al consumo excesivo de calorías
+                y
+                disminución de la actividad física, pero también debido a la disminución en la ingesta de vitaminas
+                y
+                minerales, asociada al bajo consumo de frutas, verduras, leguminosas y pescado” (Galán, 2021).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '026')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '028')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="028" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <p class="pPest">
+                En México “el patrón de alimentación actual ha ido tomando la tendencia de incluir alimentos
+                altamente
+                calóricos y pobres en nutrimentos, se puede atribuir a que son alimentos de fácil acceso y bajo
+                costo, lo
+                que ha ido desplazando poco a poco algunos alimentos del patrón tradicional” (Galán, 2021). “Existen
+                muchas
+                ocasiones para comer en nuestras vidas diarias. El consumo de alimentos fuera de casa en
+                establecimientos
+                comerciales sigue en aumento” (Holli, & Beto, 2018, p. 17).
+            </p>
+            <div style="text-align:center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZqLtpx1Tlyg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <p class="pPest">
+                “Saber qué comer es ciertamente el primer paso para influir en la elección de alimentos saludables,
+                pero es
+                probable que esto esté sobrevaluado. Hay personas que saben qué comer y no lo hacen. Cuando la gente
+                no come
+                en forma saludable, algunos nutricionistas redoblan sus esfuerzos de educación como si el problema
+                fuese la
+                falta de conocimiento. La relación entre lo que la gente sabe de comida y nutrición, y lo que come,
+                es muy
+                débil. Existen otros factores que pueden estar teniendo influencia y deben ser explorados. El
+                conocimiento
+                ayuda solo cuando la gente está lista y motivada a cambiar. Así, hay muchas influencias sobre las
+                elecciones
+                alimentarias, incluyendo factores cognitivos, socioculturales, físicos y geográficos. El
+                nutricionista debe
+                explorarlos todos para entender a su paciente, la motivación que tiene para cambiar y el tipo
+                apropiado de
+                intervención” (Holli, & Beto, 2018, p.18).
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '027')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '029')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="029" class="contenidopest">
+            <h3>1.4 Hábitos alimentarios: adquisición y modificación</h3>
+            <p class="pPest">
+                Asimismo Calvo y López (2011) destacan que “los profesionales sociosanitarios, al ejercer sus
+                funciones en
+                los programas de prevención y promoción de la salud, recomiendan a la población la mejora de los
+                hábitos de
+                vida y entre ellos los hábitos alimentarios como forma de luchar contra las patologías dominantes en
+                el
+                siglo XXI, muy relacionadas con la malnutrición por exceso (obesidad) y por defecto (carencias de
+                nutrientes)” (p. 15). En la siguiente imagen se presentan algunos elementos que dan origen a los
+                hábitos
+                alimentarios y otros que intervienen en la modificación de las elecciones alimentarias y
+                comportamientos de
+                salud (Calvo & López, 2011).
+            </p>
+            <div style="display: flex; justify-content: center; flex-wrap: wrap; padding: 20px;">
+                <a href="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_10.png" target="_blank">
+                    <img src="https://iesap.com.mx/BancoRecursos/Dpm/DGAPS/102NSP/01U/DGAPS102U1_10.png" alt=""
+                class="img-fluid zoomImgGd">
+                </a>                    
+            </div> 
+            <p class="pPest" style="text-align: center; font-size: small;">
+                Fuente: Calvo, C. & López, C. (2011). Hábitos alimentarios. En S. Calvo, C. Gómez, C. López & M.
+                Royo, <i>Nutrición, salud y alimentos funcionales</i>, p.14. Madrid: UNED.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '028')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+                <div onclick="openPest(event, '024')">
+                    <button type="button" class="btnCont-Verde">Reiniciar Lectura</button>
+                </div>                
+            </div>
+        </div>
+
+
+
+        <div id="030" class="contenidopest">
+            <h3>Referencias I</h3>
+            <p class="sangFran">
+                Aranda, S. (2014). Alimentación en México. Escuela Nacional de Antropología, 373-378. Obtenido de:
+                <a href="https://www.redalyc.org/pdf/351/35135452019.pdf"
+                    target="_blank">https://www.redalyc.org/pdf/351/35135452019.pdf</a>
+            </p>
+            <p class="sangFran">
+                Bourges-Rodríguez, H. (2015). Los nutrimentos. En M. Kaufer-Horwitz, A. Pérez-Lizaur & P. Arroyo,
+                Nutriología Médica (págs. 39-60). México: panamericana.
+            </p>
+            <p class="sangFran">
+                Bosqued, M. & Royo, M. (2017). Hábitos alimentarios: adquisición y modificación. En M. Royo,
+                Nutrición en
+                salud pública (págs. 8-22). Madrid: Escuela Nacional de Sanidad.
+            </p>
+            <p class="sangFran">
+                Calvo, C. & López, C. (2011). Hábitos alimentarios. En S. Calvo, C. Gómez, C. López & M. Royo,
+                Nutrición,
+                salud y alimentos funcionales (págs. 13-30). Madrid: UNED.
+            </p>
+            <p class="sangFran">
+                Constitución Política de los Estados Unidos Mexicanos. Art. 4. 28 de Mayo de 2021 (México). Obtenido
+                de:
+                <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf"
+                    target="_blank">https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf</a>
+            </p>
+            <p class="sangFran">
+                De Burgos, C., Monge, S. & Royo, M. (2017). Los nutrientes. En M. Royo, Nutrición en salud pública
+                (págs.
+                8-22). Madrid: Escuela Nacional de Sanidad.
+            </p>
+            <p class="sangFran">
+                Galán, G. (15 de Octubre de 2021). Patrón de alimentación en México. Obtenido de: alimentación para
+                la
+                salud: <a href="https://alimentacionysalud.unam.mx/patron-de-alimentacion-en-mexico/"
+                    target="_blank"></a>
+            </p>
+            <p class="sangFran">
+                Holli, B. & Beto, J. (2018). Educación nutricional: Guía para profesionales de la nutrición.
+                Philadelphia:
+                Wolters Kluwer.
+            </p>
+            <p class="sangFran">
+                Ley General de Salud. (DOF 30-03-2022). Obtenido de:
+                <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_General_de_Salud.pdf"
+                    target="_blank">https://www.diputados.gob.mx/LeyesBiblio/pdf_mov/Ley_General_de_Salud.pdf</a>
+            </p>
+            <p class="sangFran">
+                Montilva, M. (2005). La nutrición comunitaria: un desafío en Venezuela. Anales Venezolanos de
+                Nutrición,
+                116-120.
+            </p>
+            <p class="sangFran">
+                Ramírez, J., & Monroy, R. (Junio-Julio 2013). Guía alimentaria mexicana: El plato del bien comer.
+                REDICINAySA, 8-10. Obtenido de: <a
+                    href="https://www.ugto.mx/redicinaysa/images/Revistas2013/redicinaysa-jun-jul-2013-universidad-guanajuato.pdf"
+                    target="_blank">https://www.ugto.mx/redicinaysa/images/Revistas2013/redicinaysa-jun-jul-2013-universidad-guanajuato.pdf</a>
+            </p>
+            <p class="sangFran">
+                Secretaría de Salud. (2010). Guía de Alimentos para la Población Mexicana. IMSS: México. Obtenido
+                de: <a href="https://www.imss.gob.mx/sites/all/statics/salud/guia-alimentos.pdf"
+                    target="_blank">https://www.imss.gob.mx/sites/all/statics/salud/guia-alimentos.pdf</a>
+            </p>
+            <p class="sangFran">
+                Secretaría de Salud. (2012). NOM-043-SSA2-2012. Obtenido de: <a
+                    href="https://www.cndh.org.mx/DocTR/2016/JUR/A70/01/JUR-20170331-NOR37.pdf"
+                    target="_blank">https://www.cndh.org.mx/DocTR/2016/JUR/A70/01/JUR-20170331-NOR37.pdf</a>
+            </p>
+            <br>
+            <br>
+            <div class="enlaces">
+                <div onclick="openPest(event, '031')">
+                    <button type="button" class="btnCont-Verde">Siguiente</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="031" class="contenidopest">
+            <h3>Referencias II</h3>
+            <p class="sangFran">
+                Serra, L., Ruano, C. & Sánchez, A. (2016). Nutrición y salud pública. Problemas nutricionales. En G.
+                Piédrola, Medicina preventiva y salud pública (págs. 834-862). Barcelona: Elsevier.
+            </p>
+            <p class="sangFran">
+                Tech México. (26 de Febrero de 2021). Objetivos nutricionales. Obtenido de Techtitute: <a
+                    href="https://www.techtitute.com/mx/enfermeria/blog/objetivos-nutricionales#:~:text=Los%20objetivos%20nutricionales%20se%20enfocan,mas%20saludable%20a%20cada%20persona.&text=La%20nutrici%C3%B3n%20se%20ha%20convertido,parte%20de%20una%20vida%20saludable"
+                    target="_blank">https://www.techtitute.com/mx/enfermeria/blog/objetivos-nutricionales#:~:text=Los%20objetivos%20nutricionales%20se%20enfocan,mas%20saludable%20a%20cada%20persona.&text=La%20nutrici%C3%B3n%20se%20ha%20convertido,parte%20de%20una%20vida%20saludable</a>
+            </p>
+            <p class="sangFran">
+                Tenorio, Y., & Monroy, R. (Junio-Julio 2013). Guías alimentarias nacionales: origen e importancia.
+                REDICINAySA, 5-7. Obtenido de: <a
+                    href="https://www.ugto.mx/redicinaysa/images/Revistas2013/redicinaysa-jun-jul-2013-universidad-guanajuato.pdf"
+                    target="_blank">https://www.ugto.mx/redicinaysa/images/Revistas2013/redicinaysa-jun-jul-2013-universidad-guanajuato.pdf</a>
+            </p>
+            <p class="sangFran">
+                Vazquéz, C. (2017). Ingestas dietéticas de referencia, objetivos nutricionales y guías alimentarias.
+                En M.
+                Royo, Nutrición en salud pública (págs. 8-22). Madrid: Escuela Nacional de Sanidad.
+            </p>
+            <div class="enlaces">
+                <div onclick="openPest(event, '030')">
+                    <button type="button" class="btnCont-Verde">Anterior</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="044" class="contenidopest">
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest" style="text-align: center;">
+
+            </p>
+            <p class="pPest" style="text-align: center;">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <ul style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+            <ul style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+            <ul style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+            <ul style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <h3></h3>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+
+
+
+
+            <h3>1.2 Los nutrientes</h3>
+            <p class="pPest">
+
+            </p>
+            <p class="pPest">
+
+            </p>
+
+            <ol style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ol>
+            <ul style="font-size: medium">
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </div>
+
+
+
+        <script src="https://iesap.com.mx/BancoRecursos/Maestrias/js/script.js" type="text/javascript"></script>
+
+        </body>
+
+        </html>

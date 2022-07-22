@@ -15,7 +15,7 @@ p>a:hover {
 .contenedor {
     width: auto;
     height: 100vh;
-    padding    
+    padding
 }
 
 /* Style the pest */
@@ -31,7 +31,7 @@ p>a:hover {
 /* Style the buttons inside the pest */
 
 .pest button {
-    display: flex;    
+    display: flex;
     background-color: #a1d18d;
     color: black;
     font-weight: 600;
@@ -68,17 +68,17 @@ p>a:hover {
 
 /* Style the pest content */
 
-.pPest{
+.pPest {
     font-size: medium;
     text-indent: 25px;
-    }
+}
 
 .contenidopest {
     float: left;
     padding: 0 12px;
     width: 70%;
     border-left: none;
-    height: 80%;    
+    height: 80%;
 }
 
 p {
@@ -135,7 +135,7 @@ p {
     text-decoration: none;
     color: #fff;
     box-shadow: inset 340px 0 0 0 #024016;
-    
+
 }
 
 
@@ -279,7 +279,53 @@ p.sangFran {
     position: relative;
     padding-left: 40px;
     font-size: small;
-  }
+}
+
+.zoomImg {
+    transition: all .2s ease-in-out;
+}
+
+.zoomImg:hover {
+    transform: scale(2);
+    z-index: 10;
+}
+.zoomImgGd{
+    transition: all .2s ease-in-out;
+}
+.zoomImgGd:hover{
+    transform: scale(1.4) translateX(-80px);
+}
+.zoomImgLft{
+    transition: all .2s ease-in-out;
+}
+
+.zoomImgLft:hover{
+    transform: scale(2) translateX(-80px) translateY(80px);       
+}
+
+/*
+
+.grow { 
+	transition: all .2s ease-in-out; 
+}
+	.grow:hover { 
+    	transform: scale(1.1); 
+    }
+
+    img:hover {
+transform: scale(1.3);
+}
+
+*/
+
+/*
+<div style="color: green; background: gray"
+onpointerenter="this.setAttribute('style', 'color: blue; background: red')"
+onpointerleave="this.setAttribute('style', 'color: red; background: blue')">some content</div>
+*/
+
+
+
 
 /*
 .pest button {
