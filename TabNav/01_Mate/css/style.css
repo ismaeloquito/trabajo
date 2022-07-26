@@ -19,6 +19,11 @@ p>a:hover {
 }
 
 /* Style the pest */
+.parag {
+    font-size: medium;    
+    text-align: justify;
+}
+
 .pest {
     padding: 15px 0;
     float: left;
@@ -27,9 +32,7 @@ p>a:hover {
     /*background-color: #024016;*/
 }
 
-
 /* Style the buttons inside the pest */
-
 .pest button {
     display: flex;
     background-color: #a1d18d;
@@ -51,7 +54,6 @@ p>a:hover {
 
 
 /* Change background color of buttons on hover */
-
 .pest button:hover {
     background-color: #b5d1a8;
     padding-right: 25px;
@@ -59,7 +61,6 @@ p>a:hover {
 
 
 /* Create an active/current "pest button" class */
-
 .pest button.active {
     background-color: #8ab973;
     transform: translateY(4px);
@@ -67,7 +68,6 @@ p>a:hover {
 
 
 /* Style the pest content */
-
 .pPest {
     font-size: medium;
     text-indent: 25px;
@@ -80,12 +80,6 @@ p>a:hover {
     border-left: none;
     height: 80%;
 }
-
-p {
-    font-size: medium;
-    text-align: justify;
-}
-
 .contenidopest h3 {
     /*color:#fff !important;*/
     font-weight: 800 !important;
@@ -281,27 +275,41 @@ p.sangFran {
     font-size: small;
 }
 
-.zoomImg {
+.zoomImg, .zoomImgUp, .zoomImgLft, .zoomImgGd, .zoomImgExg {
     transition: all .2s ease-in-out;
 }
 
 .zoomImg:hover {
     transform: scale(2);
-    z-index: 10;
 }
-.zoomImgGd{
+/*.zoomImgUp {
     transition: all .2s ease-in-out;
+}*/
+
+.zoomImgUp:hover {
+    transform: scale(2) translateX(-80px) translateY(-80px);        
 }
-.zoomImgGd:hover{
-    transform: scale(1.4) translateX(-80px);
-}
-.zoomImgLft{
+/*.zoomImgLft{
     transition: all .2s ease-in-out;
-}
+}*/
 
 .zoomImgLft:hover{
     transform: scale(2) translateX(-80px) translateY(80px);       
 }
+/*.zoomImgGd{
+    transition: all .2s ease-in-out;
+}*/
+.zoomImgGd:hover{
+    transform: scale(1.4) translateX(-80px);
+}
+/*.zoomImgExg{
+    transition: all .2s ease-in-out;
+}*/
+.zoomImgExg:hover{
+   transform: scale(1.8) translateX(-80px) translateY(380px);
+}
+
+
 
 /*
 

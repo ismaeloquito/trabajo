@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .contVideo {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        padding-top: 75%;
+        
+        /* 4:3 Aspect Ratio */
+    }
+
+    .responsiframe {        
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    video{
+        width: 100%;
+    }
+</style>
+
+<body>
+    <div class="contVideo">
+        <iframe class="responsiframe"
+            src="http://video.cndh.org.mx/sites/default/files/videos/original/Ninos_2013-04-19_CapsulaDidactica_DerechoALaSalud.mp4"></iframe>
+    </div>
+
+    <video >
+        <source src="http://video.cndh.org.mx/sites/default/files/videos/original/Ninos_2013-04-19_CapsulaDidactica_DerechoALaSalud.mp4" type="video/mp4" class="imgSlide">
+    </video>
+</body>
+
+</html>
