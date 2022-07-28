@@ -71,6 +71,7 @@ p>a:hover {
 .pPest {
     font-size: medium;
     text-indent: 25px;
+    text-align: justify;
 }
 
 .contenidopest {
@@ -275,38 +276,42 @@ p.sangFran {
     font-size: small;
 }
 
-.zoomImg, .zoomImgUp, .zoomImgLft, .zoomImgGd, .zoomImgExg {
+.zoomImg, .zoomImgUp, .zoomImgLft, .zoomImgLftUp, .zoomImgGd, .zoomImgExg, .zoomImgVrt, .zoomImgVrtGd, .zoomImgVrtDwn{
     transition: all .2s ease-in-out;
 }
 
 .zoomImg:hover {
     transform: scale(2);
 }
-/*.zoomImgUp {
-    transition: all .2s ease-in-out;
-}*/
 
 .zoomImgUp:hover {
-    transform: scale(2) translateX(-80px) translateY(-80px);        
+    transform: scale(2) translate(-80px, -80px);        
 }
-/*.zoomImgLft{
-    transition: all .2s ease-in-out;
-}*/
 
 .zoomImgLft:hover{
-    transform: scale(2) translateX(-80px) translateY(80px);       
+    transform: scale(2) translate(-80px, 80px);       
 }
-/*.zoomImgGd{
-    transition: all .2s ease-in-out;
-}*/
+.zoomImgLftUp:hover{
+    transform: scale(2) translate(-40px, -40px);
+}
+
 .zoomImgGd:hover{
     transform: scale(1.4) translateX(-80px);
 }
-/*.zoomImgExg{
-    transition: all .2s ease-in-out;
-}*/
+
 .zoomImgExg:hover{
-   transform: scale(1.8) translateX(-80px) translateY(380px);
+   transform: scale(1.8) translate(-80px, 80px);
+}
+.zoomImgVrt:hover{
+    transform: scale(2) translateY(-80px);
+}
+
+.zoomImgVrtGd:hover{
+    transform: scale(1.4) translateY(-60px);
+}
+
+.zoomImgVrtDwn:hover{
+    transform: scale(1.6) translate(20px, 40px);
 }
 
 

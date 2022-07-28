@@ -1,0 +1,10 @@
+En la propiedad animation se usan los siguientes valores, los que se pueden modificar:
+
+3s – Intervalo en segundos de la rotación
+rotate – Tipo de animación
+linear – Tipo de movimiento
+infinite – Duración de la animación
+
+
+Fuente:
+https://norfipc.com/codigos/como-rotar-hacer-girar-imagenes-usando-css.php
