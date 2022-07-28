@@ -1,0 +1,963 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/************************************************************************************************************************/
+/*                                              Inicia Sticky Social Bar                                                */
+/************************************************************************************************************************/
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 100;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #268f50;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram {
+  background-color: #773aab;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.whatsapp {
+  background: #25d366;
+  color: #fff
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Sticky Social Bar                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                             Inicia Barra de Navegación                                               */
+/************************************************************************************************************************/
+
+header {
+  background-color: rgba(3,89,38,0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 2px solid #fff;
+}
+.nav-menu>li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 1000;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {  
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;  
+}
+.nav-branding {
+  font-size: 2rem;
+}
+.nav-branding>img{
+  height:80px;
+}
+.nav-link {
+  transition: 0.7s ease;
+}
+.active, .nav-link:hover {
+  color: #05a346;
+  text-shadow: 3px 3px #000;     
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+nav.sticky{
+  background-color: rgb(3,89,38);
+}
+nav.sticky .logo{
+  color:#fff;
+}
+/************************************************************************************************************************/
+/*                                            Finaliza Barra de Navegación                                              */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia IESAPiens                                                    */
+/************************************************************************************************************************/
+.IESAPiens {
+  background-color: #0e391e;
+  height: 1000px;
+  padding-top: 30px;      
+
+}
+
+/************************************************************************************************************************/
+/*                                                 Finaliza IESAPiens                                                   */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia SlideShow                                                    */
+/************************************************************************************************************************/
+
+video{
+  width:100%;
+}
+
+/************************************************************************************************************************/
+/*                                                 Finaliza SlideShow                                                   */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Contenido Cursos                                                 */
+/************************************************************************************************************************/
+.contVerdIESAP {
+  width: 100%;    
+  height: auto;      
+  overflow: hidden;   
+  text-align: center;    
+  color: #fff;
+  background-color: #035926;    
+}
+.contVerdIESAP>.title{
+  margin-top: 25px;
+  padding: 25px 0 25px 0;
+  color: #fff;    
+}
+.title{
+  margin-top: 25px;
+  text-align: center;
+  color: #035926;
+}
+.marco{     
+  width: 100%;
+  margin: 20px 0 30px 0;
+  padding-bottom: 20px;       
+  display: flex;        
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow: hidden;
+}
+.marcoInt{     
+  width: 28%;
+  height: fit-content;
+  display: flex;
+  margin: 2px;
+  border: 4px solid #7a7a7a;   
+}
+.marcoInt>a>img {
+  width: 100%;
+  display: flex;
+  height: fit-content;    
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Contenido Cursos                                                */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+
+.backV {
+  margin: 50px 0;
+  padding: 20px 0;
+  background-color: #035926;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.backV,
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+    /************************************************************************************************************************/
+/*                                             Inicia Área de Contenidos                                                */
+/************************************************************************************************************************/
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title>h3 {
+  align-self: flex-start;    
+  padding: 20px 0 20px 0;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  color: #035926;
+  font-weight: 600;
+}
+.marCont {
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.marCont img {
+  width: 100%;
+  height: auto;
+}
+.textos {
+  padding: 15px;
+  margin: 0 auto;
+  text-align: justify;
+  width: 65%;
+}
+.alinear {
+  padding: 35px;
+  text-align: left;  
+}
+
+/************************************************************************************************************************/
+/*                                              Inicia Tablón de Anuncios                                               */
+/************************************************************************************************************************/
+
+.marContAvisos {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;   
+  overflow: hidden;
+  text-align: center;    
+  background-color: #02401b;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);    
+}
+.marContAvisos> .titleAvisos{
+  color: #fff;
+  margin-top: 25px;
+  
+}
+.tablonAvisos{
+  padding: 25px;
+  align-self: flex-end;    
+  display: flex;
+  justify-content: center;
+  flex-direction: row;    
+  text-align: center;
+  overflow: hidden;       
+}
+.avisos {             
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  padding: 25px;
+  background-color: #fff;
+  color: #000;    
+  border-radius: 10px 10px 10px 10px;    
+}
+.avisos>h4{    
+  padding: 5px;       
+}
+.avisos>p{
+  padding: 5px;
+}
+
+.enlaces{
+  margin-bottom: 25px;
+  font-size: xx-large;
+}
+.enlaces>a,
+.enlaces>a:link,
+.enlaces>a:visited,
+.enlaces>a:focus,
+.enlaces>a:active {
+  text-decoration: none;
+  color: #05a346;
+}
+.enlaces>a:hover{
+  color: #035926;
+}
+
+.button {
+  border: none;  
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 800;
+  border: 2px solid #035926;
+  border-radius: 10px;
+  width: 90%;
+}
+.buttonInfo {
+    background-color: #058a3b; 
+    color: #fff; 
+    border: 2px solid #035926;
+  }
+  
+  .buttonInfo:hover {
+    background-color: #035926;
+    color: #058a3b;
+    
+  }
+
+/************************************************************************************************************************/
+/*                                             Finaliza Tablón de Anuncios                                              */
+/************************************************************************************************************************/
+
+/************************************************************************************************************************/
+/*                                            Finaliza Área de Contenidos                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                     Inicia Map                                                       */
+/************************************************************************************************************************/
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 25px 0;
+  padding: 25px 0 25px 0;
+}
+.map>iframe{
+  width: 90%;
+  height: 900px;
+}
+
+/************************************************************************************************************************/
+/*                                                    Finaliza Map                                                      */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Flip Card Styles                                                 */
+/************************************************************************************************************************/
+
+.conTarjeta {
+  padding: 64px;  
+}
+.fila:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fila{
+  margin:20px;
+  display: flex;
+}
+.column01 {
+  flex-direction: row;
+  justify-content: left;
+  justify-items: flex-end;
+  width: 60%;
+  padding: 20px;
+}
+.column01>h5,h6{
+  text-align: center;
+}
+.column01>p{
+  text-align: justify;
+}
+.column01>.button {
+  align-items: flex-end;
+  margin: 20px;
+  width: auto;  
+  background-color: #035926;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+}
+.column01>.button:hover{
+  background-color: #05a346;
+  color: #000;
+}
+.column02 {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+.large-font {
+  font-size: 48px;
+}
+.xlarge-font {
+  font-size: 64px;
+}
+.column02>img {  
+  width: 100%;
+  height: auto;
+}
+
+/*
+.card{
+  display: flex;
+  flex-direction: row; 
+  width: 90%; 
+}
+.cardIzq{
+  width:35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.cardIzq>img{
+  width: 100%;
+  
+}
+.carDer{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width:65%;
+  background-color: #05a346;
+  
+}
+.carDer>.textos{  
+  width:90%;
+}
+
+*/
+
+/************************************************************************************************************************/
+/*                                             Finaliza Flip Card Styles                                                */
+/************************************************************************************************************************/
+
+
+
+/************************************************************************************************************************/
+/*                                                    Inicia Footer                                                     */
+/************************************************************************************************************************/
+
+footer {
+  width: auto;
+  background-color: #02401b;
+}
+.logos{  
+  background-color: #012811;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+.logos>div{
+  margin:15px 0 ;
+  padding: 25px;
+}
+.piePag {
+  height: 150px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.piePag a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 50px;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.piePag a:hover {
+  background-color: #268f50;
+}
+
+.foot01 {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+/************************************************************************************************************************/
+/*                                                   Finaliza Footer                                                    */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                            Inicia Formulario de Contacto                                             */
+/************************************************************************************************************************/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #02401b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #0e391e;
+  width: 100%;    
+}
+input, h2, h3{
+  text-align: center;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+  border: 2px solid #45a049;
+  color:#000; 
+}
+
+.containerForm {
+  border-radius: 5px;
+  background-color: #058a3b;
+  color:#fff;
+  padding: 20px;
+  width: 70%;
+}
+
+/************************************************************************************************************************/
+/*                                           Finaliza Formulario de Contacto                                            */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                Inicia Menú inferior                                                  */
+/************************************************************************************************************************/
+.botNavbar{
+  display: none;
+}
+
+/************************************************************************************************************************/
+/*                                               Finaliza Menú inferior                                                 */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                               Inicia Media Queries                                                   */
+/************************************************************************************************************************/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1299px) {
+  .nav-branding{
+    content: url("../img/LogoIESAP_ch.png");    
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+@media (max-width: 999px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  header {
+    background-color: rgb(3,89,38);    
+  }  
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgb(3,89,38);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+  .conTarjeta{
+    display: flex;
+  }
+  .fila {
+    flex-direction: column;
+  }
+  .column01, .column02 {
+    width: 100%;
+    
+  }
+  .column01>.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .column02>img {
+    display: block;  
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .icon-bar{
+    display:none;
+  }
+  .alinear {
+    padding: 15px;
+    text-align: left;  
+  }
+  .textos {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: justify;
+    width: 90%;
+  }
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Contenido Cursos                                                 */
+/************************************************************************************************************************/
+.contVerdIESAP {
+  width: 100%;    
+  height: auto;      
+  overflow: hidden;   
+  text-align: center;    
+  color: #fff;
+  background-color: #035926;    
+}
+.contVerdIESAP>.title>h3{
+  margin-top: 5px;
+  padding: 10px 0 10px 0;
+  color: #fff;    
+}
+.marco{     
+  width: 200%;
+  margin: 10px 0 30px 0;
+  padding-bottom: 10px;       
+  display: flex;        
+  flex-direction: column;  
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.marcoInt{
+  width: 45%;
+  height: 45%;
+  margin: 45px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid #7a7a7a;   
+}
+.marcoInt>a>img {
+  width: 100%;
+  display: flex;
+  height: fit-content;    
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Contenido Cursos                                                */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+  .map>iframe{
+    width: 90%;
+    height: 450px;
+  }
+  .tablonAvisos{
+    padding: 5px;
+    align-self: flex-start;    
+    display: flex;
+    flex-direction: column; 
+    justify-content: space;
+    align-items:center ;           
+    text-align: center;
+    overflow: hidden;       
+  }
+  .avisos {             
+    width: 90%;
+    height: auto;
+    margin: 5px 0 25px 0;
+    padding: 5px;        
+  }
+  .titleAvisos{
+    padding: 15px 0 10px 0;
+  }
+  .avisos>h4{    
+    padding: 5px;       
+  }
+  .avisos>p{
+    padding: 5px;
+  }   
+  .marco{             
+    display: flex;
+    flex-wrap: wrap;         
+  }
+  
+  .marcoInt>img {
+    width: 100%;
+    height: auto;
+  }  
+  .piePag {
+    height: 250px;
+  }  
+  .botNavbar {
+    display: flex;
+    overflow: hidden;
+    background-color: #035926;
+    border-top: 2px solid #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+  }  
+  .botNavbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.333%;
+    /* Four links of equal widths */
+    text-align: center;
+  }  
+  .botNavbar a:hover {
+    background-color: #047231;
+  }
+  .botNavbar i a:hover {
+    background-color: #047231;
+  }
+  .containerForm {
+    padding: 10px;
+    width: 85%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .conTarjeta {    
+    padding: 5px;    
+  }
+  .fila{
+    margin: 80px 20px 0 30px;
+    display: flex;
+  }
+  .column01 {
+    flex-direction: row;
+    justify-content: left;
+    justify-items: flex-end;
+    
+    padding: 5px;
+  }
+  .column01>h6{
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  .column01>.button {
+    margin: 40px 0;
+    width: 100%;     
+    
+  }
+  .column01>p{
+    font-size:larger;
+  }
+  .xlarge-font {
+    font-size: 30px;
+  }
+  .large-font {
+    font-size: 25px;
+  }
+}
+
+
+
+/* - - - - - - - - - - - - - - - - */
+
+
+@media (max-width: 576px) { 
+  header {    
+    width: 100%;
+  }
+  video{
+    margin-top: 70px;
+  }
+  
+  .contVerdIESAP {
+    width: 40%;         
+  }
+
+  .marco {
+    width: 86%;    
+}
+  .marcoInt {
+    width: 86%;    
+    justify-content: center;
+  }
+  .marcoInt>a>img {
+    width: 100%;
+        
+  }
+
+
+
+  .botNavbar {    
+    width: 100%;
+  }
+  /************************************************************************************************************************/
+/*                                                    Inicia Footer                                                     */
+/************************************************************************************************************************/
+
+footer {
+  width: auto;
+  background-color: #02401b;
+}
+.logos{  
+  background-color: #012811;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+.logos>div{
+  margin:15px 0 ;
+  padding: 25px;
+}
+.piePag {
+  width:55%;
+  height: 250px;  
+}
+.piePag a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  justify-content: center;
+  
+  display: flex;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.piePag a:hover {
+  background-color: #268f50;
+}
+
+.foot01 {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+/************************************************************************************************************************/
+/*                                                   Finaliza Footer                                                    */
+/************************************************************************************************************************/
+  
+  
+
+
+ }
+
+
+/*
+https: ; //www.youtube.com/watch?v=flItyHiDm7E

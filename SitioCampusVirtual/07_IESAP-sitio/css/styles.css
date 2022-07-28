@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Sticky Social Bar                                                */
+/************************************************************************************************************************/
+
+/*
+body {
+    margin:0;height:2000px;
+}
+*/
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #268f50;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.instagram {
+    background-color: #773aab;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.whatsapp {
+    background: #25d366;
+    color: #fff
+  }
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Sticky Social Bar                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                             Inicia Barra de Navegación                                               */
+/************************************************************************************************************************/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::selection {
+    background: rgba(0, 123, 255, 0.7);
+}
+
+.content {
+
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+    background: rgba(3, 89, 38, 0.5);
+    border-bottom: 2px solid #fff;
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: #035926;
+    box-shadow: 0px 3px 5px 0px rgba(3, 89, 38, 0.5);
+}
+
+.navbar .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .menu-list {
+    display: inline-flex;
+}
+/* .active{
+    color: #05a346;
+} */
+.logo img {
+    float: left;
+    width: 400px;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.menu-list li a:hover {
+    color: #8a8a8a;
+}
+.menu-list li .active {
+    color: #05a346;
+    font-weight: 800;
+}
+
+.about {
+    padding: 40px 0;
+}
+
+.about .title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about p {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.icon {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar.sticky .icon.cancel-btn {
+    top: 10px;
+}
+
+
+/************************************************************************************************************************/
+/*                                            Finaliza Barra de Navegación                                              */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia IESAPiens                                                    */
+/************************************************************************************************************************/
+.IESAPiens {
+    background-color: #0e391e;
+    height: 1000px;
+    padding-top: 30px;      
+
+  }
+
+/************************************************************************************************************************/
+/*                                                 Finaliza IESAPiens                                                   */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia SlideShow                                                    */
+/************************************************************************************************************************/
+
+video{
+    width:100%;
+}
+
+/************************************************************************************************************************/
+/*                                                 Finaliza SlideShow                                                   */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Contenido Cursos                                                 */
+/************************************************************************************************************************/
+.contVerdIESAP {
+    width: 100%;    
+    height: auto;      
+    overflow: hidden;   
+    text-align: center;    
+    color: #fff;
+    background-color: #035926;    
+}
+.contVerdIESAP>.title{
+    margin-top: 25px;
+    padding: 25px 0 25px 0;
+    color: #fff;    
+}
+.marco{     
+    width: 100%;
+    margin: 20px 0 30px 0;
+    padding-bottom: 20px;       
+    display: flex;        
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    overflow: hidden;
+}
+.marcoInt{     
+    width: 28%;
+    height: fit-content;
+    display: flex;
+    margin: 2px;
+    border: 4px solid #7a7a7a;   
+}
+.marcoInt>a>img {
+    width: 100%;
+    display: flex;
+    height: fit-content;    
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Contenido Cursos                                                */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                             Inicia Área de Contenidos                                                */
+/************************************************************************************************************************/
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.title>h3 {
+    align-self: flex-start;    
+    padding: 20px 0 20px 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: #035926;
+    font-weight: 600;
+}
+.marCont {
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.marCont img {
+    width: 100%;
+    height: auto;
+}
+.textos {
+    padding: 15px;
+    margin: 0 auto;
+    text-align: justify;
+    width: 65%;
+}
+.alinear {
+    padding: 35px;
+    text-align: left;
+}
+
+/* Inicia Tablón de Anuncios*/
+
+.marContAvisos {
+    width: 85%;
+    height: auto;
+    margin: 0 auto;   
+    overflow: hidden;
+    text-align: center;    
+    background-color: #02401b;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);    
+}
+.marContAvisos> .titleAvisos{
+    color: #fff;
+    margin-top: 25px;
+    
+}
+.tablonAvisos{
+    padding: 25px;
+    align-self: flex-end;    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+    text-align: center;
+    overflow: hidden;       
+}
+.avisos {             
+    width: 30%;
+    height: auto;
+    margin: 25px;
+    padding: 25px;
+    background-color: #fff;
+    color: #000;    
+    border-radius: 10px 10px 10px 10px;    
+}
+.avisos>h4{    
+    padding: 5px;       
+}
+.avisos>p{
+    padding: 5px;
+}
+
+.enlaces{
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+.enlaces>a,
+.enlaces>a:link,
+.enlaces>a:visited,
+.enlaces>a:focus,
+.enlaces>a:active {
+    text-decoration: none;
+    color: #05a346;
+}
+.enlaces>a:hover{
+    color: #035926;
+}
+
+/* Finaliza Tablón de Anuncios*/
+
+
+/************************************************************************************************************************/
+/*                                            Finaliza Área de Contenidos                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+    padding: 25px 0 25px 0;
+}
+.map>iframe{
+    width: 90%;
+    height: 900px;
+}
+
+/************************************************************************************************************************/
+/*                                                    Inicia Footer                                                     */
+/************************************************************************************************************************/
+
+footer {
+    width: auto;
+    background-color: #02401b;
+}
+.piePag {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.piePag a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+.piePag a:hover {
+    background-color: #268f50;
+}
+.foot01 {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+/************************************************************************************************************************/
+/*                                                   Finaliza Footer                                                    */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                            Inicia Formulario de Contacto                                             */
+/************************************************************************************************************************/
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #02401b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #0e391e;    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    border: 2px solid #45a049;
+    color:#000; 
+  }
+  
+  .containerForm {
+    border-radius: 5px;
+    background-color: #058a3b;
+    color:#fff;
+    padding: 20px;
+    width: 70%;
+  }
+
+/************************************************************************************************************************/
+/*                                           Finaliza Formulario de Contacto                                            */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                Inicia Menú inferior                                                  */
+/************************************************************************************************************************/
+.botNavbar{
+    display: none;
+}
+
+/************************************************************************************************************************/
+/*                                               Finaliza Menú inferior                                                 */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                               Inicia Media Queries                                                   */
+/************************************************************************************************************************/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    body.disabledScroll {
+        overflow: hidden;
+    }
+    .icon {
+        display: block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        z-index: 9;
+    }
+    .icon.cancel-btn {
+        display: none;
+    }
+    .icon.cancel-btn.show {
+        display: block;
+    }
+    .icon.hide {
+        display: none;
+    }
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(3, 89, 38);
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 67px));
+        transition: all 0.3s ease;
+    }
+    .navbar.sticky .menu-list {
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+    }
+    .navbar .menu-list.active {
+        clip-path: circle(75%);
+    }
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+    .navbar .menu-list li a {
+        font-size: 23px;
+    }
+    .map>iframe{
+        width: 90%;
+        height: 450px;
+    }
+    .tablonAvisos{
+        padding: 5px;
+        align-self: flex-start;    
+        display: flex;
+        flex-direction: column; 
+        justify-content: space;
+        align-items:center ;           
+        text-align: center;
+        overflow: hidden;       
+    }
+    .avisos {             
+        width: 90%;
+        height: auto;
+        margin: 5px 0 25px 0;
+        padding: 5px;        
+    }
+    .titleAvisos{
+        padding: 15px 0 10px 0;
+    }
+    .avisos>h4{    
+        padding: 5px;       
+    }
+    .avisos>p{
+        padding: 5px;
+    }
+
+
+
+    .marco{             
+        display: flex;
+        flex-wrap: wrap;         
+    }
+    .marcoInt{
+        width: 45%;
+        height: 45%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: 4px solid #7a7a7a;   
+    }
+    .marcoInt>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .piePag {
+        height: 250px;
+    }
+    
+    .botNavbar {
+        display: flex;
+        overflow: hidden;
+        background-color: #035926;
+        border-top: 2px solid #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%
+    }
+    
+    .botNavbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 33.333%;
+        /* Four links of equal widths */
+        text-align: center;
+    }
+    
+    .botNavbar a:hover {
+        background-color: #047231;
+    }
+    .botNavbar i a:hover {
+        background-color: #047231;
+    }
+    
+}
+
+
+/* Medida por defecto para la barra de menú para el tamaño de pantalla menor a 992px  (laptops/desktops, 992px and up) */
+@media (max-width: 868px) {
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

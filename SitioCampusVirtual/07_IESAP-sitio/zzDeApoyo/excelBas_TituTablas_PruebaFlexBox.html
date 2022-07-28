@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/excelBas_TituTablas_PruebaFlexBox.css">
+
+    <script defer src="./js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Inicia Sección Cursos-->
+    <div class="marCont">   
+        <div class="title">
+            <h3>Horarios y Grupos</h3>
+            <h3>Grupos intensivos son en sesiones continuas</h3>
+        </div>     
+        <div class="tablonAvisos">                       
+            <br>
+            <div class="avisos">
+                <h4>
+                    Grupos Intensivos
+                </h4>
+                <p>
+                    Inicia: Lunes 28 de Marzo 2022
+                </p>
+                <p>
+                    Inicia: Lunes 28 de Marzo 2022
+                </p>
+                <p>
+                    Termina: Viernes 8 de Abril 2022
+                </p>
+                <h4>
+                    Grupo Matutino:
+                </h4>
+                <p>
+                    Lunes a Viernes: 10:00 a 12:00
+                </p>
+                <h4>
+                    Grupo Vespertino:
+                </h4>
+                <p>Lunes a Viernes: 16:00 a 18:00 hrs</p>
+            </div>
+            <div class="avisos">
+                <h4>
+                    Grupos Matutinos
+                </h4>
+                <p>
+                    Lunes, Miércoles y viernes
+                </p>
+                <p>
+                    Inicia: Lunes 28 de Marzo 2022
+                </p>
+                <p>
+                    Termina: Lunes 18 de Abril 2022
+                </p>
+                <h4>
+                    Grupo Gamma:
+                </h4>
+                <p>
+                    Lunes, Miércoles y Viernes:
+                </p>
+                <h4>
+                    10:00 a 12:00 hrs
+                </h4>
+            </div>
+            <div class="avisos">
+                <h4>
+                    Grupos Vespertinos
+                </h4>
+                <p>
+                    Lunes, Miércoles y viernes
+                </p>
+                <p>
+                    Inicia: Lunes 28 de Marzo 2022
+                </p>
+                <p>
+                    Termina: Lunes 18 de Abril 2022
+
+                </p>
+                <h4>
+                    Grupo Delta:
+                </h4>
+                <p>
+                    Lunes, Miércoles y Viernes:
+                </p>
+                <p>
+                    12:00 a 14:00 hrs
+                </p>
+                <h4>
+                    Grupo Eta:
+                </h4>
+                <p>
+                    Lunes, Miércoles y Viernes:
+                </p>
+                <p>
+                    16:00 a 18:00 hrs
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- Finaliza Sección Cursos-->
+
+
+
+
+
+
+
+
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+            body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            body.classList.remove("disabledScroll");
+        }
+
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+
+</body>
+
+</html>

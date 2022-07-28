@@ -1,0 +1,66 @@
+/************************************************************************************************************************/
+/*                                              Inicia Listas Colapsables                                               */
+/************************************************************************************************************************/
+
+.ies-container:after,
+.ies-container:before,
+.ies-panel:after,
+.ies-panel:before,
+.ies-row:after,
+.ies-row:before,
+.ies-row-padding:after,
+.ies-row-padding:before,
+.ies-cell-row:before,
+.ies-cell-row:after,
+.ies-clear:after,
+.ies-clear:before,
+.ies-bar:before,
+.ies-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.ies-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.ies-block {
+    display: block;
+    width: 100%
+}
+
+.ies-black,
+.ies-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+.ies-verdIESAP,
+.ies-hover-verdIESAP:hover {
+    color: #fff !important;
+    background-color: #035926 !important
+}
+
+.ies-left-align {
+    text-align: left !important
+}
+
+.ies-hide {
+    display: none !important
+}
+
+
+
+/************************************************************************************************************************/
+/*                                             Finaliza Listas Colapsables                                              */
+/************************************************************************************************************************/

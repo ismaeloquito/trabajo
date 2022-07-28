@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="" class="form">
+            <h3 class="tag"><span>HABLEMOS</span></h3>
+            <label for="name">Nombre Completo <span>*</span></label>
+            <input name="name" required type="text" id="name" placeholder="Juan">
+            <label for="email">Correo electrónico <span>*</span></label>
+            <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn primary full">enviar mensaje</button>
+        </form>
+        <a href="mailto:ismaeloc-iesap@outlook.com" id="trucazo">jojojoj</a>
+
+        <!-- <form action="" id="form" class="form">
+            <h3>Get in Touch</h3>
+            
+            
+            <input type="text" id="name" placeholder="Tu nombre es..." required>
+            <input type="email" id="email" placeholder="Tu correo es..." required>
+            <input type="text" id="phone" placeholder="Tu número celular es..." required>
+            <textarea name="message" id="message" cols="30" rows="4"
+                placeholder="¿En qué te podemos apoyar?"></textarea>
+            <button type="submit">Enviar</button>
+            
+        </form> -->
+        <a href="mailto:ismaeloc-iesap@outlook.com" id="trucazo">mail</a>
+    </div>
+    <script>
+        const $form = document.querySelector('#form')
+        $form.addEventListener('submit', handleSubmit)
+        function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            trucazo.setAttribute('href', `mailto:me@ismaeloc-iesap.com?subject=${form.get('name')}${form.get('email')}&body=${form.get('message')}`)
+            trucazo.click()
+        }
+        /*const $form = document.querySelector("#form")
+        const $buttonMailto = document.querySelector("#trucazo")
+        $form.addEventListener("submit", handleSubmit)
+        function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            $buttonMailto.setAttribute("href", "mailto:ismaeloc-iesap@outlook.com?subject=${form.get("name")}${form.get("email")}&body=${form.get("message")}")
+            $buttonMailto.click()
+        }
+        */
+    </script>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam laboriosam veritatis fugit consectetur in,
+    ad minima labore quam placeat reprehenderit cum enim perferendis quos necessitatibus, praesentium doloremque nihil
+    error.
+</body>
+
+</html>

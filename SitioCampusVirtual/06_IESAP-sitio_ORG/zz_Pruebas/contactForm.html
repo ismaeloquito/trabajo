@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="./css/FormContact.css">
+</head>
+
+<body>
+  <div class="twoCol">
+    <div class="col01">
+      <div class="containerForm">
+        <form action="action_page.php">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="correo-e">Correo Electrónico</label>
+          <input type="text" id="correo-e" name="correo-e" placeholder="juan@correo.com">
+          <label for="estado">Estado</label>
+          <select id="estado" name="estado">
+            <option value="cdmx">CDMX</option>
+            <option value="aguas">Aguascalientes</option>
+            <option value="bajacal">Baja California</option>
+            <option value="bajacalsur">Baja California Sur</option>
+            <option value="cam">Campeche</option>
+            <option value="coah">Coahuila</option>
+            <option value="col">Colima</option>
+            <option value="chia">Chiapas</option>
+            <option value="chih">Chihuahua</option>
+            <option value="dur">Durango</option>
+            <option value="edomex">Estado de México</option>
+            <option value="guana">Guanajuato</option>
+            <option value="guer">Guerrero</option>
+            <option value="hgo">Hidalgo</option>
+            <option value="jal">Jalisco</option>
+            <option value="mich">Michoacán</option>
+            <option value="mor">Morelos</option>
+            <option value="nay">Nayarit</option>
+            <option value="neol">Nuevo León</option>
+            <option value="oax">Oaxaca</option>
+            <option value="pue">Puebla</option>
+            <option value="que">Querétaro</option>
+            <option value="qroo">Quintana Roo</option>
+            <option value="slp">San Luis Potosí</option>
+            <option value="sin">Sinaloa</option>
+            <option value="son">Sonora</option>
+            <option value="tab">Tabasco</option>
+            <option value="tam">Tamaulipas</option>
+            <option value="tlax">Tlaxcala</option>
+            <option value="ver">Veracruz</option>
+            <option value="yuc">Yucatán</option>
+            <option value="zac">Zacatecas</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="col02">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.888514606246!2d-99.16408548452681!3d19.417222346202365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a2b559b59%3A0x453953f3d60ba8fd!2sChihuahua%20167%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646145915563!5m2!1ses-419!2smx"
+        width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

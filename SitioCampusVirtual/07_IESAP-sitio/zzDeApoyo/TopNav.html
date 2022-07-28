@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/TopNav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script defer src="./js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider({
+              touch: true,
+              pauseOnAction: false,
+              pauseOnHover: false,
+          });
+        });
+      </script>
+</head>
+
+<body>
+    <!-- Inicia Barra de Navegación-->
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo"><a href="#">
+                    <img src="./img/LogoIESAP.png" alt="">
+                </a></div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="./index.html">IESAP</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Finaliza Barra de Navegación-->
+    <!-- Inicia SlideShow-->
+    <!-- Inicia SlideShow-->
+
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="./img/slide/SlideShow_01.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/slide/SlideShow_02.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/slide/SlideShow_03.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/slide/SlideShow_04.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/slide/SlideShow_05.jpg" alt="">
+            </li>
+            <li>
+                <img src="./img/slide/SlideShow_06.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+
+
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+            body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            body.classList.remove("disabledScroll");
+        }
+
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+
+</body>
+
+</html>

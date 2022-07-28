@@ -1,0 +1,13 @@
+<?php
+	$unSalto="\r\n";
+	$nombre = $_POST['nombre'];
+	$email = $_POST['email'];
+	$asunto = 'Formulario Rellenado';
+	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje".$_POST['mensaje'];
+
+	if(mail('ismaeloc.iesap@gmail.com', $asunto, $unSalto, $mensaje)){
+		echo "Correo enviado";
+	}	
+	
+	
+ ?>

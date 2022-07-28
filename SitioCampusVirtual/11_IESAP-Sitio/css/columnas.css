@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box; /*Con esta regla aseguramos que tanto el relleno y el borde se incluyan en el ancho y altura totales del documento*/
+}
+.contenedor{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+[class*="col-"]{
+    float: left;    
+    padding: 20px;
+}
+.col-12{
+    width: 100%;
+    background-color: red;
+    border: 2px solid green;    
+}
+.col-11{
+    width: 91.66666666%;
+    background-color: rgb(212, 104, 104);
+    border: 2px solid rgb(59, 20, 201);    
+}
+.col-10{
+    width: 83.33333333%;
+    background-color: rgb(0, 255, 55);
+    border: 2px solid rgb(74, 118, 240);    
+}
+.col-9{
+    width: 75%;
+    background-color: rgb(223, 134, 250);
+    border: 2px solid rgb(91, 205, 250);
+}
+.col-8{
+    width: 66.6666666%;
+    background-color: rgb(81, 19, 197);
+    border: 2px solid rgb(1, 54, 75);
+}
+.col-7{
+    width: 58.33333333%;
+    background-color: rgb(80, 93, 172);
+    border: 2px solid rgb(255, 251, 1);
+}
+.col-6{
+    width: 50%;
+    background-color: green;
+    border: 2px solid rgb(255, 115, 0);    
+}
+.col-5{
+    width: 41.66666666%;
+    background-color: rgb(95, 0, 124);
+    border: 2px solid rgb(10, 133, 10);
+}
+
+.col-4{
+    width: 33.33333333%;
+    background-color: rgb(255, 217, 0);
+    border:  2px solid rgb(0, 102, 255);    
+}
+.col-3{
+    width: 25%;
+    background-color: rgb(47, 172, 16);
+    border: 2px solid rgb(255, 60, 0);    
+}
+.col-2{
+    width: 16.66666666%;
+    background-color: rgb(53, 0, 139);
+    border: 2px solid rgb(126, 247, 157);    
+}
+.col-1{
+    width: 8.33333333%;
+    background-color: rgb(255, 31, 225);
+    border: 2px solid rgb(0, 255, 179);    
+}

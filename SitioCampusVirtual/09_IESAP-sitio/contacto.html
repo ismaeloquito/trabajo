@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"
+        content="Ismael Ochoa Rodríguez, ismael.8a.rod@gmail.com, https://ismael-ochoa.com, https://ismael-ochoa.com/sitiowp">
+    <title>IESAP Virtual | Educacipón a Distancia de Calidad</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Inicia el enlace a JavaScript -->
+</head>
+
+<body>
+    <!-- Inicia Sticky Social Bar-->
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/profile.php?id=100076094389939" class="facebook" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/iesap_campus_virtual/" class="instagram" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCrwaruuqn4W8dEroa2F6uLA" class="youtube" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=525540183916" class="whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i></i>
+        </a>
+    </div>
+    <!-- Termina Sticky Social Bar-->
+    <!-- Inicia Barra de Navegación -->
+    <nav class="topnav" id="nav">
+        <a href="./index.html">
+            <img src="./img/logoIESAP-Inicio.png" alt="">
+        </a>
+        <a href="./nosotros.html">
+            Nosotros
+        </a>
+        <a href="./ofertAcad.html">
+            Oferta Académica
+        </a>
+        <a href="./revista.html">
+            Revista
+        </a>
+        <a href="./novedades.html" class="active">
+            Novedades
+        </a>
+        <a href="https://iesapvirtual.com.mx/login/index.php" class="nav-link" target="_blank">
+            Campus virtual
+        </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <!-- Inicia Barra de Navegación -->
+    <!-- Inicia Formulario de Contacto-->
+    <div class="container">
+        <div class="marCont">
+            <img src="./img/cabeceraFormContact.png" alt="">
+            <div class="container" style="padding: 50px 0 70px 0;">
+                <div class="containerForm">
+                    <form action="https://formspree.io/f/xpzboywy" method="POST">
+                        <h3 class="title">Ponte en contacto</h3>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre es..." required>
+
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos son..." required>
+
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="text" id="correo" name="_replyto" placeholder="Tu correo electrónico es..."
+                            required>
+                        <label for="estado">México</label>
+                        <select id="estado" name="estado" required>
+                            <option value="cdmx">CDMX</option>
+                            <option value="ags">Aguascalientes</option>
+                            <option value="bca">Baja California</option>
+                            <option value="bcs">Baja California Sur</option>
+                            <option value="cam">Campeche</option>
+                            <option value="coah">Coahuila</option>
+                            <option value="col">Colima</option>
+                            <option value="chi">Chiapas</option>
+                            <option value="chih">Chihuahua</option>
+                            <option value="dur">Durango</option>
+                            <option value="edo">Estado de México</option>
+                            <option value="gua">Guanajuato</option>
+                            <option value="gue">Guerrero</option>
+                            <option value="hgo">Hidalgo</option>
+                            <option value="jal">Jalisco</option>
+                            <option value="mic">Michoacán</option>
+                            <option value="mor">Morelos</option>
+                            <option value="nay">Nayarit</option>
+                            <option value="nvl">Nuevo León</option>
+                            <option value="oax">Oaxaca</option>
+                            <option value="pue">Puebla</option>
+                            <option value="que">Querétaro</option>
+                            <option value="qro">Quintana Roo</option>
+                            <option value="slp">San Luis Potosí</option>
+                            <option value="sin">Sinaloa</option>
+                            <option value="son">Sonora</option>
+                            <option value="tab">Tabasco</option>
+                            <option value="tam">Tamaulipas</option>
+                            <option value="tlx">Tlaxcala</option>
+                            <option value="ver">Veracruz</option>
+                            <option value="yuc">Yucatán</option>
+                            <option value="zac">Zacatecas</option>
+                        </select>
+                        <input type="text" name="_gotcha" style="display:none" />
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Déjanos un mensaje..."
+                            style="height:200px"></textarea>
+                        <input type="submit" value="Enviar" id="boton">
+                        <input type="hidden" name="_next" value="//iesapcampusvirtual.com/enviado.html" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Finaliza Formulario de Contacto-->
+    <!-- Inicia Footer-->
+    <footer>
+        <div class="rowFoot">
+            <div class="logos">
+                <div>
+                    <img src="./img/GpoIESAP.png" alt="">
+                </div>
+                <div>
+                    <img src="./img/LogoIESAP_footer.png" alt="">
+                </div>
+                <div>
+                    <img src="./img/logoIESAP-footer.png" alt="">
+                </div>
+                <div>
+                    <img src="./img/CUSA.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="rrssPiePag">
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=100076094389939" target="_blank" class="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://instagram.com/iesap_campus_virtual/" target="_blank" class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/channel/UCrwaruuqn4W8dEroa2F6uLA" target="_blank" class="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="rowFoot">
+            <div class="datosFoot">
+                <div>
+                    <ul>
+                        <li>Chihuahua 167, Roma Norte</li>
+                        <li>55-68-88-00-78</li>
+                        <li>informes@iesap.edu.mx</li>
+                    </ul>
+                </div>
+                <div class="linkFoot">
+                    <div>
+                        <a href="https://iesapvirtual.com.mx" target="_blank">
+                            IESAP Virtual
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://cdn.flipsnack.com/widget/v2/widget.html?hash=1hjyc1z2gx" target="_blank">
+                            IESAPiens
+                        </a>
+                    </div>
+                    <div>
+                        <a href="file:///C:/Users/San%20Angel/Documents/IESAP/Proyectos/Diseno/Web/SitioCampusVirtual/09_IESAP-sitio/contacto.html"
+                            target="_blank">
+                            Contacto
+                        </a>
+                    </div>
+                </div>
+                <div class="linkFoot">
+                    <ul>
+                        <a href="#">
+                            <li>Careers</li>
+                        </a>
+                        <a href="#">
+                            <li>Announcements</li>
+                        </a>
+                        <a href="#">
+                            <li>Community</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        <div class="infoFoot">
+            <p>
+                &copy; Todos los derechos reservados, 2022        
+            </p>
+        </div>       
+    </footer>
+    <!-- Finaliza Footer-->
+    <!--Inicia Menú inferior-->
+    <div class="botNavbar">
+        <a href="https://api.whatsapp.com/send?phone=525540183916" class="nav-link" style="font-size: xx-large;"
+            target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a class="" style="font-size: xx-large;" href="tel:+525555843267">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a class="" style="font-size: xx-large;" href="./contacto.html">
+            <i class="fas fa-file-signature"></i>
+        </a>
+    </div>
+    <!--Termina Menú inferior -->
+    <script src="./js/navBar.js"></script>
+    <script src="./js/hamburger.js"></script>
+    <script>
+        var contactform = document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'ismaeloc.iesap' + '@' + 'gmail' + '.' + 'com');
+    </script>
+</body>
+
+</html>

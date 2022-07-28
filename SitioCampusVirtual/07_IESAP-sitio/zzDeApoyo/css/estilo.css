@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fila{    
+    width: auto;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;   
+}
+
+.container{   
+    width: auto;
+    height: 250px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;   
+}
+.izq{
+    background-color: brown;
+    border: 2px solid coral;
+    width: 33.33%;
+    height: 200px;
+}
+.medio{
+    background-color: rgb(42, 75, 165);
+    border: 2px solid rgb(2, 151, 131);
+    width: 33.33%;
+    height: 200px;
+}
+.der{
+    background-color: rgb(140, 199, 4);
+    border: 2px solid rgb(84, 2, 151);
+    width: 33.33%;
+    height: 200px;
+}
+
+
+

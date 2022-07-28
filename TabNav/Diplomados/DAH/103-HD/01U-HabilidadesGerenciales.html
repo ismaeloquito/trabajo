@@ -32,7 +32,7 @@
     <div class="pest">
         <button class="pestenlace" onclick="openPest(event, '001')" id="defaultOpen">Tema 1.1</button>
         <button class="pestenlace" onclick="openPest(event, '006')">Tema 1.2</button>
-        <button class="pestenlace" onclick="openPest(event, '019')">Tema 1.3</button>
+        <button class="pestenlace" onclick="openPest(event, '015')">Tema 1.3</button>
         <button class="pestenlace" onclick="openPest(event, '021')">Tema 1.4</button>
         <button class="pestenlace" onclick="openPest(event, '024')">Tema 1.5</button>
         <button class="pestenlace" onclick="openPest(event, '025')">Tema 1.6</button>
@@ -41,9 +41,6 @@
 
     <div id="001" class="contenidopest">
         <h3>1.1 Habilidades gerenciales fundamentales para dirigir</h3>
-
-
-
         <div style="display: flex;">
             <div
                 style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
@@ -90,7 +87,16 @@
                 Técnicas.
             </li>
         </ul>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '002')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
 
+
+
+    <div id="002" class="contenidopest">
         <h3>1.1.1 Habilidad Conceptual y del Entorno</h3>
         <p class="parag">
             Katz (1955) menciona que los gerentes necesitan <b>tres habilidades directivas</b> básicas:
@@ -115,6 +121,54 @@
                 Percibir oportunidades donde no hay en apariencia
             </li>
         </ul>
+        <p class="parag">
+            Schermerhorn (2014) menciona que la habilidad para pensar analíticamente y obtener soluciones
+            integrales para los problemas. Capacidad de análisis y resolver problemas complejos.
+        </p>
+        <p class="pPest">
+            Chiavenato (2006) Visualiza la organización o la unidad organizacional en conjunto, facilidad de
+            trabajar con ideas, conceptos, teorías y abstracciones.
+        </p>
+        <p class="pPest">
+            Un administrador con habilidades conceptuales comprende:
+        </p>
+        <ol style="font-size: medium">
+            <li>
+                Las diversas funciones de la organización y complementarlas entre sí
+            </li>
+            <li>
+                Cómo es la relación entre organización y ambiente y cómo afectan los cambios en una parte de
+                ella a las demás
+            </li>
+        </ol>
+        <p class="parag">
+            Para que un administrador avance en la organización, requiere desarrollar cada vez más sus
+            habilidades conceptuales para no limitar su empleabilidad.
+        </p>
+        <ul style="font-size: medium">
+            <li>
+                <b>Empleabilidad</b>: capacidad para conquistar y mantener un empleo. Conquistar un empleo puede
+                ser fácil, lo difícil es mantenerlo a largo plazo.
+            </li>
+        </ul>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '001')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '003')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="003" class="contenidopest">
+        <h3>1.1.2 Habilidad Humana</h3>
+        <p class="parag">
+            Continuando con Chiavenato (2006). La habilidad para trabajar bien en colaboración con otras
+            personas; empleando la inteligencia emocional.
+        </p>
         <div style="display: flex;">
             <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
                 <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_02.png" alt=""
@@ -122,41 +176,6 @@
             </div>
             <div
                 style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
-                <p class="parag">
-                    Schermerhorn (2014) menciona que la habilidad para pensar analíticamente y obtener soluciones
-                    integrales para los problemas. Capacidad de análisis y resolver problemas complejos.
-                </p>
-                <p class="pPest">
-                    Chiavenato (2006) Visualiza la organización o la unidad organizacional en conjunto, facilidad de
-                    trabajar con ideas, conceptos, teorías y abstracciones.
-                </p>
-                <p class="pPest">
-                    Un administrador con habilidades conceptuales comprende:
-                </p>
-                <ol style="font-size: medium">
-                    <li>
-                        Las diversas funciones de la organización y complementarlas entre sí
-                    </li>
-                    <li>
-                        Cómo es la relación entre organización y ambiente y cómo afectan los cambios en una parte de
-                        ella a las demás
-                    </li>
-                </ol>
-                <p class="parag">
-                    Para que un administrador avance en la organización, requiere desarrollar cada vez más sus
-                    habilidades conceptuales para no limitar su empleabilidad.
-                </p>
-                <ul style="font-size: medium">
-                    <li>
-                        <b>Empleabilidad</b>: capacidad para conquistar y mantener un empleo. Conquistar un empleo puede
-                        ser fácil, lo difícil es mantenerlo a largo plazo.
-                    </li>
-                </ul>
-                <h3>1.1.2 Habilidad Humana</h3>
-                <p class="parag">
-                    Continuando con Chiavenato (2006). La habilidad para trabajar bien en colaboración con otras
-                    personas; empleando la inteligencia emocional.
-                </p>
                 <ul style="font-size: medium">
                     <li>
                         Relacionadas con el trato con las personas, con interacción personal.
@@ -173,31 +192,48 @@
                         recelos; desarrollar las personas; saber trabajar con personas y por medio de ellas.
                     </li>
                 </ul>
+                <h3>1.1.3 Habilidad Técnica</h3>
+                <p class="parag">
+                    Gandoy (2022) refiere que la habilidad para aplicar sus conocimientos técnicos y desempeñar una
+                    tarea
+                    especial con destreza.
+                </p>
+                <ul style="font-size: medium">
+                    <li>
+                        Uso de conocimientos especializados en el trabajo.
+                    </li>
+                    <li>
+                        Relacionadas con el hacer; con el trabajo con "objetos“, físicos, concretos o procesos
+                        materiales.
+                    </li>
+                    <li>
+                        Relativamente fácil trabajar con objetos y cifras, porque son estáticos e inertes y no se oponen
+                        ni
+                        resisten a la acción del administrador.
+                    </li>
+                </ul>
             </div>
         </div>
-        <h3>1.1.3 Habilidad Técnica</h3>
-        <p class="parag">
-            Gandoy (2022) refiere que la habilidad para aplicar sus conocimientos técnicos y desempeñar una tarea
-            especial con destreza.
-        </p>
-        <ul style="font-size: medium">
-            <li>
-                Uso de conocimientos especializados en el trabajo.
-            </li>
-            <li>
-                Relacionadas con el hacer; con el trabajo con "objetos“, físicos, concretos o procesos materiales.
-            </li>
-            <li>
-                Relativamente fácil trabajar con objetos y cifras, porque son estáticos e inertes y no se oponen ni
-                resisten a la acción del administrador.
-            </li>
-        </ul>
         <h3>1.2 Liderazgo Y Asertividad</h3>
         <p class="parag">
             Huerta (2006) describe que el liderazgo y la dirección son completamentarios. Ambos están relacionados con
             la razón de que el factor humano hace que un grupo se una y tenga motivación hacia los objetivos; es la
             habilidad para persuadir a otros de que busquen con entusiasmo esos objetivos definidos.
         </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '002')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '004')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="004" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
         <p class="pPest">
             Antes que nada, es indispensable aclarar que no es lo mismo ser un buen líder que ser un buen administrador,
             por las siguientes razones:
@@ -229,37 +265,53 @@
             <li>
                 El líder crea la visión, específica la meta de largo alcance y la estrategia. El administrador se
                 concentra en llevar a la práctica esa visión.
-
             </li>
         </ul>
+        <p class="parag">
+            En teoría, todos los administradores deberían ser líderes; sin embargo, no todos los líderes tienen
+            la
+            capacidad de dirigir.
+        </p>
+        <p class="parag">
+            En teoría, todos los administradores deberían ser líderes; sin embargo, no todos los líderes tienen
+            la capacidad de dirigir.
+        </p>
+        <p class="pPest">
+            Continuando con Huerta, <b>las características del líder</b> responden, en esencia, a las llamadas
+            teorías
+            de rasgos, que definen el perfil concreto de las habilidades o características de un líder y que
+            permiten distinguirlo de alguien que no lo es. Sin embargo, en todos los estudios que se han hecho
+            no se ha podido deducir contundentemente cuáles son esos rasgos, aunque sí hay algunos que
+            generalmente se reconocen como características propias de casi todos los líderes:
+        </p>
+        <ol style="font-size: medium">
+            <li>
+                Impulso: Es un alto nivel de esfuerzo y un deseo de logro relativamente alto. Implica ser
+                ambicioso, poseer gran cantidad de energía y demostrar iniciativa.
+            </li>
+            <li>
+                Deseo de dirigir: Fuerte deseo de influir en otros y dirigirlos. Los líderes demuestran esa
+                disposición al tomar la responsabilidad.
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '003')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '005')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="005" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
         <div style="display: flex;">
             <div
                 style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
-                <p class="parag">
-                    En teoría, todos los administradores deberían ser líderes; sin embargo, no todos los líderes tienen
-                    la
-                    capacidad de dirigir.
-                </p>
-                <p class="parag">
-                    En teoría, todos los administradores deberían ser líderes; sin embargo, no todos los líderes tienen
-                    la capacidad de dirigir.
-                </p>
-                <p class="pPest">
-                    Continuando con Huerta, <b>las características del líder</b> responden, en esencia, a las llamadas teorías
-                    de rasgos, que definen el perfil concreto de las habilidades o características de un líder y que
-                    permiten distinguirlo de alguien que no lo es. Sin embargo, en todos los estudios que se han hecho
-                    no se ha podido deducir contundentemente cuáles son esos rasgos, aunque sí hay algunos que
-                    generalmente se reconocen como características propias de casi todos los líderes:
-                </p>
-                <ol style="font-size: medium">
-                    <li>
-                        Impulso: Es un alto nivel de esfuerzo y un deseo de logro relativamente alto. Implica ser
-                        ambicioso, poseer gran cantidad de energía y demostrar iniciativa.
-                    </li>
-                    <li>
-                        Deseo de dirigir: Fuerte deseo de influir en otros y dirigirlos. Los líderes demuestran esa
-                        disposición al tomar la responsabilidad.
-                    </li>
+                <ol start="3" style="font-size: medium">
                     <li>
                         Honestidad e integridad: Los líderes construyen relaciones de confianza entre ellos y sus
                         seguidores, pues muestran una alta congruencia entre sus palabras y sus acciones.
@@ -284,44 +336,67 @@
                     class="img-fluid zoomImgUp" width="400">
             </div>
         </div>
+        <p class="parag">
+            Así también Huerta menciona que los rasgos no son suficientes para explicar el liderazgo, lo que nos
+            lleva
+            por el camino de las <b>teorías conductuales, que identifican los comportamientos</b> que
+            diferencian a los líderes
+            eficientes de los que no lo son. De acuerdo con esas teorías, existen dos categorías principales de
+            líderes:
+            los orientados a la tarea y los orientados a los individuos.
+        </p>
+        <p class="pPest">
+            Los líderes orientados a la tarea o a la producción ponen más énfasis en los aspectos técnicos o las
+            actividades del puesto, están interesados en lograr las actividades de sus grupos y consideran a los
+            miembros del grupo como un medio para este fin. A este estilo se le ha calificado como autocrático,
+            restrictivo, directivo y socialmente distante.
+        </p>
+        <p class="pPest">
+            Los líderes orientados hacia las personas o individuos ponen énfasis en las relaciones
+            interpersonales,
+            tienen un interés personal en las necesidades de sus empleados, aceptan las diferencias individuales
+            entre
+            los miembros del grupo y los escuchan. Son amistosos, accesibles, dan orientación y son sensibles
+            ante los
+            subalternos como personas.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '004')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '006')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
 
 
+
+    <div id="006" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
         <div style="display: flex;">
             <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
                 <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_04.png" alt=""
                     class="img-fluid zoomImgUp" width="400">
             </div>
-            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
-                <p class="parag">
-                    Así también Huerta menciona que los rasgos no son suficientes para explicar el liderazgo, lo que nos lleva
-                    por el camino de las <b>teorías conductuales, que identifican los comportamientos</b> que diferencian a los líderes
-                    eficientes de los que no lo son. De acuerdo con esas teorías, existen dos categorías principales de líderes:
-                    los orientados a la tarea y los orientados a los individuos.
-                </p>
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
                 <p class="pPest">
-                    Los líderes orientados a la tarea o a la producción ponen más énfasis en los aspectos técnicos o las
-                    actividades del puesto, están interesados en lograr las actividades de sus grupos y consideran a los
-                    miembros del grupo como un medio para este fin. A este estilo se le ha calificado como autocrático,
-                    restrictivo, directivo y socialmente distante.
-                </p>
-                <p class="pPest">
-                    Los líderes orientados hacia las personas o individuos ponen énfasis en las relaciones interpersonales,
-                    tienen un interés personal en las necesidades de sus empleados, aceptan las diferencias individuales entre
-                    los miembros del grupo y los escuchan. Son amistosos, accesibles, dan orientación y son sensibles ante los
-                    subalternos como personas.
-                </p>
-                <p class="pPest">
-                    A los líderes orientados hacia las personas se les asocia más con la productividad y la satisfacción en el
-                    trabajo; mientras que los orientados a la producción fueron catalogados como de productividad más baja y
+                    A los líderes orientados hacia las personas se les asocia más con la productividad y la satisfacción
+                    en el
+                    trabajo; mientras que los orientados a la producción fueron catalogados como de productividad más
+                    baja y
                     pobre satisfacción por parte de los integrantes del equipo.
                 </p>
                 <p class="parag">
-                    <b>Modelo de contingencia de Fiedler</b>. Este modelo propone que el desempeño eficiente del grupo depende de la
-                    adaptación correcta entre el estilo del líder para interactuar con sus empleados y la medida en la que la
+                    <b>Modelo de contingencia de Fiedler</b>. Este modelo propone que el desempeño eficiente del grupo
+                    depende de la
+                    adaptación correcta entre el estilo del líder para interactuar con sus empleados y la medida en la
+                    que la
                     situación le da control e influencia a éste.
-        
-                </p>                
-            </div>            
+
+                </p>
+            </div>
         </div>
         <p class="parag">
             De acuerdo con este modelo, hay tres características en las situaciones en relación con el liderazgo:
@@ -342,39 +417,88 @@
             </li>
         </ol>
         <p class="parag">
-            <b>Modelo de camino-meta</b>. Especifica en esencia que el trabajo del líder consiste en apoyar a sus seguidores en el logro de sus metas y en ofrecer la orientación y guía necesarios para asegurar que sus objetivos sean compatibles con los objetivos generales del grupo o la organización. El comportamiento del líder es aceptable para los empleados en tanto que lo ven como una fuente de satisfacción inmediata o futura. El comportamiento del líder es motivante en la medida que logra la satisfacción de la necesidad del empleado dependiendo del desempeño eficiente, al tiempo que ofrece la instrucción, la guía, el apoyo y la recompensa necesarios para ese desempeño.
+            <b>Modelo de camino-meta</b>. Especifica en esencia que el trabajo del líder consiste en apoyar a sus
+            seguidores en el logro de sus metas y en ofrecer la orientación y guía necesarios para asegurar que sus
+            objetivos sean compatibles con los objetivos generales del grupo o la organización. El comportamiento del
+            líder es aceptable para los empleados en tanto que lo ven como una fuente de satisfacción inmediata o
+            futura. El comportamiento del líder es motivante en la medida que logra la satisfacción de la necesidad del
+            empleado dependiendo del desempeño eficiente, al tiempo que ofrece la instrucción, la guía, el apoyo y la
+            recompensa necesarios para ese desempeño.
         </p>
         <p class="pPest">
-            En contraste con Fiedler, este modelo supone que los líderes son flexibles, es decir que un mismo líder puede tener algunos o todos los estilos de liderazgo en función de la situación.
+            En contraste con Fiedler, este modelo supone que los líderes son flexibles, es decir que un mismo líder
+            puede tener algunos o todos los estilos de liderazgo en función de la situación.
         </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '005')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '007')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="007" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
         <p class="parag">
-            Modelo de líder-participación. Ofrece una serie de reglas para determinar la forma y la cantidad de la toma de decisiones participativas en diferentes situaciones. Por desgracia, el modelo es tan complejo para la mayoría de los administradores como para que pueda usarse con regularidad. 
+            Modelo de líder-participación. Ofrece una serie de reglas para determinar la forma y la cantidad de la toma
+            de decisiones participativas en diferentes situaciones. Por desgracia, el modelo es tan complejo para la
+            mayoría de los administradores como para que pueda usarse con regularidad.
         </p>
         <p class="pPest">
-            Existe una infinidad de teorías acerca de cómo es y cómo se forma un líder. Pero el liderazgo no siempre es determinante, ya que en diversas situaciones existen los llamados “sustitutos para el liderazgo”, como son las características de los empleados entre las que se encuentran experiencia, capacitación, orientación profesional o necesidad de independencia, que pueden neutralizar el efecto del liderazgo. Por otra parte, los puestos que son definidos y rutinarios o satisfactorios demandan menos liderazgo. Otros sustitutos son las características de la tarea y de la organización (2006).
+            Existe una infinidad de teorías acerca de cómo es y cómo se forma un líder. Pero el liderazgo no siempre es
+            determinante, ya que en diversas situaciones existen los llamados “sustitutos para el liderazgo”, como son
+            las características de los empleados entre las que se encuentran experiencia, capacitación, orientación
+            profesional o necesidad de independencia, que pueden neutralizar el efecto del liderazgo. Por otra parte,
+            los puestos que son definidos y rutinarios o satisfactorios demandan menos liderazgo. Otros sustitutos son
+            las características de la tarea y de la organización (2006).
         </p>
         <h4>Asertividad</h4>
         <p class="parag">
-            En cuestión de la palabra asertividad, Huerta (2006) señala que proviene del latín asserere, assertum que significa afirmar.
+            En cuestión de la palabra asertividad, Huerta (2006) señala que proviene del latín asserere, assertum que
+            significa afirmar.
         </p>
         <p class="pPest">
-            Así pues, asertividad significa afirmación de la propia personalidad, confianza en uno mismo, autoestima, aplomo, fe gozosa en el triunfo de la justicia y la verdad, además de comunicación segura y eficiente.
+            Así pues, asertividad significa afirmación de la propia personalidad, confianza en uno mismo, autoestima,
+            aplomo, fe gozosa en el triunfo de la justicia y la verdad, además de comunicación segura y eficiente.
         </p>
         <p class="pPest">
-            Ser asertivo quiere decir ser capaz de expresarse con seguridad sin tener que recurrir a comportamientos pasivos, agresivos o manipuladores. Esto supone un mayor autoconocimiento, es decir, conocerse y estar de acuerdo consigo mismo, pero también implica tener el control del propio “yo”. Requiere saber escuchar y responder a las necesidades de otros sin descuidar nuestros propios intereses ni comprometer nuestros principios.
+            Ser asertivo quiere decir ser capaz de expresarse con seguridad sin tener que recurrir a comportamientos
+            pasivos, agresivos o manipuladores. Esto supone un mayor autoconocimiento, es decir, conocerse y estar de
+            acuerdo consigo mismo, pero también implica tener el control del propio “yo”. Requiere saber escuchar y
+            responder a las necesidades de otros sin descuidar nuestros propios intereses ni comprometer nuestros
+            principios.
         </p>
         <p class="pPest">
-            La asertividad se relaciona con la capacidad de mejorar nuestra habilidad en el trato con otros; incluye una comunicación más eficiente, un control del estrés a través de una mejor relación con otras personas y un manejo adecuado de las situaciones problemáticas.
-        </p>        
-        
-        <div style="display: flex;">            
-            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
-                <p class="pPest">
-                    La asertividad se relaciona con la capacidad de mejorar nuestra habilidad en el trato con otros; incluye una comunicación más eficiente, un control del estrés a través de una mejor relación con otras personas y un manejo adecuado de las situaciones problemáticas.
-                </p>
-                <p class="pPest">
-                    Es asertivo el individuo que es capaz de expresar sus necesidades, opiniones o sentimientos, seguro de que no será dominado o utilizado contra su voluntad.
-                </p>
+            La asertividad se relaciona con la capacidad de mejorar nuestra habilidad en el trato con otros; incluye una
+            comunicación más eficiente, un control del estrés a través de una mejor relación con otras personas y un
+            manejo adecuado de las situaciones problemáticas.
+        </p>
+        <p class="pPest">
+            Es asertivo el individuo que es capaz de expresar sus necesidades, opiniones o sentimientos, seguro
+            de que no será dominado o utilizado contra su voluntad.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '006')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '008')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="008" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
+        <div style="display: flex;">
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
+
                 <p class="parag">
                     Las características de una persona asertiva son:
                 </p>
@@ -398,37 +522,1220 @@
                         Se manifiesta emocionalmente libre para expresar sus sentimientos.
                     </li>
                 </ol>
-                <p class="parag">
-                    El doctor Joseph Wolpe define la conducta asertiva como la expresión adecuada de cualquier emoción que no sea la ansiedad, ya que ésta no es una emoción original, sino el resultado de procesos neuróticos (2006).
-                </p>
-                       
-            </div>   
+            </div>
             <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
                 <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_05.png" alt=""
                     class="img-fluid zoomImgUp" width="400">
-            </div>         
+            </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <p class="parag">
+            El doctor Joseph Wolpe define la conducta asertiva como la expresión adecuada de cualquier emoción
+            que no sea la ansiedad, ya que ésta no es una emoción original, sino el resultado de procesos
+            neuróticos (2006).
+        </p>
+        <h4>Derechos de una persona asertiva</h4>
+        <p class="parag">
+            Huerta (2006) indica que en relación con la asertividad, existen ciertos derechos básicos de todo individuo:
+        </p>
+        <ol style="font-size: medium">
+            <li>
+                Cada persona tiene derecho a ser su propio juez. Debemos asumir la responsabilidad de nuestra propia
+                existencia en lugar de depositarla en los demás.
+            </li>
+            <li>
+                Tenemos derecho a no dar razones o excusas para justificar nuestro comportamiento.
+                <p class="pPest">
+                    Aquí cabe recordar que estamos en una sociedad con normas judiciales y morales, y aunque no estamos
+                    obligados a dar explicaciones o excusas por nuestros actos, sí tenemos la responsabilidad de aceptar
+                    las consecuencias de esos actos.
+                </p>
+            </li>
+            <li>
+                Tenemos derecho a definir nuestra propia responsabilidad en los problemas ajenos.
+                <p class="pPest">
+                    Aun cuando nuestras acciones puedan haber sido causa directa o indirecta de los problemas de otros,
+                    estos últimos tienen la responsabilidad de resolver sus propios problemas, cualquiera que fuera la
+                    causa. Por otra parte, hay ocasiones en que no tomamos alguna acción por no causar molestias a
+                    otros, sabiendo que debemos o queremos tomar esa acción.
+                </p>
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '007')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '009')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
 
 
 
+    <div id="009" class="contenidopest">
+        <h3>1.2 Liderazgo Y Asertividad</h3>
+        <ol start="4" style="font-size: medium">
+            <li>
+                Tenemos derecho a cambiar de parecer. Nadie es inmutable y rígido. Nuestros intereses se modifican según
+                las condiciones, y con el paso del tiempo llegamos a reconocer que nuestras opciones pueden favorecernos
+                en una situación determinada y perjudicarnos en otra.
+            </li>
+            <li>
+                Tenemos derecho a cometer errores … y a ser responsables de ellos. Errar forma parte de la condición
+                humana, pero eso no nos exime de asumir nuestra responsabilidad. Sin embargo, no demos más importancia a
+                los errores de la que tienen.
+            </li>
+        </ol>
+        <p class="parag">
+            Sugerencias para lograr una comunicación asertiva
+        </p>
+        <ul type="a" style="font-size: medium">
+            <li>
+                Sea directo. Diga exactamente lo que siente o piensa; sobre todo no dé nada por sentado cuando hable. No
+                haga suposiciones.
+            </li>
+            <li>
+                Enfréntese al problema, no a la persona.
+            </li>
+            <li>
+                Trate lo específico y no generalice. Sea específico a la hora de comentar el problema; establezca
+                hechos, no acuse.
+            </li>
+            <li>
+                No ofrezca disculpas más de lo necesario. Es suficiente con que lo haga una vez si lo hace con
+                sinceridad. Sea selectivo en sus disculpas.
+            </li>
+            <li>
+                No dé excesivas explicaciones
+            </li>
+        </ul>
+        <h3>1.2.1 Liderazgo Laissez-Faire</h3>
+        <p class="parag">
+            De acuerdo con Madrigal (2009), el término francés laissez-faire puede traducirse como “dejar
+            hacer”, o más rudamente, como “no metas la mano”. Los dirigentes laissez-faire son básicamente
+            blandos e indulgentes, y permiten que sus seguidores hagan prácticamente lo que quieren. Este estilo
+            de liderazgo o dirección se da en empresas que pagan nómina, tienen pocas utilidades y mínimo o nulo
+            crecimiento y desarrollo.
+        </p>
+        <p class="parag">
+            Las reacciones del grupo suelen ser:
+        </p>
+        <ul type="a" style="font-size: medium">
+            <li>Buena motivación.</li>
+            <li>Poco uso de poder.</li>
+            <li>Posible desorganización.</li>
+        </ul>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '008')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '010')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
 
 
+
+    <div id="010" class="contenidopest">
+        <h3>1.2.1 Liderazgo Laissez-Faire</h3>
+        <p class="parag">
+            Análisis de las funciones y reacciones del equipo ante el estilo de liderazgo Laissez-Faire
+        </p>
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_06.png" alt=""
+                    class="img-fluid zoomImg" width="400">
+            </div>
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
+                <ul type="a" style="font-size: medium;">
+                    <li>
+                        Libertad completa de decisión del grupo o individual con mínima participación del líder.
+                    </li>
+                    <li>
+                        El líder proporciona los medios y la información sólo cuando se le pide; fuera de esto, no
+                        participa en la realización del trabajo.
+                    </li>
+                    <li>
+                        El líder no participa en absoluto en la operación o realización del trabajo.
+                    </li>
+                    <li>
+                        Los comentarios espontáneos a las actividades de los miembros son poco frecuentes. A menos que
+                        se le pida, no intenta valorar o regular el curso de los acontecimientos.
+                    </li>
+                    <li>
+                        Surgimiento de otro líder o confusión.
+                    </li>
+                    <li>
+                        Descontento con el líder que no dirige.
+                    </li>
+                    <li>
+                        Ignorar las pocas sugerencias o comentarios del líder.
+                    </li>
+                    <li>
+                        Poco interés en la tarea; tendencia a desviar la atención en otros temas y bromas.
+                    </li>
+                    <li>
+                        Ambiente de poco interés en la tarea (2009).
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h3>1.2.2 Liderazgo Transaccional</h3>
+        <p class="parag">
+            Como se lee en Contreras (2013) los líderes transaccionales por lo general no buscan cambios a nivel
+            cultural dentro de la organización, sino que trabajan sobre la cultura existente.
+        </p>
+        <p class="pPest">
+            Así también, el liderazgo transaccional consiste en el intercambio de relaciones entre el líder y los
+            seguidores, basadas en una serie de transacciones que poseen una connotación de costo-beneficio. La
+            motivación se basa en el reforzamiento contingente de sus seguidores.
+        </p>
+
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 65%;">
+                <p class="pPest">
+                    El liderazgo transaccional se concentra principalmente en motivar a los trabajadores a través de una
+                    relación mediada por la posición que se tienen dentro de la organización (jefes a subordinados), se
+                    fundamenta en comportamientos contingentes basados en la claridad de las tareas que según sus
+                    resultados serán premiadas o castigadas.
+                </p>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; width: 35%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_07.png" alt=""
+                    class="img-fluid zoomImgLft" width="400">
+            </div>
+        </div>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '009')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '011')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="011" class="contenidopest">
+        <h3>1.2.2 Liderazgo Transaccional</h3>
+        <p class="pPest">
+            El papel del líder transaccional, estaría más acorde con los modelos tradicionales de cambio
+            planificado, en el que los líderes planean y generan las estrategias para garantizar el cumplimiento
+            de los procesos que llevarán al resultado deseado. Para ello, un estilo instruccional y directivo
+            puede ser más funcional. Así mismo, desde los paradigmas tradicionales, premiar los comportamientos
+            esperados es usual cuando el cambio está orientado hacia la búsqueda de la eficiencia mediante la
+            reducción máxima del riesgo, lo cual se refuerza a través del reconocimiento a las personas cuando
+            se logran las metas pre establecidas por el líder, características fundamental de este tipo de
+            liderazgo (Bass, 1985), pues la dinámica de la relación líder-seguidor dentro del liderazgo
+            transaccional implica un intercambio explícito o una negociación implícita entre unos y otros (Den
+            Hartog, Van Muijen & Koopman , 1997).
+        </p>
+        <p class="parag">
+            Como se lee en Peralta (2019), hay tres dimensiones transaccionales se integran en el Modelo de Avolio y
+            Bass (1995):
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Reconocimiento Contingente: premia a los seguidores por lograr niveles de actuación específicos; el
+                premio depende del esfuerzo y el nivel de actuación logrado.
+            </li>
+            <li>
+                Administración por Excepción Activa: controla y busca que no existan desviaciones que se alejen de las
+                reglas y las normas y si las hay, se toman medidas correctivas.
+            </li>
+            <li>
+                Administración por Excepción Pasiva: sólo se acciona cuando las desviaciones e irregularidades ya han
+                ocurrido; aparece cuando no se satisfacen los estándares que se esperan.
+            </li>
+        </ol>
+        <h3>1.2.3 Liderazgo Transformacional</h3>
+        <p class="parag">
+            El punto hasta el cual el líder se considera transformacional se mide en primer lugar, en términos de la
+            influencia sobre los seguidores. El líder transformacional ofrece a los seguidores algo más que el trabajo
+            para beneficio propio; les proporciona una misión inspiradora, les transmite visión e identidad. El líder
+            motiva y transforma a los seguidores a través de su influencia (a la que se suele referir como carisma), la
+            estimulación intelectual y la consideración individual. Adicionalmente, el líder alienta a los seguidores
+            para que busquen y apliquen maneras nuevas y únicas de retar el status quo, así como modificar el ambiente
+            para reforzar el sentido de éxito.
+        </p>
+        <p class="parag">
+            Bass y Avolio (1994) en Fernández 2017, plantearon que el liderazgo transformacional se compone de cuatro
+            dimensiones:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Influencia idealizada o carisma, lo que hace que los seguidores sientan un apego a su líder.
+            </li>
+            <li>
+                Motivación inspiradora: el líder transformacional logra transmitir visiones inspiradoras.
+            </li>
+            <li>
+                Consideración individual: es un modelo a seguir para los demás.
+            </li>
+            <li>
+                Estimulación intelectual: incentiva el pensamiento creativo y la solución de problemas a través de un
+                pensamiento crítico y novedoso.
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '010')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '012')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="012" class="contenidopest">
+        <h3>1.2.3 Liderazgo Transformacional</h3>
+        <p class="parag">
+            Otra perspectiva afín del liderazgo tiene varias designaciones: el liderazgo inspiracional, el simbólico y
+            el transformacional.
+        </p>
+        <p class="pPest">
+            El término liderazgo transformacional se define como el que va más allá de las expectativas ordinarias al
+            transmitir una noción de misión, estimular experiencias de aprendizaje e inspirar nuevas maneras de pensar.
+            A causa de la rapidez del cambio y de entornos turbulentos, los líderes transformacionales son considerados
+            fundamentales para el éxito de negocios.
+        </p>
+        <p class="pPest">
+            El liderazgo transformacional, es considerado parte de las llamadas teorías del liderazgo organizacional, y
+            su importancia descansa en la contribución de estos líderes en el éxito de las organizaciones, las cuales
+            están sometidas a numerosos cambios producto del proceso de globalización. Los líderes transformacionales
+            logran responder de manera rápida a las exigencias del entorno apoyados en sus seguidores, en quienes han
+            influido, logrando el cambio de un interés individual a un interés colectivo, y alcanzando las metas de la
+            Organización.
+
+        </p>
+        <p class="pPest">
+            El líder transformacional surge en contextos de incertidumbre y se caracteriza por mantener relaciones
+            positivas con los grupos de trabajo y éxitos en los objetivos organizacionales ya que logran generar
+            confianza y cooperación en las personas que los rodean.
+        </p>
+        <div style="display: flex; justify-content: center; align-items: center; padding: 15px">
+            <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_08.png" alt=""
+                class="img-fluid zoomImgGd" width="700">
+        </div>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '011')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '013')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="013" class="contenidopest">
+        <h3>1.2.3 Liderazgo Transformacional</h3>
+        <p class="parag">
+            El líder transformacional tiene cualidades para asumir riesgos, hacer cambios ante las situaciones presentes
+            y posee una visión que le permite ver oportunidades las cuales aprovecha, y además, logra transmitir el
+            interés e inspira a sus seguidores para que crean y asuman los mismos proyectos (Fernández, 2017).
+        </p>
+        <p class="pPest">
+            Griffin (2016) refiere que existen siete claves del liderazgo de éxito: confiar en los subordinados,
+            desarrollar una visión, mantener la calma, alentar el riesgo, ser un experto, alentar el desacuerdo y
+            simplificar las cosas. Aunque esta lista fue resultado de un análisis simplista de la bibliografía sobre el
+            liderazgo, es congruente con las premisas del transformacional.
+        </p>
+        <h3>1.3 Habilidades Para Administrar El Tiempo</h3>
+        <p class="parag">
+            Continuando con Griffin (2016) Las habilidades para administrar el tiempo se refieren a la capacidad del
+            director o el administrador para ordenar sus labores por prioridad, para trabajar con eficiencia y para
+            delegar debidamente. A medida que el ritmo de las tareas gerenciales incrementa y que también aumenta el
+            tiempo que se exige del director, la importancia de gestionar con eficacia el tiempo, es mayor que nunca;
+            ello le permitirá terminar a tiempo sus tareas, lo cual facilitará las actividades de otros y evitará
+            problemas. De otro lado, la administración ineficaz del tiempo puede provocar que no cumpla con fechas
+            límite, y con ello afectará las labores de otros y ocasionará dificultades en todas las organizaciones y sus
+            diferentes áreas. También puede generarle un estrés inmanejable, al igual que a los demás.
+        </p>
+        <h3>1.3.1 Establecer el orden de las prioridades</h3>
+        <p class="parag">
+            Uno de los ingredientes más importantes para administrar con eficacia el tiempo es la capacidad para
+            establecer el orden de primacía de las actividades. Este orden de prioridad se refiere a la capacidad para
+            comprender la importancia relativa que tienen diferentes metas y actividades.
+        </p>
+        <p class="pPest">
+            Prácticamente en cualquier momento, los directores tienen muchas actividades que requieren de su atención y
+            una serie de tareas en las que están trabajando. Las decisiones sobre cuáles desarrollar y en qué secuencia
+            necesitan de la capacidad para establecer su orden de prioridad. (Además, otras habilidades, en especial las
+            diagnósticas y las conceptuales, ayudan a los administradores y directores a ver la relativa primacía de
+            diferentes actividades y tareas).
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '012')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '014')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="014" class="contenidopest">
+        <h3>1.3.1 Establecer el orden de las prioridades</h3>
+        <p class="parag">
+            El orden de prioridad debe estar basado por lo general en los elementos siguientes:
+        </p>
+        <ul type="a" style="font-size: medium;">
+            <li>
+                El tiempo: ¿Cuál es la fecha final para entregar la tarea o actividad? En igualdad de condiciones,
+                debemos realizar primero aquellas a las cuales les queda menos tiempo para llegar a la fecha límite.
+            </li>
+            <li>
+                La responsabilidad: ¿Quién es el responsable de la actividad o la tarea? ¿El director la debe manejar
+                personalmente o delegar o asignar legítimamente a alguien?
+            </li>
+            <li>
+                Responsabilidad: ¿Quién es el gerente y/o directivo responsable para completar la actividad o la tarea?
+                Todo lo demás es igual, la rendición de cuentas a alguien en un nivel superior en la organización
+                probablemente debería tener prioridad.
+            </li>
+            <li>
+                Importancia: ¿Qué tanta es la importancia de la actividad o la tarea? ¿Cuáles son las consecuencias si
+                no se termina a tiempo?
+            </li>
+            <li>
+                Repercusiones para otros: ¿Tiene repercusiones para otros no terminar a tiempo la actividad o la tarea?
+                Por ejemplo, si un director es el encargado de preparar la primera parte de un informe que será
+                entregado dentro de seis meses, pero hay otros que completarán las siguientes partes del mismo, él debe
+                conocer su calendario de trabajo, así como el de esas personas.
+            </li>
+        </ul>
+        <div style="display: flex; justify-content: center; align-items: center; padding: 15px">
+            <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_09.png" alt=""
+                class="img-fluid zoomImgGd" width="700">
+        </div>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '013')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '015')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="015" class="contenidopest">
+        <h3>1.3.1 Establecer el orden de las prioridades</h3>
+        <p class="parag">
+            De acuerdo con Griffin, algunas personas consideran muy útil contar con una lista de “pendientes”. Esta
+            relación de actividades les ayuda a llevar registro de lo que deben hacer y para qué fecha debe quedar
+            terminado. A continuación, establece el orden de prioridad de esas actividades y tareas en función de los
+            criterios antes mencionados. Algunos piensan que pueden llevar esa lista “en la cabeza”. Sin embargo, los
+            expertos en administración del tiempo recomiendan que el listado sea por escrito (en papel o en medios
+            electrónicos) para no pasar por alto algún punto sin que nos demos cuenta.
+        </p>
+        <p class="pPest">
+            Los directores deben ir actualizando constantemente la relación conforme van surgiendo actividades y tareas
+            nuevas y otras quedan terminadas.
+        </p>
+        <p class="pPest">
+            También existen diferencias en la forma en que ellos preparan sus listas. Por ejemplo, algunos prefieren
+            iniciar el día abordando un par de tareas o actividades rápidas y fáciles. Esto les permite sacar esos
+            puntos del listado y sentir que han logrado algo antes de pasar a asuntos más difíciles.
+        </p>
+        <h4>No establecer bien la prioridad de las actividades</h4>
+        <p class="parag">
+            En ocasiones, incluso los directores que tienen grandes habilidades para administrar el tiempo no establecen
+            bien las prioridades y se dan cuenta más adelante de su error.
+        </p>
+        <p class="pPest">
+            Cuando esto sucede, deben hacer varias cosas. La primera es pasar esa actividad o tarea a la cabeza de la
+            lista y realizarla enseguida. Al posponer otras actividades, tal vez puedan terminarla antes de la fecha
+            límite. Quizá también puedan conseguir recursos adicionales para que les ayuden a realizarlas.
+        </p>
+        <p class="pPest">
+            Por ejemplo, un director y/o gerente podría pedir a un compañero el favor de que le ayude o tal vez pueda
+            contratar personal temporal.
+        </p>
+        <p class="pPest">
+            Sin embargo, si es evidente que no podrá cumplir con la fecha límite, el director debe darlo a conocer de
+            inmediato a todas las partes afectadas. Esta notificación debe incluir:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Un aviso claro de que no puede cumplir con la fecha límite
+            </li>
+            <li>
+                Una disculpa - justificación sincera (con la debida explicación en su caso)
+            </li>
+            <li>
+                Una declaración contundente de la fecha en que la actividad o la tarea quedará terminada (p. 58)
+            </li>
+        </ol>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '014')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '016')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="016" class="contenidopest">
+        <h3>1.3.2 Delegar con eficacia: razones, partes del proceso y problemas al delegar</h3>
+        <p class="parag">
+            Griffin (2016) Significa establecer el patrón de las atribuciones correspondientes a un superior y a
+            uno o varios de sus subordinados. Concretamente, delegar es el proceso que siguen los directores
+            para asignar a otras personas una parte de su carga total de trabajo.
+        </p>
+        <h4>Razones para delegar</h4>
+        <p class="parag">
+            La razón fundamental para delegar es que permite al director desarrollar una cantidad más grande de
+            su propio trabajo. Los subordinados lo apoyan en una parte de su carga cuando los directivos
+            desempeñan cantidades considerables de las labores de la organización. En algunos casos, un
+            subalterno puede tener más experiencia que aquel en el caso de un problema particular. Por ejemplo,
+            tal vez esté mejor preparado para desarrollar sistemas de informática o podría conocer mejor una
+            línea de productos o una zona geográfica particulares. La delegación sirve también para que los
+            subordinados se desarrollen. Al participar en la toma de decisiones y en la resolución de problemas,
+            aprenden tareas de las operaciones en general y mejoran sus habilidades para dirigir y administrar.
+        </p>
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%;">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_10.png" alt=""
+                    class="img-fluid zoomImg" width="400">
+            </div>
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
+                <h4>Partes del proceso de la delegación</h4>
+                <p class="parag">
+                    La asignación de la responsabilidad puede ir desde pedirle que prepare un informe hasta dejarlo a
+                    cargo de
+                    un equipo de tarea. Con su asignación, la persona recibe las atribuciones para desempeñar el
+                    trabajo. El
+                    director podría otorgarle la facultad de buscar en archivos confidenciales determinada información
+                    que
+                    necesita o la de dirigir un grupo de otros empleados.
+                </p>
+                <p class="pPest">
+                    Por último, el director determina el nivel de actuación que debe rendir el subordinado; es decir,
+                    este
+                    acepta la obligación de desempeñar la tarea que le ha asignado aquel.
+                </p>
+
+            </div>
+        </div>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '015')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '017')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="017" class="contenidopest">
+        <h3>1.3.2 Delegar con eficacia: razones, partes del proceso y problemas al delegar</h3>
+        <h4>Problemas al delegar</h4>
+        <p class="parag">
+            Por desgracia, en el proceso de delegar se presentan con frecuencia problemas. Por ejemplo, los directores
+            podrían ser reacios a él. Algunos son tan desordenados que no tienen la capacidad de planear por adelantado
+            su trabajo y, por lo tanto, no pueden delegar debidamente. Otros se podrían preocupar de que los
+            subordinados hagan verdaderamente bien lo que les corresponde y ello signifique una amenaza para su propio
+            avance. Por último, algunos subalternos se resisten a aceptar que les deleguen actividades. Tal vez tengan
+            miedo de que un fracaso podría llevarles a una llamada de atención del jefe. Asimismo, pueden percibir que
+            aceptar una responsabilidad adicional no conlleva premio alguno.
+        </p>
+        <p class="pPest">
+            Por otro lado, quizá simplemente prefieran no arriesgarse y quieran que su superior asuma toda la
+            responsabilidad.
+        </p>
+        <p class="pPest">
+            Los subordinados deben saber cuál es su responsabilidad, cuáles sus atribuciones, y qué cuentas deben
+            rendir, y el director debe reconocer el valor que representa una buena delegación. Con el transcurso del
+            tiempo, aquellos se deben desarrollar hasta llegar al punto donde puedan dar contribuciones sustanciales a
+            la organización.
+        </p>
+        <p class="pPest">
+            Asimismo, los directores deben reconocer que el desempeño satisfactorio de un subordinado no significa una
+            amenaza para su propia carrera, sino un logro alcanzado por quien realizó la tarea y el jefe que lo capacitó
+            y que fue lo bastante sagaz como para confiarle el proyecto. Sin embargo, la responsabilidad última del
+            resultado sigue correspondiendo al director y/o gerente (p. 60)
+        </p>
+        <h3>1.3.3 Programar y manejar las juntas, controlar las interrupciones</h3>
+        <p class="parag">
+            Griffin (2016) Las juntas son parte normal y frecuente del funcionamiento diario de toda organización. Las
+            reuniones bien programadas y dirigidas ofrecen un camino estupendo para tomar decisiones, discutir asuntos,
+            resolver conflictos, crear estrategias y comunicar información. Por otro lado, las mal programadas y
+            dirigidas son una pérdida de tiempo y una fuente de conflicto.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '016')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '018')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="018" class="contenidopest">
+        <h3>1.3.3 Programar y manejar las juntas, controlar las interrupciones</h3>
+        <div style="display: flex;">
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
+                <p class="pPest">
+                    Las juntas planeadas deben ser anunciadas con anticipación suficiente para que todos los que deban
+                    asistir tengan tiempo disponible para ello. Además, se deben llevar a cabo en una sala apropiada
+                    para el grupo que se reunirá; es decir, debe ofrecer acceso fácil a todos y ser tan grande y cómoda
+                    como se requiera. Algunos directores sugieren que los asistentes permanezcan de pie durante las
+                    juntas breves. Es muy útil enviar un recordatorio a todos poco antes de la junta. Es más, la mayor
+                    parte de los expertos aconsejan que se envíe el orden del día de antemano para que las personas
+                    conozcan los temas que se tratarán. Hoy en día, las herramientas electrónicas para programar
+                    facilitan más que nunca la planeación de juntas.
+                </p>                
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_11.png" alt=""
+                    class="img-fluid zoomImg" width="400">
+            </div>
+        </div>
+        <p class="pPest">
+            Las reuniones deben empezar puntualmente, pero algunos consideran que es más aconsejable esperar a
+            quienes llegan tarde. Sin embargo, esperar es premiar a los que se retrasan (porque no se pierden
+            nada) y castigar a los que llegan puntualmente (porque pierden tiempo mientras esperan sentados a
+            que lleguen los demorados). En la medida de lo posible, el organizador de la junta debe sujetarse al
+            orden del día y cubrir todos los puntos anunciados, sin introducir otros temas a no ser que resulte
+            enteramente necesario. El orden debe indicar la hora en que empezará y la hora en que terminará la
+            junta, y el organizador debe darla por concluida a esta hora. Por último, se deben anotar todas las
+            acciones que tendrán que desarrollar las personas asistentes para darles seguimiento.
+        </p>
+        <h4>Controlar las interrupciones</h4>
+        <p class="parag">
+            Otra práctica muy útil para mejorar la administración del tiempo consiste en controlar las interrupciones
+            inesperadas.
+        </p>
+        <p class="pPest">
+            A la mayor parte de los directores y/o gerentes les gusta estar disponibles para otros miembros de la
+            organización, y muchas veces hablan de tener una política de “puerta abierta”, con lo que sugieren que las
+            personas deben sentirse en libertad de pasar a verlos. Sin embargo, esta práctica podría llevar a infinidad
+            de conversaciones informales que, si son toleradas, podrían provocar que el director no cuente con tiempo
+            suficiente para desarrollar su trabajo.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '017')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '019')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="019" class="contenidopest">
+        <h3>1.3.3 Programar y manejar las juntas, controlar las interrupciones</h3>
+        <p class="pPest">
+            Regular el flujo de la información es un método muy útil para controlar las interrupciones. Significa que
+            las personas que se comunican entre sí toman medidas para que no haya exceso de carga. En el caso del
+            emisor, esto significaría no pasar de una sola vez por el sistema una cantidad excesiva de información. En
+            el caso del receptor, podría significar resaltar el hecho de que le están pidiendo demasiadas cosas a la
+            vez. Muchos directores limitan la información que les entra depurando periódicamente la lista de
+            publicaciones y reportes de rutina que reciben, o piden a su asistente que elija con minuciosidad las
+            llamadas telefónicas y a los visitantes. (p. 62)
+        </p>
+        <h3>1.3.4 Manejo del estrés, las causas del estrés y consecuencias</h3>
+        <p class="parag">
+            Griffin (2016) El estrés es otra consideración de peso para la administración del tiempo en las
+            organizaciones.
+        </p>
+        <p class="pPest">
+            El estrés es la respuesta del individuo ante un estímulo muy fuerte, o la causa estresante. Por lo habitual,
+            se presenta después de un ciclo llamado síndrome de adaptación general (GAS por sus siglas en inglés),
+            cuando un individuo encuentra una causa estresante se inicia el GAS y, en la etapa 1, se activa una alarma.
+            La persona podría sentir pánico, preguntarse cómo encarar las cosas o sentirse desamparada. Por ejemplo,
+            suponga que le piden a un director que prepare una evaluación detallada de un plan para que la compañía
+            adquiera a uno de sus competidores. Su primera reacción podría ser “¿Cómo podré hacerlo para mañana?”. Si la
+            causa estresante es demasiado intensa, el individuo tal vez sienta que no es capaz de lograrlo y tal vez
+            nunca trate en realidad de responder a las exigencias. Sin embargo, en la mayor parte de los casos, después
+            de un breve periodo de alarma, hace acopio de fuerzas y empieza a resistirse a los efectos negativos de la
+            causa estresante. Por ejemplo, el director que debe preparar la evaluación se tranquilizaría, llamaría a
+            casa para avisar que llegará tarde, se sentaría al escritorio, pediría un café y se pondría a trabajar.
+            Luego entonces, en la etapa 2 del GAS, la persona se resiste a los efectos de la causa del estrés.
+        </p>
+        <p class="pPest">
+            En muchos casos, la fase de la resistencia pone fin al GAS. Si el director consigue terminar la evaluación
+            antes de lo que ha calculado, podría guardarla en su portafolio, sonreírse y dirigirse a casa cansado, pero
+            satisfecho.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '018')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '020')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="020" class="contenidopest">
+        <h3>1.3.4 Manejo del estrés, las causas del estrés y consecuencias</h3>
+        <p class="parag">
+            De otro lado, la exposición prolongada a un elemento estresante sin resolver podría montar el escenario; el
+            individuo se da por vencido totalmente y es incapaz de resistir el estrés. Por ejemplo, el gerente se
+            quedaría dormido sobre su escritorio a las 3:00 a.m. sin llegar a terminar la evaluación.
+        </p>
+        <div style="display: flex; justify-content: center; align-items: center; padding: 15px">
+            <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_12.png" alt=""
+                class="img-fluid zoomImgGd" width="600">
+        </div>
+        <p class="pPest">
+            El estrés no siempre es malo. Cuando no lo hay, podríamos sentirnos aletargados o estancados. Por otro lado,
+            un nivel óptimo podría generar motivación y emoción. Sin embargo, uno excesivo puede tener consecuencias
+            negativas.
+        </p>
+        <p class="pPest">
+            También es importante saber que tanto cosas “buenas” como “malas” pueden generarlo. Una presión exagerada,
+            demasiadas exigencias de tiempo y las malas noticias pueden ser su causa. Sin embargo, recibir un bono y
+            después tener que decidir qué hacer con el dinero puede también ser estresante. Sucede lo mismo si nos
+            conceden un ascenso, obtenemos reconocimiento y situaciones similares.
+        </p>
+        <p class="pPest">
+            Una línea de pensamiento importante respecto del estrés se concentra en la personalidad tipo A y la tipo B.
+            Los individuos tipo A son sumamente competitivos, muy entregados a sus labores y tienen una sensación muy
+            clara de urgencia.
+        </p>
+        <div class="enlaces">
+            <div button class="pestenlace" onclick="openPest(event, '019')">
+                <button type="button" class="btnCont-Verde">Anterior</button>
+            </div>
+            <div button class="pestenlace" onclick="openPest(event, '021')">
+                <button type="button" class="btnCont-Verde">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="021" class="contenidopest">
+        <h3>1.3.4 Manejo del estrés, las causas del estrés y consecuencias</h3>
+        <p class="pPest">
+            Es probable que sean agresivos, impacientes y que se orienten mucho al trabajo. Tienen mucho vigor y desean
+            hacer lo más posible en el menor tiempo. Las personas tipo B son menos competitivas, menos dedicadas al
+            trabajo y tienen menos sensación de urgencia.
+        </p>
+        <p class="pPest">
+            Es menos probable que experimenten conflicto con otras, y hay más posibilidad de que vean la vida de forma
+            tranquila y equilibrada. Tienen capacidad de laborar a un ritmo constante, sin urgencia. No necesariamente
+            son más o menos exitosas que aquellas, pero es menos probable que sufran estrés. Es más, las personas tipo A
+            podrían reaccionar de forma más negativa cuando se retrasan o encuentran demoras para terminar las cosas
+        </p>
+        <h4>Causas del estrés</h4>
+        <p class="parag">
+            Las causas del estrés derivadas del trabajo se ubican dentro de una de cuatro categorías: las exigencias de
+            la tarea, las físicas, las de la función y las interpersonales. Las exigencias de la tarea están ligadas a
+            la actividad misma.
+        </p>
+        <p class="pPest">
+            Algunas ocupaciones tienden a ser de modo inherente más estresantes que otras, y las situaciones que pueden
+            provocarlo son: tener que tomar decisiones rápido, con información que dista de estar completa, o que tienen
+            consecuencias relativamente graves. Los trabajos de cirujano, piloto de avión y corredor de bolsa son
+            relativamente más estresantes que los de médico general, encargado de equipaje o recepcionista de oficina.
+            Si bien, el médico general toma decisiones importantes, también es probable que tenga tiempo para hacer un
+            diagnóstico bien pensado y estudie a fondo una serie de tratamientos diferentes. Sin embargo, en una
+            operación, el cirujano debe tomar decisiones rápidamente a sabiendas de que si se equivoca pondrá en peligro
+            la vida del paciente.
+        </p>
+        <p class="pPest">
+            <i>Las exigencias físicas</i> son causas de estrés relacionadas con el contexto del trabajo.
+        </p>
+        <p class="pPest">
+            Laborar al aire libre cuando hace mucho calor o frío, incluso en una oficina mal calentada o refrigerada,
+            puede provocarlo.
+        </p>
+        <p class="pPest">
+            Asimismo, los puestos que tienen turnos rotatorios dificultan a la persona tener patrones de sueño estables.
+            Una oficina mal diseñada la cual hace difícil tener privacidad, o por lo contrario, que fomenta muy poca
+            interacción social, puede generar estrés, así como la iluminación deficiente o las superficies inadecuadas
+            para laborar. Más graves son los empleos que representan una amenaza para la salud, por ejemplo la minería
+            de carbón, el procesamiento de aves o el manejo de desechos tóxicos. Asimismo, están los trabajos que
+            implican riesgos asociados a tasas más altas de incidentes violentos como los robos a mano armada, por
+            ejemplo los policías de barrio, los conductores de taxi y los dependientes de tiendas de abarrotes.
+        </p>
+        <p class="pPest">
+            <I>Las exigencias de la función</I> también provocan estrés.
+        </p>
+        <p class="parag">
+            Una función (o rol) es el conjunto de conductas que se esperan de un puesto en un grupo u organización. El
+            estrés puede provenir de un conflicto de funciones o de la ambigüedad de las tareas que la persona
+            experimenta en los grupos. Por ejemplo, una empleada la cual siente la presión de su jefe para que trabaje
+            hasta más tarde o para que viaje más, pero al mismo tiempo escucha a su familia pedir que esté más en casa,
+            es casi seguro que sufra estrés como resultado de un conflicto de funciones o roles.
+        </p>
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_13.png" alt=""
+                    class="img-fluid zoomImg" width="400">
+            </div>
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding: 15px">
+                <p class="pPest">
+                    Por otro lado, un empleado nuevo el cual experimenta la ambigüedad de funciones porque la compañía
+                    no sigue buenas prácticas para la orientación y la capacitación lo sufrirá también. Asimismo, el
+                    exceso de juntas es una fuente posible de estrés. Si bien, los recortes de personal y los despidos
+                    habidos durante la recesión de 2008-2009 se concentraron en la angustia que experimentaron quienes
+                    se quedaron sin empleo (y de modo justificado), muchos de los directores y/o gerentes que impusieron
+                    los despidos lo tuvieron por igual.
+                </p>
+                <p class="pPest">
+                    <i>Las exigencias interpersonales</i> son causas de estrés asociadas a relaciones que enfrentan a
+                    las personas en las organizaciones. Por ejemplo, las presiones del grupo en relación con la
+                    restricción de lo que se produce y la conformación a la norma podrían también provocarlo.
+                </p>
+                <p class="pPest">
+                    Una empleada que siente gran necesidad de participar en la toma de decisiones podría sentir estrés
+                    si el jefe no le permite participar. Quienes tienen personalidades que chocan podrían sufrirlo si
+                    deben trabajar muy cerca de otros. Por ejemplo alguien que tiene un locus de control interno se
+                    sentiría mal laborando con alguien que prefiere lamentarse y sentarse a esperar a que pasen las
+                    cosas.
+                </p>
+            </div>
+        </div>
+        <h4>Consecuencias del estrés</h4>
+        <p class="parag">
+            Los resultados del estrés pueden ser positivos o negativos. Los negativos podrían ser conductuales,
+            psicológicos o médicos.
+        </p>
+        <p class="pPest">
+            El conductual podría desembocar en acciones perjudiciales o desgastantes, como fumar, comer en exceso en
+            momentos de tensión o consumir alcohol o drogas. Otros comportamientos inducidos por el estrés son la
+            propensión a sufrir accidentes, la violencia contra uno mismo o contra otros, y los desórdenes alimentarios.
+        </p>
+        <div style="display: flex;">
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding-right: 15px">
+                <p class="pPest">
+                    El uso excesivo de algunas sustancias nocivas sería una posible consecuencia.
+                    Las consecuencias psicológicas interfieren con la salud mental y el bienestar de un individuo.
+                    Algunas de ellas son las alteraciones del sueño, la depresión, los problemas con la familia.
+
+                </p>
+                <p class="pPest">
+                    Los directores tienden en especial a las variaciones del sueño cuando experimentan tensión laboral.
+                    Las consecuencias médicas afectan el bienestar fisiológico. Se dice que los infartos y los derrames
+                    cerebrales pueden estar ligados al estrés, al igual que las jaquecas, el dolor de espalda, las
+                    úlceras y los problemas de la piel, como el salpullido y el acné.
+                </p>
+                <p class="pPest">
+                    El estrés individual tiene también consecuencias directas en las empresas.
+                    Para un empleado de operaciones, se puede traducir en un trabajo de mala calidad y en poca
+                    productividad.
+
+                </p>
+                <p class="pPest">
+                    Para un director, significaría una toma de decisiones equivocadas y alteraciones en las relaciones
+                    laborales. También puede provocar retraimiento. Las personas que tienen problemas con la tensión en
+                    su trabajo tienen más probabilidades de reportarse enfermas o que abandonen la organización.
+                </p>
+                <p class="pPest">
+                    Algunas formas más sutiles de retraimiento también pueden ocurrir. Un director podría empezar a
+                    dejar de cumplir con las fechas límite o tomarse más tiempo a la hora de comer. Los empleados
+                    también se pueden aislar desarrollando sentimientos de indiferencia. La irritación que exhiben las
+                    personas sometidas a mucha tensión puede dificultar la posibilidad de llevarse con ellas. La
+                    satisfacción laboral, el ánimo y el compromiso, al igual que la motivación para desempeñarse, pueden
+                    verse afectados como resultado de niveles excesivos de estrés.
+                </p>
+                <p class="pPest">
+                    Otra consecuencia es el agotamiento (burnout), un sentimiento de cansancio que se puede presentar
+                    cuando alguien experimenta demasiado estrés durante un periodo largo. Resulta en fatiga constante,
+                    frustración e impotencia.
+                </p>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_14.png" alt=""
+                    class="img-fluid zoomImg" width="300">
+            </div>
+        </div>
+        <p class="parag">
+            Después viene mayor rigidez, al igual que la pérdida de confianza en sí mismo y el retraimiento psicológico.
+            A la persona le aterra tener que ir a trabajar, con frecuencia labora más tiempo pero consigue hacer menos
+            cosas que antes y presenta fatiga mental y física. Ante los efectos devastadores del agotamiento, algunas
+            compañías están tomando medidas a efecto de ayudar a los empleados a evitarlo.
+        </p>
+        <h4>Limitar el estrés</h4>
+        <p class="parag">
+            Dadas las posibles consecuencias que puede tener el estrés es lógico suponer que las personas y las
+            organizaciones estén interesadas en encontrar la manera de limitar sus efectos más nocivos. Infinidad de
+            planteamientos e ideas han sido propuestos a efecto de manejarlo.
+        </p>
+        <p class="pPest">
+            El ejercicio es un camino para que las personas manejen el estrés. Quienes lo practican con regularidad se
+            sienten menos estresadas, tienen más confianza en sí mismas y son más optimistas. Su buena condición física
+            hace también que sean menos susceptibles a muchas enfermedades comunes.
+        </p>
+
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_15.png" alt=""
+                    class="img-fluid zoomImg" width="300">
+            </div>
+
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding-right: 15px">
+                <p class="pPest">
+                    Quienes no hacen con regularidad ejercicio se sienten por lo general más estresadas y tienen mucha
+                    probabilidad de que se sientan deprimidas. También es más probable que sufran infartos y, dada su
+                    condición física, se enfermen.
+                </p>
+                <p class="pPest">
+                    La relajación es otro método usado para manejar el estrés. Quienes se relajan se pueden adaptar a
+                    este y, por ende, lo pueden manejar mejor. Existen muchas formas para conseguir tranquilidad, por
+                    ejemplo tomar con frecuencia vacaciones y desarrollar los fines de semana actividades que no tienen
+                    que ver con el trabajo.
+                </p>
+                <p class="pPest">
+                    Un estudio reciente descubrió que la actitud de las personas hacia diversas características del
+                    centro laboral mejoraba en medida sustancial después de un fin de semana en el que se habían
+                    desconectado totalmente de las actividades de su empleo.
+                </p>
+                <p class="pPest">
+                    También es posible relajarse en el trabajo. Por ejemplo, algunos expertos recomiendan que los
+                    individuos tomen descansos regulares durante su jornada laboral normal.
+                </p>
+                <p class="pPest">
+                    Así también las personas administran su tiempo para controlar el estrés. La idea de ello es que
+                    resulta posible disminuir o eliminar muchas de las presiones diarias si administran mejor ese
+                    factor. Por último, pueden manejarlo recurriendo a grupos de apoyo. Este puede ser simplemente un
+                    grupo de parientes o de amigos. Por ejemplo, asistir a un partido de baloncesto o ir al cine con un
+                    par de compañeros después del trabajo sirve para aliviar la tensión acumulada en el día. La familia
+                    y las amistades pueden ayudar a alguien a lidiar con el estrés de forma permanente o en momentos de
+                    crisis. Por ejemplo, una empleada que se acaba de enterar que no recibirá el ascenso por el que
+                    había venido luchando durante muchos meses podría encontrar consuelo en una buena amiga, alguien con
+                    quien puede hablar y sacar su frustración. Las personas pueden también acudir a grupos de apoyo más
+                    formales. Por ejemplo, los centros comunitarios o las iglesias podrían tener grupos especializados
+                    para personas que acaban de pasar por un divorcio, la muerte de un ser querido o alguna otra
+                    situación difícil.
+                </p>
+            </div>
+        </div>
+        <p class="parag">
+            Las organizaciones también se están dando cuenta de que deben tratar de ayudar a los empleados a lidiar con
+            el estrés. Un argumento a favor de lo anterior dice que como la empresa es la responsable, cuando menos en
+            parte, de generarlo, debe ayudar a aliviarlo. Otro argumento dice que las reclamaciones de seguros
+            relacionadas con esta tensión las cuales presentan los trabajadores cuestan a la compañía una cantidad
+            considerable de dinero. Otro más dice que los empleados que sufren niveles más bajos de estrés nocivo
+            funcionan de forma más efectiva.
+        </p>
+        <p class="pPest">
+            Un programa de bienestar sin estrés es una parte especial de la organización que ha sido creado
+            específicamente como ayuda para lidiar con este inconveniente.
+        </p>
+        <p class="pPest">
+            Las compañías han adoptado programas para manejarlo, programas para fomentar la salud y otras clases de
+            ellos para tal fin. Por lo común incluyen acciones relacionadas con el ejercicio así como enseñanza en aulas
+            que abordan cuestiones como dejar de fumar, bajar de peso y manejar el estrés en general.
+        </p>
+        <p class="pPest">
+            Algunas compañías desarrollan sus propios programas de bienestar o usan los existentes (p. 67).
+        </p>
+        <h3>1.4 Control Y Supervisión</h3>
+        <p class="parag">
+            Huerta (2006) El control permite verificar las actividades a fin de asegurarse de que se están llevando a
+            cabo como se planeó y, de no ser así, corregir cualquier desviación significativa. En una situación ideal no
+            sería necesario el control, pues todas las actividades se realizarían como se planearon; pero en la realidad
+            existen situaciones cambiantes o impredecibles que impiden el desarrollo del curso planeado.
+        </p>
+        <br>
+        <br>
+        <p class="parag">
+            En el proceso de control se llevan cuatro pasos independientes, que son:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Implantación de normas o estándares para control.
+            </li>
+            <li>
+                Medición del desempeño real.
+            </li>
+            <li>
+                Comparación del desempeño real con un estándar.
+            </li>
+            <li>
+                Acción para corregir las desviaciones o los estándares inadecuados.
+            </li>
+        </ol>
+        <p class="parag">
+            Cuando se desea diseñar un sistema de control se tiene que definir qué es lo que se va a medir, cómo y
+            cuándo se hará.
+        </p>
+        <p class="pPest">
+            Cuando se desea diseñar un sistema de control se tiene que definir qué es lo que se va a medir, cómo y
+            cuándo se hará.
+        </p>
+        <br>
+        <br>
+        <p class="parag">
+            Existen tres tipos de controles que son:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Control preventivo, que previene los problemas por anticipado y se llama así porque se lleva a cabo
+                antes de la actividad real. Su desventaja es que necesita de mucho tiempo e información oportuna y
+                precisa.
+            </li>
+            <li>
+                Concurrente, que se lleva a cabo mientras una actividad está en proceso.
+            </li>
+            <li>
+                De retroalimentación, que es el control que se impone después de que se ha llevado a cabo una acción; el
+                inconveniente es que, cuando se recibe la información del control, el daño ya está hecho.
+            </li>
+        </ol>
+        <p class="parag">
+            Las principales áreas generales donde se aplica un control son aquéllas donde se califica cantidad, calidad,
+            tiempo y costo.
+        </p>
+        <p class="pPest">
+            Un sistema de control eficiente debe ser:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Preciso.
+            </li>
+            <li>
+                De aplicación oportuna.
+            </li>
+            <li>
+                Económico.
+            </li>
+            <li>
+                Flexible.
+            </li>
+            <li>
+                Comprensible.
+            </li>
+            <li>
+                De criterio razonable, es decir, los criterios de control deben ser coherentes y alcanzables.
+            </li>
+            <li>
+                De ubicación estratégica, pues cubre factores críticos de la organización.
+            </li>
+            <li>
+                De criterio múltiple, ya que el desempeño se evalúa utilizando más de un indicador.
+            </li>
+            <li>
+                De acción correctiva, pues un control sólo es válido cuando ayuda a corregir alguna desviación.
+            </li>
+            <li>
+                Además, el control debe poner énfasis en la excepción y aplicarse sólo cuando la variación sobrepasa la
+                medida estándar.
+            </li>
+        </ol>
+        <div style="display: flex; justify-content: center; align-items: center; padding: 15px">
+            <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_16.png" alt=""
+                class="img-fluid zoomImg" width="800">
+        </div>
+        <p class="parag">
+            Los controles se aplican a dos tipos de normas: las cuantitativas, que son los objetivos que se pueden
+            representar en cantidades numéricas y unidades de medición; y las normas cualitativas, que son más difíciles
+            de evaluar pero que son de suma importancia para la organización.
+        </p>
+        <br>
+        <br>
+        <div style="display: flex;">
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding-right: 15px">
+                <p class="parag">
+                    Las normas para los controles pueden ser establecidas de tres formas:
+                </p>
+                <ol style="font-size: medium;">
+                    <li>
+                        Con base en el análisis de experiencias pasadas utilizando datos estadísticos extraídos de los
+                        propios archivos y registros de la empresa, o bien, pueden ser un reflejo de la experiencia de
+                        otras organizaciones.
+                    </li>
+                    <li>
+                        Por apreciación y juicio de algún directivo.
+                    </li>
+                    <li>
+                        Con base en un análisis objetivo y cuantitativo de una situación específica de trabajo, es
+                        decir, se trata de normas específicamente desarrolladas para la medición de la producción o el
+                        trabajo individual
+                    </li>
+                </ol>
+                <p class="parag">
+                    Los datos para la evaluación pueden surgir ya sea de la observación directa de algún encargado, de
+                    datos estadísticos que arroja el sistema, o bien, de informes orales o escritos que permiten
+                    comparar el funcionamiento con la norma estándar o base y determinar la desviación por arriba o por
+                    abajo del margen de desempeño.
+                </p>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_17.png" alt=""
+                    class="img-fluid zoomImg" width="300">
+            </div>
+        </div>
+        <p class="pPest">
+            El objetivo último del control es determinar si las operaciones se ajustan a lo esperado y hacer esfuerzos
+            para que los resultados deseados se alcancen. En otras palabras, el control permite a las personas que
+            tienen autoridad sobre el funcionamiento actual ejecutar una acción correctiva.
+
+        </p>
+        <p class="pPest">
+            A mayor nivel en la jerarquía de la organización, mayor es la necesidad de establecer los criterios de
+            control múltiples, diseñados para las metas de las unidades. Y a mayor grado de descentralización, habrá un
+            mayor número de administradores que necesitarán retroalimentación sobre el desempeño de los subordinados que
+            toman decisiones, ya que, en última instancia, son responsables de las acciones de aquéllos a quienes se les
+            delegó autoridad.
+        </p>
+        <p class="pPest">
+            Un problema frecuente en esta etapa del proceso administrativo es el de la disfuncionalidad, que surge
+            cuando los controles se vuelven inflexibles o los estándares de control no son razonables, lo que hace que
+            las personas pierdan de vista las metas globales de la organización.
+        </p>
+        <p class="pPest">
+            Cuando está en juego la compensación, los individuos tienden a manipular los datos para presentarse con una
+            imagen favorable mediante la distorsión de la información, suprimiendo la evidencia de fallas y destacando
+            los éxitos. En ocasiones, las fallas en el diseño de flexibilidad para los sistemas de control provocan
+            problemas más serios que aquellos que pretendían prevenir.
+        </p>
+        <h4>Herramientas Para El Control</h4>
+        <p class="parag">
+            En el área de control existen numerosas herramientas, y cada una de ellas, por si fuera poco, tiene diversas
+            variaciones. Además, se les puede encontrar con diferentes nombres o en las distintas aplicaciones para las
+            que fueron diseñadas. Aquí sólo mencionaremos algunas sin explicar su ejecución.
+        </p>
+        <p class="pPest">
+            El área de control o la función de control opera con soporte de datos, que son cifras y hechos puros sobre
+            circunstancias específicas. Una vez que los datos son organizados y analizados de alguna manera y con un
+            propósito particular, se convierten en información.
+        </p>
+        <div style="display: flex;">
+            <div style="display: flex; justify-content: center; align-items: center; width: 40%; padding: 15px">
+                <img src="https://iesap.com.mx/BancoRecursos/Dpm//DAH/103HD/01U/DAH103U1_18.png" alt=""
+                    class="img-fluid zoomImg" width="300">
+            </div>
+            <div
+                style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; width: 60%; padding-right: 15px">
+
+                <br>
+                <br>
+                <p class="parag">
+                    Toda información debe cumplir con cuatro principios:
+                </p>
+                <ol type="a" style="font-size: medium;">
+                    <li>
+                        Calidad: Cuanto más exacta es la información, tanto mayores son su calidad y la confianza que se
+                        puede depositar en ella para tomar decisiones.
+                    </li>
+                    <li>
+                        Oportunidad: Para tener un control efectivo, se deben aplicar medidas correctivas antes de que
+                        la desviación sea demasiado grande. La información debe estar al alcance de la persona indicada,
+                        en el momento oportuno, para poder emprender las medidas adecuadas.
+                    </li>
+                    <li>
+                        Cantidad: La información debe ser suficiente, ya que con frecuencia se recibe mucha información
+                        irrelevante o inútil.
+                    </li>
+                    <li>
+                        Relevancia: Debe ser de importancia para el personal, en sus funciones y labores (p. 61)
+                    </li>
+                </ol>
+                <h4>Supervisión</h4>
+                <p class="parag">
+                    Huerta (2006) En el proceso administrativo, la supervisión se refiere al monitoreo de las
+                    actividades inmediatas de los empleados. Aunque se considera que la supervisión se ejerce en
+                    cualquier nivel donde haya subordinados, el término se utiliza casi con frecuencia para designar esa
+                    función en el plano administrativo de primer nivel que está en contacto inmediato con los empleados
+                    no administrativos o con los clientes y usuarios de la organización. El problema radica en la
+                    posición de mediadores que ocupan los supervisores, pues deben comunicarse tanto con los mandos
+                    medios como con el nivel operativo, y deben salir delante de los conflictos y arreglárselas con la
+                    limitada autoridad que poseen. El supervisor forma parte del cuerpo administrativo pero, por lo
+                    general, éste no lo reconoce como tal; por otra parte, los operativos no lo consideran uno de los
+                    suyos, lo que hace que este puesto sea uno de los más difíciles de asumir.
+                </p>
+                <p class="pPest">
+                    Un supervisor es la guía y el instructor de sus subordinados, un ejecutor de ideas ya sean propias o
+                    de los superiores. Es un individuo que se encuentra entre lealtades y exigencias encontradas.
+                </p>
+            </div>
+        </div>
+        <p class="parag">
+            Las características particulares de un supervisor podrían resumirse en cinco:
+        </p>
+        <ol type="a" style="font-size: medium;">
+            <li>
+                Sólida confianza en la experiencia técnica: Conoce el trabajo que supervisa.
+            </li>
+            <li>
+                Se comunica tanto con los administradores como con los operativos: A diferencia de los demás
+                administradores que supervisan a otros administradores con los cuales comparten cierto nivel académico,
+                experiencias y necesidades, los supervisores de primer nivel deben interactuar con dos grupos distintos,
+                por lo que son una especie de traductores en ambos lados.
+            </li>
+            <li>
+                Deben solucionar los conflictos de roles: Como elemento intermedio y de enlace entre dos niveles
+                jerárquicos, si bien su rol es el de supervisar el desempeño del nivel de primera línea, también lo es
+                evitar conflictos entre ambos niveles.
+            </li>
+            <li>
+                Debe salir adelante con la autoridad limitada: Sólo tiene autoridad necesaria para el cumplimiento de su
+                labor, pero en casos extraordinarios no puede hacer nada.
+            </li>
+            <li>
+                Es representante de la administración: El problema final es que, para los operarios, los supervisores
+                son la organización. Así que cuando piensan en la administración, en políticas, procedimientos y
+                mandatos, su punto de referencia es el supervisor (p. 49).
+            </li>
+        </ol>
         <div class="enlaces">
             <div button class="pestenlace" onclick="openPest(event, '002')">
                 <button type="button" class="btnCont-Verde">Siguiente</button>
             </div>
         </div>
+    </div>
+
+    <div id="000" class="contenidopest">
+        <h3>Referencias</h3>
+        <p class="sangFan">
+            Contreras, F. (2013). Del liderazgo transaccional al liderazgo transformacional: implicaciones para el
+            cambio organizacional. Recuperado de: <a href="https://www.redalyc.org/pdf/1942/194227509013.pdf"
+                target="_blank">https://www.redalyc.org/pdf/1942/194227509013.pdf</a>
+        </p>
+        <p class="sangFan">
+            Griffin, R. (2016). Habilidades directivas Evaluación Y Desarrollo. Cengage Learning. México.
+        </p>
+        <p class="sangFan">
+            Fernández, M. (2017). Liderazgo transformacional y transaccional en emprendedores Venezolanos. Recuperado:
+            <a href="https://www.redalyc.org/pdf/290/29051457005.pdf"
+                target="_blank">https://www.redalyc.org/pdf/290/29051457005.pdf</a>
+        </p>
+        <p class="sangFan">
+            Huerta, J. 2006. Desarrollo de habilidades directivas. México. Pearson.
+        </p>
+        <p class="sangFan">
+            Madrigal, B. (2009). Habilidades directivas. Mc Graw Hill. México
+        </p>
+        <p class="sangFan">
+            Peralta, S. (2016). Liderazgo transaccional y transformacional de voluntarios jóvenes y adultos de Mar del
+            Plata. Psicoperspectivas. Recuperado: <a href="https://www.redalyc.org/pdf/1710/171048523014.pdf"
+                target="_blank">https://www.redalyc.org/pdf/1710/171048523014.pdf</a>
+        </p>
     </div>
 
 

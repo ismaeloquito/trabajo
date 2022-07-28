@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Inicia Sticky Social Bar*/
+
+
+/*
+body {
+    margin:0;height:2000px;
+}
+*/
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #268f50;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.instagram {
+    background-color: #773aab;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+}
+
+/*finaliza Sticky Social Bar*/
+
+
+/* Inicia Barra de Navegación */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::selection {
+    background: rgba(0, 123, 255, 0.7);
+}
+
+.content {
+
+    margin: auto;
+    padding: 0px 30px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+    background: rgba(3, 89, 38, 0.5);
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: #035926;
+    box-shadow: 0px 3px 5px 0px rgba(3, 89, 38, 0.5);
+}
+
+.navbar .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .menu-list {
+    display: inline-flex;
+}
+
+.logo img {
+    float: left;
+    width: 400px;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.menu-list li a:hover {
+    color: #208a4b;
+}
+
+.about {
+    padding: 40px 0;
+}
+
+.about .title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about p {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.icon {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.navbar.sticky .icon.cancel-btn {
+    top: 10px;
+}
+.title{
+    padding: 20px 0 30px 0;
+    background-color: #035926;}
+
+.title h1 {
+    padding: 20px 0 20px 0;   
+    text-align: center;
+    height: 50px;    
+    color: #fff;   
+}
+
+/* Finaliza Barra de navegación*/
+
+
+/*Comienza Cursos*/
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .contVerdIESAP {
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #035926;
+    padding: 25px 0 25px 0;
+}
+
+.izq {
+    padding: 20px;
+    width: 33.33%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.medio {
+    padding: 20px;
+    width: 33.33%;
+    height: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.der {
+    padding: 20px;
+    width: 33.33%;
+    height: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.marco {
+    border: 4px solid #7a7a7a;
+    width: 500px;
+    height: 320px;
+}
+
+.marco img {
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+    padding: 25px 0 25px 0;
+}
+
+.marCont {
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #c0c0c0;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.marCont img {
+    width: auto;
+    height: 800px;
+}
+
+.alinear {
+    padding: 35px;
+    text-align: left;
+}
+
+.textos {
+    padding: 35px;
+    text-align: justify;
+}
+
+.marcTablas {
+    display: flex;
+    flex-direction: row;
+}
+
+.marcTablas h4 {
+    font-weight: 600;
+    color: #fff;
+}
+
+.marcTablas p {
+    color: #fff;
+}
+
+.tabIzq {
+    width: 30%;
+    height: autopx;
+    margin: 25px;
+    padding: 25px;
+    background-color: #035926;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.tabMed {
+    width: 30%;
+    height: autopx;
+    margin: 25px;
+    padding: 25px;
+    background-color: #035926;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.tabDer {
+    width: 30%;
+    height: autopx;
+    margin: 25px;
+    padding: 25px;
+    background-color: #035926;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+} */
+
+/*Comienza Cursos*/
+
+
+
+/************************************************************************************************************************/
+/*                                              Inicia Listas Colapsables                                               */
+/************************************************************************************************************************/
+
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.w3-block {
+    display: block;
+    width: 100%
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.w3-left-align {
+    text-align: left !important
+}
+
+.w3-hide {
+    display: none !important
+}
+
+
+
+/************************************************************************************************************************/
+/*                                             Finaliza Listas Colapsables                                              */
+/************************************************************************************************************************/
+
+
+/************************************************************************************************************************/
+/*                                                    Inicia Footer                                                     */
+/************************************************************************************************************************/
+
+footer{
+    width: auto;    
+    background-color: #035926;
+}
+.piePag{      
+    height: 150px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.piePag a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;        
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+    display: flex;  
+}
+
+a:link, a:visited,  a:active{    
+    text-decoration: none;
+}
+
+a:hover {        
+    color: #20a053;
+}
+
+.foot01{
+    height: 150px;  
+    display: flex;
+    flex-direction: row;
+}
+/*
+.footLeft{
+
+}
+
+.footMed{
+
+}
+.footRight{
+
+}
+*/
+
+/************************************************************************************************************************/
+/*                                                   Finaliza Footer                                                     */
+/************************************************************************************************************************/
+
+
+@media (max-width: 868px) {
+    body.disabledScroll {
+        overflow: hidden;
+    }
+
+    .icon {
+        display: block;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        z-index: 9;
+    }
+
+    .icon.cancel-btn {
+        display: none;
+    }
+
+    .icon.cancel-btn.show {
+        display: block;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        background: rgb(3, 89, 38);
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 67px));
+        transition: all 0.3s ease;
+    }
+
+    .navbar.sticky .menu-list {
+        clip-path: circle(25px at calc(100% - 55px) calc(0% + 50px));
+    }
+
+    .navbar .menu-list.active {
+        clip-path: circle(75%);
+    }
+
+    .navbar .menu-list li {
+        margin-top: 45px;
+    }
+
+    .navbar .menu-list li a {
+        font-size: 23px;
+    }
+}

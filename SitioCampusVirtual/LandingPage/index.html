@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="" lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>IESAP | LandingPage</title>
+  <meta name="description" content="PAGE_DESCRIPTION">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="./img/icon.png">
+  <meta name="theme-color" content="#fafafa">
+  <link href="./css/colors.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="offer">
+      <img class="offer__image" src="./img/logoIESAP-Inicio.png" alt="Logo" />
+      <h1 class="offer__title">
+        IESAP Virtual
+      </h1>
+      <p class="offer__description">
+        Educación a Distancia, de calidad
+      </p>
+    </section>
+    <section class="form">
+      <h2 class="form__title">
+        ¡Ponte en Contacto!
+      </h2>
+      <p class="form__description">
+        Envia tus datos y un representante se pondrá en contacto contigo a la brevedad.
+      </p>
+      <form action="./php/send.php" method="POST">
+        <input class="form__input" type="text" required name="nombre" placeholder="Tu nombre" required/>
+        <input class="form__input" type="email" required name="email" placeholder="Tu correo electrónico" required/>
+        <input class="form__input" type="text" required name="movil" placeholder="Tu número de celular" required/>
+        <br>
+        <div class="form-group">
+          <input type="checkbox" required> Acepto <a target="_blank" href="politica-privacidad.txt">política de
+            privacidad.</a>
+        </div>
+        <br>
+        <button class="form__button" type="submit">¡Quiero Inscribirme!</button>
+      </form>
+    </section>
+  </main>  
+  <a href="https://api.whatsapp.com/send?phone=525540183916&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+  </a>
+  <script src="./js/main.js"></script>
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+</body>
+
+</html>

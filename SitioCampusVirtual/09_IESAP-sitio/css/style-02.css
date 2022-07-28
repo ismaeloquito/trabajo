@@ -1,0 +1,768 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/************************************************************************************************************************/
+/*                                              Inicia Sticky Social Bar                                                */
+/************************************************************************************************************************/
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 100;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #268f50;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background-color: #773aab;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Sticky Social Bar                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                             Inicia Barra de Navegación                                               */
+/************************************************************************************************************************/
+.topnav {
+  z-index: 5;
+  overflow: hidden;
+  background-color: rgba(3, 89, 38, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  border-bottom: solid 2px #fff;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  overflow: hidden;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 60px;
+  height: 80px;
+}
+
+.topnav a:hover {
+  background-color: #047231;
+  color: #fff;
+  transition: all ease-in-out 500ms;
+}
+
+.topnav a.active {
+  background-color: #05a346;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+nav.sticky {
+  background-color: rgb(3, 89, 38);
+}
+
+.relleno {
+  width: 100vw;
+  height: 500px;
+  background-color: brown;
+}
+.rellenos {
+  width: 100vw;
+  height: 500px;
+  background-color: rgb(255, 123, 0);
+}
+
+/************************************************************************************************************************/
+/*                                            Finaliza Barra de Navegación                                              */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia IESAPiens                                                    */
+/************************************************************************************************************************/
+.IESAPiens {
+  overflow-y: hidden;
+  background-color: #0e391e;
+  height: 1100px;
+  padding-top: 20px;
+}
+
+/************************************************************************************************************************/
+/*                                                 Finaliza IESAPiens                                                   */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                  Inicia SlideShow                                                    */
+/************************************************************************************************************************/
+
+video {
+  width: 100%;
+}
+
+/************************************************************************************************************************/
+/*                                                 Finaliza SlideShow                                                   */
+/************************************************************************************************************************/
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Contenido Cursos                                                 */
+/************************************************************************************************************************/
+.contVerdIESAP {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background-color: #035926;
+}
+.contVerdIESAP > .title {
+  margin-top: 25px;
+  padding: 25px 0 25px 0;
+  color: #fff;
+}
+.title {
+  margin-top: 25px;
+  text-align: center;
+  color: #035926;
+}
+.marco {
+  width: 100%;
+  margin: 20px 0 30px 0;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow: hidden;
+}
+.marcoInt {
+  width: 28%;
+  height: fit-content;
+  display: flex;
+  margin: 2px;
+  border: 4px solid #7a7a7a;
+}
+.marcoInt > a > img {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Contenido Cursos                                                */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                    Inicia Fondo Verde Con Imagen Responsive                                          */
+/************************************************************************************************************************/
+.backV {
+  margin: 50px 0;
+  padding: 20px 0;
+  background-color: #035926;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.backV,
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                             Inicia Área de Contenidos                                                */
+/************************************************************************************************************************/
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title > h3 {
+  overflow: hidden;
+  align-self: flex-start;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  color: #035926;
+  font-weight: 600;
+}
+.marCont {
+  margin-top: 100px;
+  width: 85%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.marCont img {
+  width: 100%;
+  height: auto;
+}
+.textos {
+  padding: 15px;
+  margin: 0 auto;
+  text-align: justify;
+  width: 65%;
+}
+.alinear {
+  padding: 35px;
+  text-align: left;
+}
+
+/************************************************************************************************************************/
+/*                                              Inicia Tablón de Anuncios                                               */
+/************************************************************************************************************************/
+
+.marContAvisos {
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  background-color: #02401b;
+  border: 2px solid #c0c0c0;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.marContAvisos > .titleAvisos {
+  color: #fff;
+  margin-top: 25px;
+}
+.tablonAvisos {
+  padding: 25px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  overflow: hidden;
+}
+.avisos {
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  padding: 25px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px 10px 10px 10px;
+}
+.avisos > h4 {
+  padding: 5px;
+}
+.avisos > p {
+  padding: 5px;
+}
+
+.enlaces {
+  margin-bottom: 25px;
+  font-size: xx-large;
+}
+.enlaces > a,
+.enlaces > a:link,
+.enlaces > a:visited,
+.enlaces > a:focus,
+.enlaces > a:active {
+  text-decoration: none;
+  color: #05a346;
+}
+.enlaces > a:hover {
+  color: #035926;
+}
+
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-weight: 800;
+  border: 2px solid #035926;
+  border-radius: 10px;
+  width: 90%;
+}
+.buttonInfo {
+  background-color: #058a3b;
+  color: #fff;
+  border: 2px solid #035926;
+}
+
+.buttonInfo:hover {
+  background-color: #035926;
+  color: #058a3b;
+}
+
+/************************************************************************************************************************/
+/*                                             Finaliza Tablón de Anuncios                                              */
+/************************************************************************************************************************/
+
+/************************************************************************************************************************/
+/*                                            Finaliza Área de Contenidos                                               */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                   Finaliza Fondo Verde Con Imagen Responsive                                         */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                     Inicia Map                                                       */
+/************************************************************************************************************************/
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 25px 0;
+  padding: 25px 0 25px 0;
+}
+.map > iframe {
+  width: 90%;
+  height: 900px;
+}
+
+/************************************************************************************************************************/
+/*                                                    Finaliza Map                                                      */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                              Inicia Flip Card Styles                                                 */
+/************************************************************************************************************************/
+
+.conTarjeta {
+  padding: 64px;
+}
+.fila:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.fila {
+  margin: 20px;
+  display: flex;
+}
+.column01 {
+  flex-direction: row;
+  justify-content: left;
+  justify-items: flex-end;
+  width: 60%;
+  padding: 20px;
+}
+.column01 > h5,
+h6 {
+  text-align: center;
+}
+.column01 > p {
+  text-align: justify;
+}
+.column01 > .button {
+  align-items: flex-end;
+  margin: 20px;
+  width: auto;
+  background-color: #035926;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+}
+.column01 > .button:hover {
+  background-color: #05a346;
+  color: #000;
+}
+.column02 {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+.large-font {
+  font-size: 48px;
+}
+.xlarge-font {
+  font-size: 64px;
+}
+.column02 > img {
+  width: 100%;
+  height: auto;
+}
+
+/************************************************************************************************************************/
+/*                                                    Inicia Footer                                                     */
+/************************************************************************************************************************/
+
+footer {    
+  background-color: #012811;
+}
+.logos {
+    width: 100%;
+    height: auto;
+    background-color: #02401b;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .logos > div {
+      width: 25%;
+    margin: 15px 0;
+    padding: 25px;
+  }
+
+.rrssPiePag {
+    
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around; 
+    
+}
+.rrssPiePag>div{
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;
+    width: 33.3333%;    
+}
+.rrssPiePag a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px 50px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;    
+  justify-content: center;
+  align-items: center;
+}
+
+.rrssPiePag a:hover {
+  color: #0d6631;
+  background-color: #fff;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.datosFoot {  
+  display: flex;
+  justify-content: space-around;   
+  align-items: center;
+  background-color: #02401b;  
+  color: #fff;
+  padding: 25px 0px;
+  text-align: center;  
+}
+.datosFoot>div{
+    width:33.3333%;
+}
+.linkFoot a:hover {
+  color: #1dad57;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+.infoFoot{
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/************************************************************************************************************************/
+/*                                                   Finaliza Footer                                                    */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                            Inicia Formulario de Contacto                                             */
+/************************************************************************************************************************/
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #02401b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #0e391e;
+  width: 100%;
+}
+input,
+h2,
+h3 {
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+  border: 2px solid #45a049;
+  color: #000;
+}
+
+.containerForm {
+  border-radius: 5px;
+  background-color: #058a3b;
+  color: #fff;
+  padding: 20px;
+  width: 70%;
+}
+
+/************************************************************************************************************************/
+/*                                           Finaliza Formulario de Contacto                                            */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+/************************************************************************************************************************/
+/*                                                Inicia Menú inferior                                                  */
+/************************************************************************************************************************/
+.botNavbar {
+  display: none;
+}
+
+/************************************************************************************************************************/
+/*                                               Finaliza Menú inferior                                                 */
+/************************************************************************************************************************/
+
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+@media only screen and (max-width: 992px) {
+  .icon-bar {
+    display: none;
+  }  
+
+  .botNavbar {
+    display: flex;
+    overflow: hidden;
+    background-color: #035926;
+    border-top: 2px solid #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .botNavbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.333%;
+    text-align: center;
+  }
+  .botNavbar a:hover {
+    background-color: #047231;
+  }
+  .botNavbar i a:hover {
+    background-color: #047231;
+  }
+  .datosFoot{
+    display: none;      
+  }
+  .rrssPiePag {    
+  align-items: center;
+  height: 120px;
+  margin-bottom: 90px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .topnav {
+    background-color: #035926;
+  }
+  .topnav.responsive {
+    position: fixed;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    transition: all ease-in-out 500ms;
+  }
+  .flexslider {
+    margin-top: 80px;
+  }
+  /*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+  /************************************************************************************************************************/
+  /*                                              Inicia Contenido Cursos                                                 */
+  /************************************************************************************************************************/
+  .contVerdIESAP {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background-color: #035926;
+  }
+  .contVerdIESAP > .title > h3 {
+    margin-top: 5px;
+    padding: 10px 0 10px 0;
+    color: #fff;
+  }
+  .marco {
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .marcoInt {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin: 15px 0;
+    text-align: center;
+    border: 4px solid #7a7a7a;
+  }
+  .marcoInt > a > img {
+    width: 100%;
+    display: flex;
+    height: fit-content;
+  }
+  /************************************************************************************************************************/
+  /*                                             Finaliza Contenido Cursos                                                */
+  /************************************************************************************************************************/
+
+  /*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/*/
+
+  .map > iframe {
+    width: 90%;
+    height: 300px;
+  }
+  
+  .logos {
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rrssPiePag {
+      overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 90px;
+  }
+ 
+  
+}
+
+  /*
+  
+  .rrssPiePag a {
+    justify-content: center;
+    margin: 0 30px;
+    display: flex;
+    align-self: flex-start;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+}

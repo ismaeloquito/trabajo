@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Inicia el enlace a JavaScript -->
+    <!-- Inicia Combo SlideShow -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script defer src="./js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+    <!-- Finaliza Combo SlideShow -->
+    <!-- Finaliza el enlace a JavaScript -->
+
+</head>
+
+<body>
+    <!-- Inicia Barra de Navegación -->
+    <nav class="topnav" id="nav">
+        <div class="col-xl-02 .col-lg-12" ); ">
+            <a href="./index.html ">
+                <img src="./img/logoIESAP-Inicio.png " alt=" ">
+            </a>
+        </div>
+        <div class="col-xl-02 .col-lg-12 ");">
+            <a href="./nosotros.html">
+                Nosotros
+            </a>
+        </div>
+        <div class="col-xl-02" ); ">
+            <a href="./ofertAcad.html ">
+                Oferta Académica
+            </a>
+        </div>
+        <div class="col-xl-02 ");">
+            <a href="./revista.html">
+                Revista
+            </a>
+        </div>
+        <div class="col-xl-02" ); ">
+            <a href="./novedades.html ">
+                Novedades
+            </a>
+        </div>
+        <div class="col-xl-02 ");">
+            <a href="https://iesapvirtual.com.mx/login/index.php" class="nav-link" target="_blank">
+                Campus virtual
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <!-- Finaliza Barra de Navegación -->
+
+    <!-- Inicia SlideShow-->
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="sShow">
+                    <video loop autoplay muted class="vid">
+                        <source src="./videos/SlideShow_01.mp4" type="video/mp4" class="imgSlide">
+                    </video>
+                </div>
+            </li>
+            <li>
+                <video loop autoplay muted>
+                    <source src="./videos/SlideShow_02.mp4" type="video/mp4" class="imgSlide">
+                </video>
+            </li>
+            <li>
+                <video loop autoplay muted>
+                    <source src="./videos/SlideShow_03.mp4" type="video/mp4" class="imgSlide">
+                </video>
+            </li>
+            <li>
+                <video loop autoplay muted>
+                    <source src="./videos/SlideShow_04.mp4" type="video/mp4" class="imgSlide">
+                </video>
+            </li>
+        </ul>
+    </div>
+    <!-- Verificar Combo SlideShow en las referencias a JavaScript en la parte superior -->
+    <!-- Finaliza SlideShow-->
+
+    <div style="height: 800px; background-color: chocolate;">
+
+    </div>
+    <div style="height: 800px; background-color: rgb(165, 9, 9);">
+
+    </div>
+
+    <script src="./js/navBar.js"></script>
+    <script src="./js/hamburger.js"></script>
+
+
+</body>
+
+</html>

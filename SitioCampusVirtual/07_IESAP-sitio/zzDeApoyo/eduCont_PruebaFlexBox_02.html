@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/eduCont_PruebaFlexBox_02.css">
+
+    <script defer src="./js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+
+
+    <!-- Inicia Sección Cursos-->
+    
+    <div class="contVerdIESAP">
+        <div class="title">
+            <h1>Cursos</h1>
+        </div>
+        <div class="marco">
+            <div class="marcoInt">
+                <img src="./img/CursoBasicExcel.png" alt="">
+            </div>
+    
+            <div class="marcoInt">
+                <img src="./img/comoMedirMercadotecnia.png" alt="">
+            </div>
+            <div class="marcoInt">
+                <img src="./img/CursoIntermedioExcel.png" alt="">
+            </div>
+        </div>        
+    </div>
+
+
+    <!-- Finaliza Sección Cursos-->
+
+
+
+
+
+
+
+
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+            body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            body.classList.remove("disabledScroll");
+        }
+
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+
+</body>
+
+</html>

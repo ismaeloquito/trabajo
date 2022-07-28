@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author"
+        content="Ismael Ochoa Rodríguez, ismael.8a.rod@gmail.com, https://ismael-ochoa.com, https://ismael-ochoa.com/sitiowp">
+    <title>Campus Virtual IESAP | Educación a Distancia de Calidad</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="./css/mdb.min.css">
+
+    <link rel="stylesheet" href="./css/estilos.css">
+    <style>
+        html,
+        body,
+        header,
+        .view {
+            height: 100%;
+        }
+
+        @media (max-width: 599px) {
+            .icon-bar {
+                display: none;
+            }
+        }
+
+        @media (max-width: 740px) {
+
+            html,
+            body,
+            header,
+            .view {
+                height: 1000px;
+            }
+
+            .carousel {
+                margin-top: 115px;
+            }
+        }
+
+        @media (max-width:767px) {
+            .barWhite {
+                height: 100px;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            html,
+            body,
+            header,
+            .view {
+                height: 600px;
+            }
+        }
+
+        .btn .fa {
+            margin-left: 3px;
+        }
+
+        .top-nav-collapse {
+            background-color: #035926 !important;
+        }
+
+        .navbar:not(.top-nav-collapse) {
+            background: rgba(3, 89, 38, 0.5) !important;
+        }
+
+        @media (max-width: 991px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #035926 !important;
+            }
+
+            .carousel {
+                margin-top: 85px;
+            }
+
+            .img-01 {
+                content: url("./img/slide/ch/SlideShow_07.jpg");
+                width: 68% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+
+            .img-02 {
+                content: url("./img/slide/ch/SlideShow_08.jpg");
+                width: 68% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+
+            .img-03 {
+                content: url("./img/slide/ch/SlideShow_09.jpg");
+                width: 68% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+
+            .img-04 {
+                content: url("./img/slide/ch/SlideShow_10.jpg");
+                width: 68% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+
+            .img-05 {
+                content: url("./img/slide/ch/SlideShow_11.jpg");
+                width: 68% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+
+            .img-06 {
+                content: url("./img/slide/ch/SlideShow_12.jpg");
+                width: 60% !important;
+                margin: auto !important;
+                display: block !important;
+                top: 0 !important;
+            }
+        }
+
+        .btn-white {
+            color: black !important;
+        }
+
+        h6 {
+            line-height: 1.7;
+        }
+
+        .rgba-gradient {
+            background: -moz-linear-gradient(45deg, rgba(3, 89, 38, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: -webkit-linear-gradient(45deg, rgba(3, 89, 38, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: -webkit-gradient(linear, 45deg, from(rgba(3, 89, 38, 0.7)), to(rgba(29, 210, 177, 0.7)));
+            background: -o-linear-gradient(45deg, rgba(3, 89, 38, 0.7), rgba(29, 210, 177, 0.7) 100%);
+            background: linear-gradient(to 45deg, rgba(3, 89, 38, 0.7), rgba(29, 210, 177, 0.7) 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inicia Sticky Social Bar-->
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/profile.php?id=100076094389939" class="facebook" target="_blank">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/iesap_campus_virtual/" class="instagram" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCrwaruuqn4W8dEroa2F6uLA" class="youtube" target="_blank">
+            <i class="fa fa-youtube"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=525540183916" class="whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i></i>
+        </a>
+    </div>
+    <!-- Termina Sticky Social Bar-->
+    <!-- Inicia Main navigation -->
+    <!--Navbar-->
+    <nav class="navbar border-bottom navbar-expand-lg navbar-dark fixed-top border-bottom scrolling-navbar">
+
+        <a class="navbar-brand" href="index.html">
+            <picture>
+                <source media="(min-width:599px)" srcset="./img/LogoIESAP.png" class="img-fluid" width="300">
+                <img src="./img/LogoIESAP_ch.png" alt="Flowers" class="img-fluid" width="90">
+            </picture>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+            aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent-7">
+            <ul class="navbar-nav pl-5 text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">IESAP
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./eduCont.html">Oferta Académica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./revista.html">Revista</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://iesapvirtual.com.mx" target="_blank">Campus Virtual</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./novedades.html">Novedades</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Finaliza Main navigation -->
+    <div class="barWhite">
+
+    </div>
+
+    <!--Empieza Oferta Académica-->
+    <div class="container">
+        <div class="card mb-3">
+            <img src="./img/CursoFinanzasPersonales_01.jpg" class="card-img-top" alt="Wild Landscape" />
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold ">Descripción:</h5>
+                <p class="card-text">
+                    El participante identificará sus malos hábitos financieros y trabajará en un nuevo estilo de vida,
+                    para maximizar el uso de su dinero de manera racional.
+                </p>
+                <h5 class="card-title text-center font-weight-bold ">Objetivo general:</h5>
+                <p class="card-text text-justify">
+                    En este curso desarrollarás habilidades financieras, para fortalecer la toma de decisiones sobre:
+                    crédito, inversión, pensión y ahorro, para un mejor uso de sus recursos financieros. Adquirirás
+                    habilidades que permitan utilizar adecuadamente el lenguaje de las finanzas y las herramientas
+                    matemáticas para planear y resolver problemas personales en el ámbito financiero, que favorezca su
+                    estabilidad económica y financiera.
+                </p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold ">Requisitos</h5>
+                <ul>
+                    <li>
+                        El participante debe contar con una computadora con: Micrófono, Cámara y Excel, preferentemente
+                        con la versión 2016 o posterior.
+                    </li>
+                    <li>
+                        Conocimientos básicos del uso de una computadora y de diversas herramientas web.
+                    </li>
+                    <li>
+                        Es deseable que cuente con habilidades de comunicación mediante diversas herramientas web,
+                        como el correo electrónico; administración del tiempo, autorregulación del aprendizaje, apertura
+                        al cambio y disposición de compartir conocimiento.
+                    </li>
+                </ul>
+                <a href="https://forms.gle/uW3fNfBcdqrjVANm6" target="_blank">
+                    <h6 class="card-title text-center font-weight-bold text-danger ">Verifica cuál es tu nivel de Excel
+                        dando clic en este texto</h6>
+                </a>
+            </div>
+        </div>
+
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold ">Contenido</h5>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Sesión 1.- Nuestra relación emocional con el dinero
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        Posturas generales del comportamiento emocional de las personas ante el
+                                        dinero.
+                                    </li>
+                                    <li>
+                                        Autocrítica y diagnostico.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Sesión 2.- Capacidad de gasto vs. Riqueza
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        Las diferencias entre capacidad de gasto y creación de riqueza.
+                                    </li>
+                                    <li>
+                                        Casos reales.
+                                    </li>
+                                    <li>
+                                        Nivel de riqueza que debería tener una persona a partir de la edad y los
+                                        ingresos anuales.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Sesión 3.- Presupuesto familiar
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        La planeación y control del presupuesto familiar.
+                                    </li>
+                                    <li>
+                                        Estrategias de ahorro.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Sesión 4.- Estabilidad y libertad financiera
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        La capacidad de gasto deseada.
+                                    </li>
+                                    <li>
+                                        Estrategias para alcanzar la estabilidad y libertad financiera en el mediano
+                                        y
+                                        largo plazo.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    Sesión 5.- Ahorro, créditos, inversiones y pensiones
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        Ejemplos de decisiones de ahorro, crédito, inversiones y pensiones que
+                                        servirán
+                                        como guía para atender las consultas de los participantes.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="twoCol">
+                        <div class="col01">
+                            <h5 class="card-title text-center font-weight-bold">Costo: $2,000.00 MXP</h5>
+                            <h5 class="card-title text-center font-weight-bold">Duración: 10 horas</h5>
+                            <br>
+                            <h6 class="card-title text-center text-center font-weight-bold">Lugar</h6>
+                            <ul>
+                                <li>
+                                    Los cursos se imparten de manera sincrónica <span class="font-weight-bold">en
+                                        línea</span> mediante la Plataforma IESAP
+                                    VIRTUAL
+                                </li>
+                                <li>
+                                    <span class="font-weight-bold">Presencial</span>: estos grupos son bajo petición
+                                    y
+                                    disponibilidad con cupo limitado.
+                                </li>
+                                <li>
+                                    Calle Chihuahua 167, colonia Roma norte, alcaldía Cuauhtémoc. C.P. 06700.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col02">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.888514606246!2d-99.16408548452681!3d19.417222346202365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a2b559b59%3A0x453953f3d60ba8fd!2sChihuahua%20167%2C%20Roma%20Nte.%2C%20Cuauht%C3%A9moc%2C%2006700%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646145915563!5m2!1ses-419!2smx"
+                            width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title text-center font-weight-bold ">Horarios y Grupos </h5>
+                    <h6 class="card-title text-center font-weight-bold">Grupos intensivos son en sesiones continuas
+                    </h6>
+                    <br>
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <h2>Grupos Vespertinos </h2>
+                                    <p class="card-text font-weight-bold">Lunes, miércoles y viernes</p>
+                                    <p class="card-text">Inicia: Lunes de Abril 2022</p>
+                                    <p class="card-text">Termina: Lunes 15 de Abril 2022</p>
+                                    <p class="card-text font-weight-bold">Grupo Delta:</p>
+                                    <p class="card-text">Lunes, miércoles y viernes: 12:00 pm a 02:00 pm</p>
+                                    <p class="card-text font-weight-bold">Grupo Eta:</p>
+                                    <p class="card-text">Lunes, miércoles y viernes: 04:00 pm a 06:00 pm</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--Termina Oferta Académica-->
+        <br>
+        <!-- Inicia Footer -->
+        <footer class="page-footer font-small darken-3" style="background-color: #035926;">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <a href="https://www.facebook.com/IESAPcampusvirtual/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0"
+                                    target="_blank">
+                                    <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <a href="https://www.instagram.com/iesap_campus_virtual/" target="_blank">
+                                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                                </a>
+                            </a>
+                            <!--Pinterest-->
+                            <a class="pin-ic">
+                                <a href="https://www.youtube.com/channel/UCrwaruuqn4W8dEroa2F6uLA" target="_blank">
+                                    <i class="fab fa-youtube fa-lg white-text fa-2x"> </i>
+                                </a>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+                <a href="https://iesapvirtual.com.mx/" target="_blank" style="color: #279955; font-weight: 600;">
+                    IESAPvirtual.com.mx</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Termina Footer -->
+
+
+        <!--Inicia Menú inferior-->
+        <div class="bg-iesap container-fluid fixed-bottom justify-content-center p-2 d-lg-none">
+            <ul class="nav nav-fill">
+                <li class="nav-item">
+                    <a href="https://api.whatsapp.com/send?phone=525540183916" class="nav-link"
+                        style="font-size: xx-large;" target="_blank">
+                        <i class="fab fa-whatsapp text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: xx-large;" href="#">
+                        <i class="fas fa-phone text-white"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="font-size: xx-large;" href="#">
+                        <i class="fas fa-calculator text-white"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Termina Menú inferior -->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <!-- Tooltips -->
+        <script type="text/javascript" src="./js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="./js/mdb.min.js"></script>
+
+</body>
+
+</html>

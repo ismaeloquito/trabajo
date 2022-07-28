@@ -1,0 +1,31 @@
+body{
+  margin:0;
+  padding:0;
+  height:1000px;
+}
+.navBar{
+  position:fixed;
+  top:0;
+  background:#333;
+  width:100%;
+  height:50px;
+  
+}
+.navBar ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.navBar ul li{
+  display:inline-block;
+  width:100px;
+  color:red;
+}
+
+.Viesap{
+  position:fixed;
+  top:0;
+  background:#035926;
+  width:100%;
+  height:50px;
+}
